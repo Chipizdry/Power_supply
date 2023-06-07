@@ -279,23 +279,6 @@ GenerateClassCluster=0
 DocumentUniqueId=TDITXLAV
 
 [Document15]
-DocumentPath=..\..\Power_Suply_10000W\Libs\L-PE-N_Connector\L-PE-N_Connector.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZNIKIBAY
-
-[Document16]
 DocumentPath=Libs\TO-247.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OASEQLXY
 
-[Document17]
+[Document16]
 DocumentPath=Libs\Transformer\DROSEL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,24 +312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QAAWDMDU
 
-[Document18]
-DocumentPath=..\..\Power_Suply_10000W\Libs\L-PE-N_Connector\L-PE-N_Connector.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HBXNHHJN
-
-[Document19]
+[Document17]
 DocumentPath=Libs\Клемма PCB 15A\Klema_PCB_15A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CILCMDUL
 
-[Document20]
+[Document18]
 DocumentPath=Libs\Клемма PCB 15A\Klema PCB_15_A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BHMDQUES
 
-[Document21]
+[Document19]
 DocumentPath=Libs\Passive_components\CAP_450V_330uF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -397,7 +363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KBNHKRHM
 
-[Document22]
+[Document20]
 DocumentPath=Libs\Passive_components\CAP_450V_330uF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -414,7 +380,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRMETHGW
 
-[Document23]
+[Document21]
 DocumentPath=Libs\CURRENT_SENS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +397,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXYVCSOJ
 
-[Document24]
+[Document22]
 DocumentPath=Libs\CURRENT_SENS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -448,7 +414,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONJMMUCU
 
-[Document25]
+[Document23]
 DocumentPath=Libs\MUR4060.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -465,7 +431,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UKRZUTWK
 
-[Document26]
+[Document24]
 DocumentPath=Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

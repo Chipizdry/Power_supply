@@ -313,6 +313,40 @@ GenerateClassCluster=0
 DocumentUniqueId=QAAWDMDU
 
 [Document17]
+DocumentPath=Libs\Passive_components\10W 3Ohm.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ORPPDJGK
+
+[Document18]
+DocumentPath=Libs\Passive_components\RES_10W.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZBXIABUS
+
+[Document19]
 DocumentPath=Libs\Клемма PCB 15A\Klema_PCB_15A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CILCMDUL
 
-[Document18]
+[Document20]
 DocumentPath=Libs\Клемма PCB 15A\Klema PCB_15_A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,7 +380,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BHMDQUES
 
-[Document19]
+[Document21]
 DocumentPath=Libs\Passive_components\CAP_450V_330uF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +397,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KBNHKRHM
 
-[Document20]
+[Document22]
 DocumentPath=Libs\Passive_components\CAP_450V_330uF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +414,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRMETHGW
 
-[Document21]
+[Document23]
+DocumentPath=Libs\Passive_components\Res_Vishay_CRCW08050000Z0EA_eec.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UOKIUUFH
+
+[Document24]
 DocumentPath=Libs\CURRENT_SENS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -397,7 +448,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXYVCSOJ
 
-[Document22]
+[Document25]
 DocumentPath=Libs\CURRENT_SENS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -414,7 +465,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONJMMUCU
 
-[Document23]
+[Document26]
 DocumentPath=Libs\MUR4060.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +482,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UKRZUTWK
 
-[Document24]
+[Document27]
 DocumentPath=Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -447,6 +498,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FSXMRDBX
+
+[Document28]
+DocumentPath=Libs\Passive_components\CAP_3.3uF_630V.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LFUGKWIA
+
+[Document29]
+DocumentPath=Libs\Passive_components\CAP_1.5uF_400V.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BIOMYBLC
+
+[Document30]
+DocumentPath=Libs\Passive_components\CAP_3.3uF_630V.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FFHBUSIR
 
 [Configuration1]
 Name=Sources

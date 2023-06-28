@@ -1,6 +1,0 @@
-Added Component: Designator=TP30(Test_Point)
-Added Component: Designator=TP31(Test_Point)
-Added Pin To Net: NetName=NetT2_9 Pin=TP30-1
-Added Pin To Net: NetName=NetT2_6 Pin=TP31-1
-Added Member To Class: ClassName=Sheet1 Member=Component TP30 Test_Point_PCB
-Added Member To Class: ClassName=Sheet1 Member=Component TP31 Test_Point_PCB

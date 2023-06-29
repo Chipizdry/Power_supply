@@ -41,6 +41,57 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Libs\TO-220(bend2).PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TRSUPSAE
+
+[Document2]
+DocumentPath=Libs\IRFR3205(TO-220).SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JHKIMLCE
+
+[Document3]
+DocumentPath=Libs\LM7812\LM7812.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LJBEBYNP
+
+[Document4]
 DocumentPath=PCB2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -57,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SMUYHOSK
 
-[Document2]
+[Document5]
 DocumentPath=Libs\Test_Point\Test_Point.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +125,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DHEDDXTT
 
-[Document3]
+[Document6]
+DocumentPath=Libs\Batary_connector\XT-60.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HBXNHHJN
+
+[Document7]
 DocumentPath=Libs\Passive_components\RES_5W.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
-[Document4]
+[Document8]
 DocumentPath=Libs\Batarey_connector.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TUJJWMXT
 
-[Document5]
+[Document9]
 DocumentPath=Libs\L-PE-N_Connector\L-PE-N_Connector.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +193,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZZAOVVTD
 
-[Document6]
+[Document10]
+DocumentPath=Libs\Batary_connector\Batarey_connector.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TUJJWMXT
+
+[Document11]
 DocumentPath=Libs\Transformer\Transformer.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PIHRLMVW
 
-[Document7]
+[Document12]
 DocumentPath=Libs\Test_Point\Test_Point.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BSUWXYSD
 
-[Document8]
+[Document13]
 DocumentPath=Libs\Passive_components\RES_5W.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQEITOAU
 
-[Document9]
+[Document14]
 DocumentPath=Libs\Transformer\Transformer.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +278,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAGTHPQI
 
-[Document10]
+[Document15]
 DocumentPath=Libs\Components - 19.05.23 - 11.51\Components - 19.05.23 - 11.51.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GKMRBJWZ
 
-[Document11]
+[Document16]
 DocumentPath=Libs\IGBT 60N120.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RBZQXIDP
 
-[Document12]
+[Document17]
 DocumentPath=Libs\PWM_controller.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SQRREIVT
 
-[Document13]
+[Document18]
 DocumentPath=Libs\Batarey_connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CPSNQGKA
 
-[Document14]
+[Document19]
 DocumentPath=Libs\L-PE-N_Connector\L-PE-N_Connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNIKIBAY
 
-[Document15]
+[Document20]
 DocumentPath=Libs\Components - 19.05.23 - 11.51\Components - 19.05.23 - 11.51.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +380,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XBWEXWKK
 
-[Document16]
+[Document21]
 DocumentPath=Libs\PWM_controller.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +397,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDITXLAV
 
-[Document17]
+[Document22]
 DocumentPath=Libs\TO-247.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +414,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OASEQLXY
 
-[Document18]
+[Document23]
 DocumentPath=Libs\Transformer\DROSEL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,7 +431,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QAAWDMDU
 
-[Document19]
+[Document24]
 DocumentPath=Libs\Passive_components\10W 3Ohm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +448,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ORPPDJGK
 
-[Document20]
+[Document25]
 DocumentPath=Libs\Passive_components\RES_10W.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +465,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZBXIABUS
 
-[Document21]
+[Document26]
 DocumentPath=Libs\Клемма PCB 15A\Klema_PCB_15A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -397,7 +482,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CILCMDUL
 
-[Document22]
+[Document27]
 DocumentPath=Libs\Клемма PCB 15A\Klema PCB_15_A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -414,7 +499,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BHMDQUES
 
-[Document23]
+[Document28]
+DocumentPath=Libs\Batary_connector\Batarey_connector.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CPSNQGKA
+
+[Document29]
 DocumentPath=Libs\Passive_components\CAP_450V_330uF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +533,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KBNHKRHM
 
-[Document24]
+[Document30]
 DocumentPath=Libs\Passive_components\CAP_450V_330uF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -448,7 +550,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRMETHGW
 
-[Document25]
+[Document31]
 DocumentPath=Libs\Passive_components\Res_Vishay_CRCW08050000Z0EA_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -465,7 +567,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UOKIUUFH
 
-[Document26]
+[Document32]
 DocumentPath=Libs\RelayNT90RNCS12CB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -482,7 +584,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYZDSFIW
 
-[Document27]
+[Document33]
 DocumentPath=Libs\CURRENT_SENS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -499,7 +601,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXYVCSOJ
 
-[Document28]
+[Document34]
 DocumentPath=Libs\CURRENT_SENS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -516,7 +618,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONJMMUCU
 
-[Document29]
+[Document35]
 DocumentPath=Libs\MUR4060.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -533,7 +635,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UKRZUTWK
 
-[Document30]
+[Document36]
 DocumentPath=Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -550,7 +652,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FSXMRDBX
 
-[Document31]
+[Document37]
 DocumentPath=Libs\Passive_components\CAP_3.3uF_630V.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -567,7 +669,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LFUGKWIA
 
-[Document32]
+[Document38]
 DocumentPath=Libs\Passive_components\CAP_1.5uF_400V.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -584,7 +686,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BIOMYBLC
 
-[Document33]
+[Document39]
 DocumentPath=Libs\Passive_components\CAP_3.3uF_630V.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -601,7 +703,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FFHBUSIR
 
-[Document34]
+[Document40]
 DocumentPath=Катушки.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -618,7 +720,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ASESPGSF
 
-[Document35]
+[Document41]
 DocumentPath=Libs\Passive_components\CAP_450V_470uF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -635,7 +737,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BHGAOETD
 
-[Document36]
+[Document42]
 DocumentPath=Libs\NT90RNCS12CB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -652,7 +754,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OINONVAV
 
-[Document37]
+[Document43]
 DocumentPath=Libs\TO-264-3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -669,7 +771,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OJWQRCDN
 
-[Document38]
+[Document44]
 DocumentPath=Libs\Passive_components\CAP_4.7uF_630V.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -685,6 +787,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SNDWQGHQ
+
+[Document45]
+DocumentPath=Libs\TO-220_Bended_Radiator.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UCBXETQD
+
+[Document46]
+DocumentPath=Libs\LM7812\Schlib1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NRRRDLTE
 
 [Configuration1]
 Name=Sources

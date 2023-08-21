@@ -1,5 +1,0 @@
-Change Component Footprint: Designator=CN3 Old Footprint=FP-PRT-10474-MFG New Footprint=FP-PRT-10474-MFG
-Added Component: Designator=CN2(Batarey_connector)
-Added Pin To Net: NetName=NetC2_2 Pin=CN3-1
-Added Pin To Net: NetName=NetC2_1 Pin=CN3-2
-Added Member To Class: ClassName=Sheet1 Member=Component CN2 BAT_CON

@@ -1,6 +1,0 @@
-Added Component: Designator=VT1(TO-220(bend2))
-Added Pin To Net: NetName=NetD9_1 Pin=VT1-D
-Added Pin To Net: NetName=NetD9_1 Pin=VT1-D
-Added Pin To Net: NetName=NetD10_2 Pin=VT1-G
-Added Pin To Net: NetName=GND Pin=VT1-S
-Added Member To Class: ClassName=Sheet1 Member=Component VT1 IRFR3205

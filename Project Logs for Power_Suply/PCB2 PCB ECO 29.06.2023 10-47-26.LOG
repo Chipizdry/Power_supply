@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=U3 Old Footprint=TO220 New Footprint=TO-220_Bended_Rad
-Change Component Comment : Designator=U3 Old Comment=L7812CV New Comment=12V
-Change Managed Component Library Link : Designator=U3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=8108D732-AB68-4A83-B98E-8791F782CF89 New ItemGUID= Old RevisionGUID=12AFB164-4AB0-4F36-8FF8-BC965F45EB9A New RevisionGUID=
-Change component parameters: Designator = "U3" ("U3"); Footprint = "TO220"; UniqueID = "\VLVEOMMG" ("\VLVEOMMG")

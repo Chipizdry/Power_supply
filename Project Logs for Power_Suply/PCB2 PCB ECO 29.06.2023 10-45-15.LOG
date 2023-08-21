@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=U2 Old Footprint=TO220 New Footprint=TO-220_Bended_Rad
-Change Component Comment : Designator=U2 Old Comment=L7818CV New Comment=18V
-Change Managed Component Library Link : Designator=U2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=5B5722E6-5DD5-405D-B368-E25D79FCA712 New ItemGUID= Old RevisionGUID=196CF34E-6C33-46EC-9BDD-483A8594A385 New RevisionGUID=
-Change component parameters: Designator = "U2" ("U2"); Footprint = "TO220"; UniqueID = "\NJNBHZXM" ("\NJNBHZXM")

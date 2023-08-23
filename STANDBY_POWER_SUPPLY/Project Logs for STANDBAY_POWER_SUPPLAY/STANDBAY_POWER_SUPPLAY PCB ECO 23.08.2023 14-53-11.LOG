@@ -1,0 +1,78 @@
+Removed Pin From Net: NetName=+300V Pin=C4-1
+Removed Pin From Net: NetName=GND_1 Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Removed Pin From Net: NetName=NetVD1_1 Pin=VD1-1
+Removed Pin From Net: NetName=NetVD2_1 Pin=VD2-1
+Removed Pin From Net: NetName=+300V Pin=VD3-1
+Removed Pin From Net: NetName=NetVD1_1 Pin=VD3-2
+Removed Pin From Net: NetName=+300V Pin=VD4-1
+Removed Pin From Net: NetName=NetVD2_1 Pin=VD4-2
+Removed Pin From Net: NetName=NetVD2_1 Pin=X1-1
+Removed Pin From Net: NetName=NetVD1_1 Pin=X1-2
+Removed Pin From Net: NetName=NetR15_1 Pin=X3-1
+Removed Pin From Net: NetName=GND_1 Pin=X3-2
+Change Component Footprint: Designator=C11 Old Footprint=CAP-V5 New Footprint=CAP-V15
+Change Component Footprint: Designator=C4 Old Footprint=CAPPOL-12x25 New Footprint=CAP-V5
+Change Component Comment : Designator=C4 Old Comment=CAP-POLAR New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=X3 Old Comment=GND/ADC New Comment=IN 220
+Change Component Comment : Designator=X1 Old Comment=IN 220 New Comment=GND/ADC
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CAPPOL-12x25"; UniqueID = "\RCGNHOOW" ("\RCGNHOOW")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "400V 2200pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "¹"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "CAP-V5"; UniqueID = "\TTGIZXVG" ("\TTGIZXVG")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "630V 100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "¹"; Value = "18"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAPPOL-12x25)
+Add component (AddParameter): Name = "Part Number"; Value = "15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "450V 10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "¹"; Value = "15"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAP-V15)
+Add component (AddParameter): Name = "Part Number"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "630V 100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "¹"; Value = "18"; VariantName = "[No Variations]"
+Added Component: Designator=F1(FILTER_1)
+Add component (AddParameter): Name = "ID"; Value = "M-0004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "DSF9L223À025"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,65A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "¹"; Value = "4"; VariantName = "[No Variations]"
+Added Component: Designator=RT1(RES-V5)
+Add component (AddParameter): Name = "ID"; Value = "R-0208"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "KLS6-MF72-10D5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10? ±1% 0,7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "¹"; Value = "208"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_1 Pin=C4-1
+Added Pin To Net: NetName=+300V Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=NetVD2_1 Pin=C16-2
+Added Pin To Net: NetName=NetVD2_1 Pin=F1-4
+Added Pin To Net: NetName=+300V Pin=RT1-1
+Added Pin To Net: NetName=NetVD1_1 Pin=RT1-2
+Added Pin To Net: NetName=NetVD2_1 Pin=VD1-1
+Added Pin To Net: NetName=NetVD1_1 Pin=VD3-1
+Added Pin To Net: NetName=NetVD2_1 Pin=VD3-2
+Added Pin To Net: NetName=NetVD1_1 Pin=VD4-1
+Added Pin To Net: NetName=NetR15_1 Pin=X1-1
+Added Pin To Net: NetName=GND_1 Pin=X1-2
+Change Net Name : Old Net Name=NetVD1_1 New Net Name=NetRT1_2
+Change Net Name : Old Net Name=NetVD2_1 New Net Name=NetC16_2
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=F1-2
+Added Pin To Net: NetName=NetC11_1 Pin=X3-1
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=NetC11_2 Pin=F1-1
+Added Pin To Net: NetName=NetC11_2 Pin=X3-2
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=F1-3
+Added Pin To Net: NetName=NetC16_1 Pin=VD2-1
+Added Pin To Net: NetName=NetC16_1 Pin=VD4-2
+Added Net: Name=NetC16_1

@@ -58,7 +58,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=STANDBAY_POWER_SUPPLAY_V2.SchDoc
+DocumentPath=..\..\..\..\Desktop\STANDBAY_POWER_SUPPLAY_V2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

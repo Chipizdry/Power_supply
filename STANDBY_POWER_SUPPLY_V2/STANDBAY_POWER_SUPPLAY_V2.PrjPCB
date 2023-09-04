@@ -58,6 +58,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
+DocumentPath=STANDBAY_POWER_SUPPLAY_V2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YQEDCYZF
+
+[Document3]
 DocumentPath=STANDBAY_POWER_SUPPLAY_V2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SXVIRCXB
 
-[Document3]
+[Document4]
 DocumentPath=STANDBAY_POWER_SUPPLAY_V2.PrjPCBStructure
 AnnotationEnabled=1
 AnnotateStartValue=1

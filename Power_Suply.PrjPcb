@@ -670,6 +670,23 @@ GenerateClassCluster=0
 DocumentUniqueId=OINONVAV
 
 [Document38]
+DocumentPath=Libs\TO-264-3.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OJWQRCDN
+
+[Document39]
 DocumentPath=Libs\Passive_components\CAP_4.7uF_630V.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -686,7 +703,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SNDWQGHQ
 
-[Document39]
+[Document40]
 DocumentPath=Libs\TO-220_Bended_Radiator.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1

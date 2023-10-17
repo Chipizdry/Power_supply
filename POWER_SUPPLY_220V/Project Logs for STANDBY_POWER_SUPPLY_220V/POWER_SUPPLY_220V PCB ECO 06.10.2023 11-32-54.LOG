@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetC13_2 Pin=R15-1
+Removed Pin From Net: NetName=NetC13_2 Pin=R16-1
+Removed Pin From Net: NetName=NetC13_1 Pin=R17-1
+Change Component Footprint: Designator=C13 Old Footprint=FP-SF-MFG New Footprint=CAPPOL-12x25
+Change Component Comment : Designator=C13 Old Comment=EEE-1HA101UP New Comment=450V 10uF
+Change Managed Component Library Link : Designator=C13 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=CF6EA142-35BA-4B82-8994-8056AADBF3EB New ItemGUID= Old RevisionGUID=E7281838-3F35-42A2-A677-99C222CE486A New RevisionGUID=
+Change component parameters: Designator = "C13" ("C13"); Footprint = "FP-SF-MFG"; UniqueID = "\LZODMLVJ" ("\LZODMLVJ")
+Added Pin To Net: NetName=NetC13_1 Pin=R15-1
+Added Pin To Net: NetName=NetC13_1 Pin=R16-1
+Added Pin To Net: NetName=NetC13_2 Pin=R17-1

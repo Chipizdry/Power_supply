@@ -1,0 +1,93 @@
+Added Component: Designator=Q1(OSC-QSMD12.3x4.5x4.2)
+Added Component: Designator=VD1(DIODE-0805)
+Added Component: Designator=VD2(DIODE-0805)
+Added Component: Designator=VD3(DIODE-0805)
+Added Component: Designator=VD4(DIODE-0805)
+Added Component: Designator=VD5(DIODE-0805)
+Added Component: Designator=VD6(DIODE-0805)
+Added Component: Designator=VD7(DIODE-0805)
+Added Component: Designator=VD8(DIODE-0805)
+Added Component: Designator=VD9(DIODE-0805)
+Added Component: Designator=VD10(DIODE-0805)
+Added Component: Designator=VD11(DIODE-0805)
+Added Component: Designator=VD12(DIODE-0805)
+Added Component: Designator=VD13(DIODE-0805)
+Added Component: Designator=VD14(DIODE-0805)
+Added Component: Designator=VD15(DIODE-0805)
+Added Component: Designator=VD16(DIODE-0805)
+Added Component: Designator=VD17(DIODE-0805)
+Added Component: Designator=VD18(DIODE-0805)
+Added Component: Designator=VD19(DIODE-0805)
+Added Component: Designator=VD20(DIODE-0805)
+Added Component: Designator=VD21(DIODE-0805)
+Added Component: Designator=VD22(DIODE-0805)
+Added Component: Designator=VD23(DIODE-0805)
+Added Component: Designator=VD24(DIODE-0805)
+Added Component: Designator=VD25(DIODE-0805)
+Added Component: Designator=VD26(DIODE-0805)
+Added Component: Designator=VD27(DIODE-0805)
+Added Component: Designator=VD28(DIODE-0805)
+Added Component: Designator=VD29(DIODE-0805)
+Added Component: Designator=VD30(DIODE-0805)
+Added Pin To Net: NetName=NetC34_2 Pin=Q1-1
+Added Pin To Net: NetName=NetC35_2 Pin=Q1-2
+Added Pin To Net: NetName=NetVD1_1 Pin=VD1-1
+Added Pin To Net: NetName=V2P_A Pin=VD1-2
+Added Pin To Net: NetName=VM_A Pin=VD2-1
+Added Pin To Net: NetName=NetVD1_1 Pin=VD2-2
+Added Pin To Net: NetName=NetVD3_1 Pin=VD3-1
+Added Pin To Net: NetName=VM_A Pin=VD3-2
+Added Pin To Net: NetName=V1P_A Pin=VD4-1
+Added Pin To Net: NetName=NetVD3_1 Pin=VD4-2
+Added Pin To Net: NetName=NetVD5_1 Pin=VD5-1
+Added Pin To Net: NetName=V2P_B Pin=VD5-2
+Added Pin To Net: NetName=VM_B Pin=VD6-1
+Added Pin To Net: NetName=NetVD5_1 Pin=VD6-2
+Added Pin To Net: NetName=NetVD7_1 Pin=VD7-1
+Added Pin To Net: NetName=VM_B Pin=VD7-2
+Added Pin To Net: NetName=V1P_B Pin=VD8-1
+Added Pin To Net: NetName=NetVD7_1 Pin=VD8-2
+Added Pin To Net: NetName=NetVD9_1 Pin=VD9-1
+Added Pin To Net: NetName=V2P_C Pin=VD9-2
+Added Pin To Net: NetName=VM_C Pin=VD10-1
+Added Pin To Net: NetName=NetVD9_1 Pin=VD10-2
+Added Pin To Net: NetName=NetVD11_1 Pin=VD11-1
+Added Pin To Net: NetName=VM_C Pin=VD11-2
+Added Pin To Net: NetName=V1P_C Pin=VD12-1
+Added Pin To Net: NetName=NetVD11_1 Pin=VD12-2
+Added Pin To Net: NetName=V2P_A Pin=VD13-1
+Added Pin To Net: NetName=NetVD13_2 Pin=VD13-2
+Added Pin To Net: NetName=NetVD13_2 Pin=VD14-1
+Added Pin To Net: NetName=VM_A Pin=VD14-2
+Added Pin To Net: NetName=VM_A Pin=VD15-1
+Added Pin To Net: NetName=NetVD15_2 Pin=VD15-2
+Added Pin To Net: NetName=NetVD15_2 Pin=VD16-1
+Added Pin To Net: NetName=V1P_A Pin=VD16-2
+Added Pin To Net: NetName=V2P_B Pin=VD17-1
+Added Pin To Net: NetName=NetVD17_2 Pin=VD17-2
+Added Pin To Net: NetName=NetVD17_2 Pin=VD18-1
+Added Pin To Net: NetName=VM_B Pin=VD18-2
+Added Pin To Net: NetName=VM_B Pin=VD19-1
+Added Pin To Net: NetName=NetVD19_2 Pin=VD19-2
+Added Pin To Net: NetName=NetVD19_2 Pin=VD20-1
+Added Pin To Net: NetName=V1P_B Pin=VD20-2
+Added Pin To Net: NetName=V2P_C Pin=VD21-1
+Added Pin To Net: NetName=NetVD21_2 Pin=VD21-2
+Added Pin To Net: NetName=NetVD21_2 Pin=VD22-1
+Added Pin To Net: NetName=VM_C Pin=VD22-2
+Added Pin To Net: NetName=VM_C Pin=VD23-1
+Added Pin To Net: NetName=NetVD23_2 Pin=VD23-2
+Added Pin To Net: NetName=NetVD23_2 Pin=VD24-1
+Added Pin To Net: NetName=V1P_C Pin=VD24-2
+Added Pin To Net: NetName=NetC12_2 Pin=VD25-1
+Added Pin To Net: NetName=NetC13_2 Pin=VD25-2
+Added Pin To Net: NetName=NetC14_2 Pin=VD26-1
+Added Pin To Net: NetName=NetC15_2 Pin=VD26-2
+Added Pin To Net: NetName=NetC10_2 Pin=VD27-1
+Added Pin To Net: NetName=NetC11_2 Pin=VD27-2
+Added Pin To Net: NetName=NetC13_2 Pin=VD28-1
+Added Pin To Net: NetName=NetC12_2 Pin=VD28-2
+Added Pin To Net: NetName=NetC15_2 Pin=VD29-1
+Added Pin To Net: NetName=NetC14_2 Pin=VD29-2
+Added Pin To Net: NetName=NetC11_2 Pin=VD30-1
+Added Pin To Net: NetName=NetC10_2 Pin=VD30-2

@@ -1,0 +1,11 @@
+Added Component: Designator=VD31(DO-214BA)
+Added Component: Designator=VD32(DO-214BA)
+Added Component: Designator=VD33(DO-214BA)
+Added Pin To Net: NetName=B_IN Pin=VD32-2
+Added Pin To Net: NetName=C_IN Pin=VD33-2
+Added Pin To Net: NetName=NetVD31_1 Pin=VD31-1
+Added Net: Name=NetVD31_1
+Added Pin To Net: NetName=NetVD32_1 Pin=VD32-1
+Added Net: Name=NetVD32_1
+Added Pin To Net: NetName=NetVD33_1 Pin=VD33-1
+Added Net: Name=NetVD33_1

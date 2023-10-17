@@ -1,0 +1,16 @@
+Added Component: Designator=X1(CONN-PLS-5-2.54mm)
+Added Component: Designator=X2(CONN-PLS-5-2.54mm)
+Added Component: Designator=X3(CONN-PLS-5-2.54mm)
+Added Pin To Net: NetName=CS_C Pin=X1-1
+Added Pin To Net: NetName=CS_B Pin=X1-2
+Added Pin To Net: NetName=CS_A Pin=X1-3
+Added Pin To Net: NetName=+3.3V Pin=X1-4
+Added Pin To Net: NetName=GND Pin=X1-5
+Added Pin To Net: NetName=MISO Pin=X2-1
+Added Pin To Net: NetName=MOSI Pin=X2-2
+Added Pin To Net: NetName=SCLK Pin=X2-3
+Added Pin To Net: NetName=CLKOUT Pin=X2-4
+Added Pin To Net: NetName=GND Pin=X2-5
+Added Pin To Net: NetName=NetVD31_1 Pin=X3-1
+Added Pin To Net: NetName=NetVD32_1 Pin=X3-3
+Added Pin To Net: NetName=NetVD33_1 Pin=X3-5

@@ -1,0 +1,252 @@
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=C?(CAP-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-3921)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-3921)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-3921)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-3921)
+Added Component: Designator=R?(RES-0603)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-3921)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-1206)
+Added Component: Designator=R?(RES-3921)
+Added Component: Designator=R?(RES-1206)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+20V Pin=C?-2
+Added Pin To Net: NetName=+100V Pin=C?-2
+Added Pin To Net: NetName=GND_1 Pin=C?-2
+Added Pin To Net: NetName=NetC2_1 Pin=C?-2
+Added Pin To Net: NetName=NetC3_1 Pin=C?-2
+Added Pin To Net: NetName=NetC5_1 Pin=C?-2
+Added Pin To Net: NetName=NetC6_1 Pin=C?-2
+Added Pin To Net: NetName=NetC7_1 Pin=C?-2
+Added Pin To Net: NetName=NetC7_2 Pin=C?-2
+Added Pin To Net: NetName=NetT1_5 Pin=C?-2
+Added Pin To Net: NetName=NetT1_8 Pin=C?-2
+Added Pin To Net: NetName=+20V Pin=R?-1
+Added Pin To Net: NetName=+100V Pin=R?-1
+Added Pin To Net: NetName=GND_1 Pin=R?-1
+Added Pin To Net: NetName=NetC2_1 Pin=R?-1
+Added Pin To Net: NetName=NetC2_1 Pin=R?-1
+Added Pin To Net: NetName=NetC3_1 Pin=R?-1
+Added Pin To Net: NetName=NetC3_1 Pin=R?-1
+Added Pin To Net: NetName=NetC5_1 Pin=R?-1
+Added Pin To Net: NetName=NetC5_1 Pin=R?-1
+Added Pin To Net: NetName=NetC6_1 Pin=R?-1
+Added Pin To Net: NetName=NetC6_1 Pin=R?-1
+Added Pin To Net: NetName=NetC7_1 Pin=R?-1
+Added Pin To Net: NetName=NetC7_1 Pin=R?-1
+Added Pin To Net: NetName=NetC7_2 Pin=R?-1
+Added Pin To Net: NetName=NetC7_2 Pin=R?-1
+Added Pin To Net: NetName=NetR6_2 Pin=R?-1
+Added Pin To Net: NetName=NetR7_1 Pin=R?-1
+Added Pin To Net: NetName=NetR7_2 Pin=R?-1
+Added Pin To Net: NetName=NetR11_1 Pin=R?-1
+Added Pin To Net: NetName=NetR11_2 Pin=R?-1
+Added Pin To Net: NetName=NetR13_1 Pin=R?-1
+Added Pin To Net: NetName=NetR16_2 Pin=R?-1
+Added Pin To Net: NetName=NetR19_1 Pin=R?-1
+Added Pin To Net: NetName=NetR22_2 Pin=R?-1
+Added Pin To Net: NetName=NetR24_2 Pin=R?-1
+Added Pin To Net: NetName=NetR26_2 Pin=R?-1
+Added Pin To Net: NetName=NetT1_2 Pin=R?-1
+Added Pin To Net: NetName=NetT1_5 Pin=R?-1
+Added Pin To Net: NetName=NetT1_8 Pin=R?-1
+Added Pin To Net: NetName=NetC9_1 Pin=R?-2
+Added Pin To Net: NetName=NetC9_1 Pin=R?-2
+Added Pin To Net: NetName=NetC9_1 Pin=R?-2
+Added Pin To Net: NetName=NetR6_2 Pin=R?-2
+Added Pin To Net: NetName=NetR7_1 Pin=R?-2
+Added Pin To Net: NetName=NetR7_2 Pin=R?-2
+Added Pin To Net: NetName=NetR11_1 Pin=R?-2
+Added Pin To Net: NetName=NetR11_2 Pin=R?-2
+Added Pin To Net: NetName=NetR13_1 Pin=R?-2
+Added Pin To Net: NetName=NetR16_2 Pin=R?-2
+Added Pin To Net: NetName=NetR19_1 Pin=R?-2
+Added Pin To Net: NetName=NetR22_2 Pin=R?-2
+Added Pin To Net: NetName=NetR24_2 Pin=R?-2
+Added Pin To Net: NetName=NetR26_2 Pin=R?-2
+Added Pin To Net: NetName=NetT1_2 Pin=R?-2
+Change Net Name : Old Net Name=+20V New Net Name=VM_C
+Change Net Name : Old Net Name=+100V New Net Name=VM_B
+Change Net Name : Old Net Name=GND_1 New Net Name=VM_A
+Change Net Name : Old Net Name=NetC2_1 New Net Name=V2P_C
+Change Net Name : Old Net Name=NetC3_1 New Net Name=V2P_B
+Change Net Name : Old Net Name=NetC5_1 New Net Name=V2P_A
+Change Net Name : Old Net Name=NetC6_1 New Net Name=V1P_C
+Change Net Name : Old Net Name=NetC7_1 New Net Name=V1P_B
+Change Net Name : Old Net Name=NetC7_2 New Net Name=V1P_A
+Change Net Name : Old Net Name=NetC8_1 New Net Name=SCLK
+Change Net Name : Old Net Name=NetC9_1 New Net Name=NEUTRAL
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetC14_2 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetDA1_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetDA1_3 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetQ1_1 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetQ1_2 New Net Name=NetVD?_1
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR11_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR16_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR19_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR22_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR24_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR26_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetT1_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetT1_3 New Net Name=NetDD?_12
+Change Net Name : Old Net Name=NetT1_5 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetT1_8 New Net Name=NetC?_2
+Added Pin To Net: NetName=+3.3V Pin=R?-2
+Added Net: Name=+3.3V
+Added Pin To Net: NetName=A_IN Pin=R?-2
+Added Pin To Net: NetName=A_IN Pin=R?-2
+Added Pin To Net: NetName=A_IN Pin=R?-2
+Added Pin To Net: NetName=A_IN Pin=R?-2
+Added Net: Name=A_IN
+Added Pin To Net: NetName=A_OUT Pin=R?-1
+Added Pin To Net: NetName=A_OUT Pin=R?-1
+Added Pin To Net: NetName=A_OUT Pin=R?-2
+Added Net: Name=A_OUT
+Added Pin To Net: NetName=B_IN Pin=R?-2
+Added Pin To Net: NetName=B_IN Pin=R?-2
+Added Pin To Net: NetName=B_IN Pin=R?-2
+Added Pin To Net: NetName=B_IN Pin=R?-2
+Added Net: Name=B_IN
+Added Pin To Net: NetName=B_OUT Pin=R?-1
+Added Pin To Net: NetName=B_OUT Pin=R?-1
+Added Pin To Net: NetName=B_OUT Pin=R?-2
+Added Net: Name=B_OUT
+Added Pin To Net: NetName=C_IN Pin=R?-2
+Added Pin To Net: NetName=C_IN Pin=R?-2
+Added Pin To Net: NetName=C_IN Pin=R?-2
+Added Pin To Net: NetName=C_IN Pin=R?-2
+Added Net: Name=C_IN
+Added Pin To Net: NetName=C_OUT Pin=R?-1
+Added Pin To Net: NetName=C_OUT Pin=R?-1
+Added Pin To Net: NetName=C_OUT Pin=R?-2
+Added Net: Name=C_OUT
+Added Net: Name=CLKOUT
+Added Net: Name=CS_A
+Added Net: Name=CS_B
+Added Net: Name=CS_C
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=C?-1
+Added Pin To Net: NetName=GNDISO_A Pin=R?-2
+Added Pin To Net: NetName=GNDISO_A Pin=R?-2
+Added Pin To Net: NetName=GNDISO_A Pin=R?-2
+Added Net: Name=GNDISO_A
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=C?-1
+Added Pin To Net: NetName=GNDISO_B Pin=R?-2
+Added Pin To Net: NetName=GNDISO_B Pin=R?-2
+Added Pin To Net: NetName=GNDISO_B Pin=R?-2
+Added Net: Name=GNDISO_B
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=C?-1
+Added Pin To Net: NetName=GNDISO_C Pin=R?-2
+Added Pin To Net: NetName=GNDISO_C Pin=R?-2
+Added Pin To Net: NetName=GNDISO_C Pin=R?-2
+Added Net: Name=GNDISO_C
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=R?-1
+Added Net: Name=MOSI

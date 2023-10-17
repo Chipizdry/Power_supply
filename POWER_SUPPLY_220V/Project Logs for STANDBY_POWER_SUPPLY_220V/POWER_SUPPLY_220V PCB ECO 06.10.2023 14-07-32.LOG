@@ -1,0 +1,8 @@
+Added Component: Designator=X1(CONN)
+Added Component: Designator=X2(CONN)
+Added Pin To Net: NetName=GND Pin=X1-1
+Added Pin To Net: NetName=+20V Pin=X2-1
+Added Pin To Net: NetName=GND_1 Pin=X2-2
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=X1-2
+Added Net: Name=NetL1_1

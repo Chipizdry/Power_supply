@@ -1,1 +1,2 @@
-Record=TopLevelDocument|FileName=THREE_PHASE_METER.SchDoc|SheetNumber= 
+Record=TopLevelDocument|FileName=BOTTOM_BOARD.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=BOTTOM_BOARD.SchDoc|FileName=THREE_PHASE_METER.SchDoc|SheetNumber= 

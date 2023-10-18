@@ -1,0 +1,4 @@
+Added Component: Designator=VD10(DO-35)
+Added Component: Designator=VD13(DO-214AC, SMA)
+Added Pin To Net: NetName=NetC15_1 Pin=VD13-1
+Added Pin To Net: NetName=NetT1_2 Pin=VD13-2

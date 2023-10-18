@@ -1,0 +1,5 @@
+Added Component: Designator=C13(CAPPOL-12x25)
+Added Component: Designator=VD2(DO-35)
+Added Component: Designator=VD10(DO-35)
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2

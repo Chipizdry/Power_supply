@@ -1,0 +1,607 @@
+Added Component: Designator=C1(CAP-V15)
+Added Component: Designator=C2(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP-V15)
+Added Component: Designator=C5(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C6(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C7(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C8(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAP-V)
+Added Component: Designator=C10(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C12(FP-C0805C-DN-IPC_A)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C14(FP-SF-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Automotive Grade"; Value = "Grade 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Aluminum Electrolytic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP ALUM 100UF 20% 50V SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dissipation Factor"; Value = "0.12%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Leakage Current"; Value = "100uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Life"; Value = "2000Hours"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EEE-1HA101UP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Aluminum"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "Cap Aluminum Lytic 100uF 50V 20% (8 X 10.2mm) SMD 200mA 2000h 85C Automotive T/R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/eee-1ha101up-panasonic-55396734"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-40°C to +85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAP-V)
+Added Component: Designator=D1(FP-SB-V-3906_04-031_4-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "DO-35"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Element Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESD Protection"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "175°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Reverse Leakage Current"; Value = "100nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "30000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Ammo Pack"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "Automotive, AEC-Q101"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "2%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Tolerance"; Value = "2%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "8.2V"; VariantName = "[No Variations]"
+Added Component: Designator=D2(FP-SB-V-3906_04-031_4-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "DO-35"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Element Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESD Protection"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "175°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Reverse Leakage Current"; Value = "100nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-65°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "30000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Ammo Pack"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "Automotive, AEC-Q101"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "2%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Tolerance"; Value = "2%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "8.2V"; VariantName = "[No Variations]"
+Added Component: Designator=DA1(4-SMD)
+Added Component: Designator=DA2(SOIC8-150)
+Added Component: Designator=F1(FILTER_1)
+Added Component: Designator=J1(691101710002)
+Add component (AddParameter): Name = "Application"; Value = "Pressure Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691101710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "16A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=J2(691101710002)
+Add component (AddParameter): Name = "Application"; Value = "Pressure Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691101710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "16A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=R1(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R2(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R3(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R9(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R10(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES-1206)
+Added Component: Designator=R12(RES-1206)
+Added Component: Designator=R13(RES-1206)
+Added Component: Designator=R15(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R16(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R17(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R18(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R19(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R20(Bourns_3296W_MFG)
+Added Component: Designator=R21(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R22(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R23(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R24(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R25(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R26(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP1(Test_Point)
+Added Component: Designator=TP2(Test_Point)
+Added Component: Designator=TP3(Test_Point)
+Added Component: Designator=TP4(Test_Point)
+Added Component: Designator=TP5(Test_Point)
+Added Component: Designator=TP6(Test_Point)
+Added Component: Designator=TP7(Test_Point)
+Added Component: Designator=TP8(Test_Point)
+Added Component: Designator=TP9(Test_Point)
+Added Component: Designator=TP10(Test_Point)
+Added Component: Designator=TP11(Test_Point)
+Added Component: Designator=TP12(Test_Point)
+Added Component: Designator=TP13(Test_Point)
+Added Component: Designator=TP14(Test_Point)
+Added Component: Designator=TP15(Test_Point)
+Added Component: Designator=TP16(Test_Point)
+Added Component: Designator=TP17(Test_Point)
+Added Component: Designator=U2(FP-751-07-IPC_C)
+Add component (AddParameter): Name = "Bandwidth"; Value = "1MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Common Mode Rejection Ratio"; Value = "65dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dual Supply Voltage"; Value = "9V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth Product"; Value = "1MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Bias Current"; Value = "250nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Offset Voltage (Vos)"; Value = "7mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Dual Supply Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "32V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Dual Supply Voltage"; Value = "1.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "0°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Supply Current"; Value = "1.2mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Amplifiers"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Elements"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Current"; Value = "1.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "40mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current per Channel"; Value = "40mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "2500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Supply Rejection Ratio (PSRR)"; Value = "65dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "0.6V/µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Gain"; Value = "100dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "4mm"; VariantName = "[No Variations]"
+Added Component: Designator=VD1(DO-214AC, SMA)
+Added Component: Designator=VD3(DO-214AC, SMA)
+Added Component: Designator=VD5(FR207)
+Added Component: Designator=VD6(FR207)
+Added Component: Designator=VD7(FR207)
+Added Component: Designator=VD8(FR207)
+Added Component: Designator=VD10(DO-35)
+Added Component: Designator=VD11(DO-214AC, SMA)
+Added Component: Designator=VD12(DO-214AC, SMA)
+Added Component: Designator=VT1(TO-220(bend2))
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=NetT1_5 Pin=C4-1
+Added Pin To Net: NetName=NetR7_1 Pin=C4-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND_1 Pin=C9-2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=GND_1 Pin=C10-2
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=GND_1 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetL1_1 Pin=C15-1
+Added Pin To Net: NetName=+350V Pin=C15-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=GND_1 Pin=D1-2
+Added Pin To Net: NetName=NetC12_1 Pin=D2-1
+Added Pin To Net: NetName=GND_1 Pin=D2-2
+Added Pin To Net: NetName=NetDA1_1 Pin=DA1-1
+Added Pin To Net: NetName=GND_1 Pin=DA1-2
+Added Pin To Net: NetName=NetDA1_3 Pin=DA1-3
+Added Pin To Net: NetName=NetC5_1 Pin=DA1-4
+Added Pin To Net: NetName=NetC7_2 Pin=DA2-1
+Added Pin To Net: NetName=NetC7_1 Pin=DA2-2
+Added Pin To Net: NetName=NetC3_1 Pin=DA2-3
+Added Pin To Net: NetName=NetC8_1 Pin=DA2-4
+Added Pin To Net: NetName=GND Pin=DA2-5
+Added Pin To Net: NetName=NetC9_1 Pin=DA2-6
+Added Pin To Net: NetName=NetC14_2 Pin=DA2-7
+Added Pin To Net: NetName=NetC5_1 Pin=DA2-8
+Added Pin To Net: NetName=NetT1_5 Pin=F1-3
+Added Pin To Net: NetName=NetR7_1 Pin=F1-4
+Added Pin To Net: NetName=+20V Pin=J2-1
+Added Pin To Net: NetName=GND_1 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetDA1_3 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetC2_1 Pin=R2-2
+Added Pin To Net: NetName=NetC2_1 Pin=R3-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R3-2
+Added Pin To Net: NetName=NetC5_1 Pin=R4-1
+Added Pin To Net: NetName=NetC8_1 Pin=R4-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R5-1
+Added Pin To Net: NetName=NetC14_2 Pin=R5-2
+Added Pin To Net: NetName=NetC3_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetC9_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetC7_1 Pin=R8-1
+Added Pin To Net: NetName=NetDA1_3 Pin=R8-2
+Added Pin To Net: NetName=NetR7_2 Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=NetC7_2 Pin=R10-1
+Added Pin To Net: NetName=NetC7_1 Pin=R10-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=+350V Pin=R11-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR11_1 Pin=R12-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Pin To Net: NetName=NetC13_1 Pin=R15-1
+Added Pin To Net: NetName=NetR13_1 Pin=R15-2
+Added Pin To Net: NetName=NetC13_1 Pin=R16-1
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetC13_2 Pin=R17-1
+Added Pin To Net: NetName=GND Pin=R17-2
+Added Pin To Net: NetName=NetD1_1 Pin=R18-1
+Added Pin To Net: NetName=+20V Pin=R18-2
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=+20V Pin=R19-2
+Added Pin To Net: NetName=NetR19_1 Pin=R20-1
+Added Pin To Net: NetName=GND_1 Pin=R20-2
+Added Pin To Net: NetName=GND_1 Pin=R20-3
+Added Pin To Net: NetName=NetC12_1 Pin=R21-1
+Added Pin To Net: NetName=+20V Pin=R21-2
+Added Pin To Net: NetName=NetDA1_1 Pin=R22-1
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Pin To Net: NetName=+350V Pin=R23-1
+Added Pin To Net: NetName=NetL1_1 Pin=R23-2
+Added Pin To Net: NetName=+20V Pin=R24-1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=+350V Pin=R25-1
+Added Pin To Net: NetName=GND Pin=R25-2
+Added Pin To Net: NetName=NetR22_2 Pin=R26-1
+Added Pin To Net: NetName=NetR26_2 Pin=R26-2
+Added Pin To Net: NetName=NetT1_3 Pin=TP1-1
+Added Pin To Net: NetName=NetC2_1 Pin=TP2-1
+Added Pin To Net: NetName=NetQ1_2 Pin=TP3-1
+Added Pin To Net: NetName=NetC14_2 Pin=TP4-1
+Added Pin To Net: NetName=NetC3_1 Pin=TP5-1
+Added Pin To Net: NetName=NetC6_1 Pin=TP6-1
+Added Pin To Net: NetName=NetC7_2 Pin=TP7-1
+Added Pin To Net: NetName=NetR7_2 Pin=TP8-1
+Added Pin To Net: NetName=NetT1_2 Pin=TP9-1
+Added Pin To Net: NetName=NetR6_2 Pin=TP10-1
+Added Pin To Net: NetName=+350V Pin=TP11-1
+Added Pin To Net: NetName=NetD1_1 Pin=TP12-1
+Added Pin To Net: NetName=NetR19_1 Pin=TP13-1
+Added Pin To Net: NetName=GND_1 Pin=TP14-1
+Added Pin To Net: NetName=NetC12_1 Pin=TP15-1
+Added Pin To Net: NetName=GND_1 Pin=TP16-1
+Added Pin To Net: NetName=NetDA1_1 Pin=TP17-1
+Added Pin To Net: NetName=NetR22_2 Pin=U2-1
+Added Pin To Net: NetName=NetD1_1 Pin=U2-2
+Added Pin To Net: NetName=NetR19_1 Pin=U2-3
+Added Pin To Net: NetName=GND_1 Pin=U2-4
+Added Pin To Net: NetName=NetC12_1 Pin=U2-8
+Added Pin To Net: NetName=NetC2_1 Pin=VD1-1
+Added Pin To Net: NetName=NetT1_3 Pin=VD1-2
+Added Pin To Net: NetName=NetC14_2 Pin=VD3-1
+Added Pin To Net: NetName=NetC6_1 Pin=VD3-2
+Added Pin To Net: NetName=NetR7_1 Pin=VD5-1
+Added Pin To Net: NetName=GND Pin=VD5-2
+Added Pin To Net: NetName=NetT1_5 Pin=VD6-1
+Added Pin To Net: NetName=GND Pin=VD6-2
+Added Pin To Net: NetName=+350V Pin=VD7-1
+Added Pin To Net: NetName=NetR7_1 Pin=VD7-2
+Added Pin To Net: NetName=+350V Pin=VD8-1
+Added Pin To Net: NetName=NetT1_5 Pin=VD8-2
+Added Pin To Net: NetName=NetC10_1 Pin=VD11-1
+Added Pin To Net: NetName=NetC10_1 Pin=VD12-1
+Added Pin To Net: NetName=NetT1_8 Pin=VD12-2
+Added Pin To Net: NetName=NetR7_2 Pin=VT1-1
+Added Pin To Net: NetName=NetT1_2 Pin=VT1-2
+Added Pin To Net: NetName=NetR6_2 Pin=VT1-3
+Change Net Name : Old Net Name=NetC9_1 New Net Name=NetDA2_6
+Change Net Name : Old Net Name=NetL1_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetT1_5 New Net Name=NetC4_1
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=F1-2
+Added Pin To Net: NetName=NetC1_1 Pin=J1-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=F1-1
+Added Pin To Net: NetName=NetC1_2 Pin=J1-2
+Added Net: Name=NetC1_2

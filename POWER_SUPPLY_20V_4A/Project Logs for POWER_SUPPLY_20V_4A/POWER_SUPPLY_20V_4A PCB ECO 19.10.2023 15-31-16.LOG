@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+350V Pin=VD7-1
+Removed Pin From Net: NetName=+350V Pin=VD8-1
+Added Component: Designator=RT1(RES-V5)
+Added Pin To Net: NetName=+350V Pin=RT1-1
+Added Pin To Net: NetName=NetRT1_2 Pin=RT1-2
+Added Pin To Net: NetName=NetRT1_2 Pin=VD7-1
+Added Pin To Net: NetName=NetRT1_2 Pin=VD8-1
+Added Net: Name=NetRT1_2

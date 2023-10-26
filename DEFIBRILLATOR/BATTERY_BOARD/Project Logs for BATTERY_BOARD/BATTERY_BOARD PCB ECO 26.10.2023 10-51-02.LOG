@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=I_SENS Pin=DD1-8
+Added Component: Designator=R11(RES-2512)
+Added Component: Designator=R12(RES-0603)
+Added Component: Designator=R13(RES-0603)
+Added Pin To Net: NetName=GND Pin=DD1-8
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=I_SENS Pin=R11-2
+Added Pin To Net: NetName=I_SENS Pin=R11-2
+Added Pin To Net: NetName=12V Pin=R12-1
+Added Pin To Net: NetName=V_SENS Pin=R12-2
+Added Pin To Net: NetName=V_SENS Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R13-2
+Change Net Name : Old Net Name=GND New Net Name=I_SENS
+Change Net Name : Old Net Name=I_SENS New Net Name=GND_BAT

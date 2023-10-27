@@ -1,6 +1,0 @@
-Added Component: Designator=VD2(DO-35)
-Added Component: Designator=VD10(DO-35)
-Added Component: Designator=VT2(SOT-223-3)
-Added Pin To Net: NetName=NetR16_2 Pin=VT2-1
-Added Pin To Net: NetName=NetC6_1 Pin=VT2-2
-Added Pin To Net: NetName=NetR13_1 Pin=VT2-3

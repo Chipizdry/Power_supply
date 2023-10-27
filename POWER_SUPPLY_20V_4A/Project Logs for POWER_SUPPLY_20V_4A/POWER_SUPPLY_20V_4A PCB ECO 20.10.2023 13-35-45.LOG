@@ -1,0 +1,5 @@
+Added Component: Designator=VT1(TO-220(bend2))
+Added Pin To Net: NetName=NetR7_2 Pin=VT1-1
+Added Pin To Net: NetName=NetT1_1 Pin=VT1-2
+Added Pin To Net: NetName=NetT1_1 Pin=VT1-2
+Added Pin To Net: NetName=NetR6_2 Pin=VT1-3

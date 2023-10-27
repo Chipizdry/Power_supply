@@ -1,0 +1,9 @@
+Added Component: Designator=VD2(DO-35)
+Added Component: Designator=VD4(DO-35)
+Added Component: Designator=VD9(DO-35)
+Added Component: Designator=VD10(LED-0603)
+Added Component: Designator=VD14(LED-0603)
+Added Pin To Net: NetName=GND_1 Pin=VD10-1
+Added Pin To Net: NetName=NetR24_2 Pin=VD10-2
+Added Pin To Net: NetName=GND_1 Pin=VD14-1
+Added Pin To Net: NetName=NetR26_2 Pin=VD14-2

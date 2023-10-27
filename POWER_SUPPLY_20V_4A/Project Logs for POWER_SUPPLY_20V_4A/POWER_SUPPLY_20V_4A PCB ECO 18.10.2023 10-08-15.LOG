@@ -1,0 +1,4 @@
+Added Component: Designator=C11(CAPPOL-12x25)
+Added Component: Designator=VD10(DO-35)
+Added Pin To Net: NetName=+20V Pin=C11-1
+Added Pin To Net: NetName=GND_1 Pin=C11-2

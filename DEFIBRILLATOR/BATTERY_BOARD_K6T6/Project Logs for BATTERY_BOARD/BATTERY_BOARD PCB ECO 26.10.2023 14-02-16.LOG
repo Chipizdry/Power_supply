@@ -1,0 +1,10 @@
+Added Component: Designator=C6(CAP-0805)
+Added Component: Designator=NTC(RES-0805)
+Added Component: Designator=R14(RES-0603)
+Added Component: Designator=RT1(NTC_MF52)
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=T_SENS Pin=C6-2
+Added Pin To Net: NetName=GND Pin=NTC-1
+Added Pin To Net: NetName=T_SENS Pin=NTC-2
+Added Pin To Net: NetName=3.3V Pin=R14-1
+Added Pin To Net: NetName=T_SENS Pin=R14-2

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=3.3V Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=3.3V Pin=C3-2
+Removed Pin From Net: NetName=3.3V Pin=DD2-1
+Removed Pin From Net: NetName=GND Pin=DD2-16
+Removed Pin From Net: NetName=3.3V Pin=DD2-17
+Removed Pin From Net: NetName=DIO Pin=DD2-23
+Removed Pin From Net: NetName=CLK Pin=DD2-24
+Removed Pin From Net: NetName=GND Pin=DD2-32

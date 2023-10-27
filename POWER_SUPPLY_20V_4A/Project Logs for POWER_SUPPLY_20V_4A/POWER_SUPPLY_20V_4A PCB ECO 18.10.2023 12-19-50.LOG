@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=Q1 Old Footprint=INF-SOT23_N New Footprint=INF-SOT23_N
+Change Component Footprint: Designator=Q2 Old Footprint=INF-SOT23_N New Footprint=INF-SOT23_N
+Added Component: Designator=VD2(DO-017AA)
+Added Component: Designator=VD4(DO-017AA)
+Added Pin To Net: NetName=NetC14_2 Pin=VD2-1
+Added Pin To Net: NetName=GND Pin=VD2-2
+Added Pin To Net: NetName=NetR7_2 Pin=VD4-1
+Added Pin To Net: NetName=GND Pin=VD4-2

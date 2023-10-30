@@ -1,6 +1,7 @@
 DRC Rules Export File for PCB: C:\Users\chipi\Documents\GitHub\Power_suply\POWER_SUPPLY_20V_4A\POWER_SUPPLY_20V_4A.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.87
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via|Scope=Board|Minimum=4.00
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=1
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=15.75
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.39

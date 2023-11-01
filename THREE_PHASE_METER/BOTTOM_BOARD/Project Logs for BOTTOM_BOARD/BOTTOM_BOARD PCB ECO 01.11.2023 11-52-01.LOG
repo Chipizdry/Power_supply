@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=C_IN Pin=X5-1
+Removed Pin From Net: NetName=C_OUT Pin=X5-2
+Added Component: Designator=J1(Conn_Tianli_T-800)
+Added Component: Designator=J2(Conn_Tianli_T-800)
+Added Component: Designator=J3(Conn_Tianli_T-800)
+Added Component: Designator=J4(Conn_Tianli_T-800)
+Added Component: Designator=J5(Conn_Tianli_T-800)
+Added Component: Designator=J6(Conn_Tianli_T-800)
+Added Component: Designator=J7(Conn_Tianli_T-800)
+Added Component: Designator=J8(Conn_Tianli_T-800)
+Added Component: Designator=R1(RES-3921)
+Added Component: Designator=R2(RES-3921)
+Added Component: Designator=R3(RES-3921)
+Added Pin To Net: NetName=A_IN Pin=J1-1
+Added Pin To Net: NetName=A_IN Pin=J1-1
+Added Pin To Net: NetName=A_IN Pin=J1-2
+Added Pin To Net: NetName=A_IN Pin=J1-2
+Added Pin To Net: NetName=B_IN Pin=J2-1
+Added Pin To Net: NetName=B_IN Pin=J2-1
+Added Pin To Net: NetName=B_IN Pin=J2-2
+Added Pin To Net: NetName=B_IN Pin=J2-2
+Added Pin To Net: NetName=C_IN Pin=J3-1
+Added Pin To Net: NetName=C_IN Pin=J3-1
+Added Pin To Net: NetName=C_IN Pin=J3-2
+Added Pin To Net: NetName=C_IN Pin=J3-2
+Added Pin To Net: NetName=NEUTRAL Pin=J4-1
+Added Pin To Net: NetName=NEUTRAL Pin=J4-1
+Added Pin To Net: NetName=NEUTRAL Pin=J4-2
+Added Pin To Net: NetName=NEUTRAL Pin=J4-2
+Added Pin To Net: NetName=A_OUT Pin=J5-1
+Added Pin To Net: NetName=A_OUT Pin=J5-1
+Added Pin To Net: NetName=A_OUT Pin=J5-2
+Added Pin To Net: NetName=A_OUT Pin=J5-2
+Added Pin To Net: NetName=B_OUT Pin=J6-1
+Added Pin To Net: NetName=B_OUT Pin=J6-1
+Added Pin To Net: NetName=B_OUT Pin=J6-2
+Added Pin To Net: NetName=B_OUT Pin=J6-2
+Added Pin To Net: NetName=C_OUT Pin=J7-1
+Added Pin To Net: NetName=C_OUT Pin=J7-1
+Added Pin To Net: NetName=C_OUT Pin=J7-2
+Added Pin To Net: NetName=C_OUT Pin=J7-2
+Added Pin To Net: NetName=NEUTRAL Pin=J8-1
+Added Pin To Net: NetName=NEUTRAL Pin=J8-1
+Added Pin To Net: NetName=NEUTRAL Pin=J8-2
+Added Pin To Net: NetName=NEUTRAL Pin=J8-2
+Added Pin To Net: NetName=A_IN Pin=R1-1
+Added Pin To Net: NetName=A_OUT Pin=R1-2
+Added Pin To Net: NetName=B_IN Pin=R2-1
+Added Pin To Net: NetName=B_OUT Pin=R2-2
+Added Pin To Net: NetName=C_IN Pin=R3-1
+Added Pin To Net: NetName=C_OUT Pin=R3-2
+Added Pin To Net: NetName=C_IN Pin=X5-2
+Added Pin To Net: NetName=C_OUT Pin=X5-3

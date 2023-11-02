@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetVD31_1 Pin=VD31-1
+Removed Pin From Net: NetName=A_IN Pin=VD31-2
+Removed Pin From Net: NetName=NetVD32_1 Pin=VD32-1
+Removed Pin From Net: NetName=B_IN Pin=VD32-2
+Removed Pin From Net: NetName=C_IN Pin=VD33-2
+Removed Pin From Net: NetName=NetVD31_1 Pin=X3-1
+Removed Pin From Net: NetName=NetVD32_1 Pin=X3-3
+Removed Pin From Net: NetName=C_IN Pin=X5-1
+Removed Pin From Net: NetName=C_OUT Pin=X5-2
+Added Component: Designator=C36(CAP-0603)
+Added Component: Designator=C37(CAP-0603)
+Added Component: Designator=C38(CAP-0603)
+Added Component: Designator=DD4(IRM-01)
+Added Pin To Net: NetName=NetVD32_1 Pin=C36-1
+Added Pin To Net: NetName=GND Pin=C36-2
+Added Pin To Net: NetName=NetVD32_1 Pin=C37-1
+Added Pin To Net: NetName=GND Pin=C37-2
+Added Pin To Net: NetName=NetVD32_1 Pin=C38-1
+Added Pin To Net: NetName=GND Pin=C38-2
+Added Pin To Net: NetName=NetVD32_1 Pin=DD1-19
+Added Pin To Net: NetName=NetVD32_1 Pin=DD2-19
+Added Pin To Net: NetName=NetVD32_1 Pin=DD3-19
+Added Pin To Net: NetName=NEUTRAL Pin=DD4-1
+Added Pin To Net: NetName=NetVD31_1 Pin=DD4-2
+Added Pin To Net: NetName=NetVD32_1 Pin=DD4-3
+Added Pin To Net: NetName=GND Pin=DD4-4
+Added Pin To Net: NetName=NetVD31_1 Pin=X3-3
+Added Pin To Net: NetName=C_IN Pin=X5-2
+Added Pin To Net: NetName=C_OUT Pin=X5-3
+Change Net Name : Old Net Name=NetVD31_1 New Net Name=DC_HV
+Change Net Name : Old Net Name=NetVD32_1 New Net Name=3.3V

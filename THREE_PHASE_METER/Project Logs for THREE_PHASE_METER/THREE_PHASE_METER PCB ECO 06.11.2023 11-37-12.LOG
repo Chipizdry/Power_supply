@@ -1,0 +1,12 @@
+Added Component: Designator=TP27(Test_Point)
+Added Component: Designator=TP28(Test_Point)
+Added Component: Designator=TP29(Test_Point)
+Added Component: Designator=TP30(Test_Point)
+Added Component: Designator=TP31(Test_Point)
+Added Component: Designator=TP32(Test_Point)
+Added Pin To Net: NetName=A_IN Pin=TP27-1
+Added Pin To Net: NetName=A_OUT Pin=TP28-1
+Added Pin To Net: NetName=C_IN Pin=TP29-1
+Added Pin To Net: NetName=C_OUT Pin=TP30-1
+Added Pin To Net: NetName=B_IN Pin=TP31-1
+Added Pin To Net: NetName=B_OUT Pin=TP32-1

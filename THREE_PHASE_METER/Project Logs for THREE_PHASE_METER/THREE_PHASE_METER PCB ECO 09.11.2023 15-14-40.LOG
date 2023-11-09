@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=CS_B Pin=X1-1
+Removed Pin From Net: NetName=CS_C Pin=X1-2
+Removed Pin From Net: NetName=CS_A Pin=X1-3
+Removed Pin From Net: NetName=CLKOUT Pin=X1-4
+Removed Pin From Net: NetName=SCLK Pin=X2-1
+Removed Pin From Net: NetName=MISO Pin=X2-2
+Removed Pin From Net: NetName=MOSI Pin=X2-3
+Removed Pin From Net: NetName=3.3V Pin=X2-4
+Removed Pin From Net: NetName=GND Pin=X2-5
+Removed Pin From Net: NetName=5V Pin=X6-1
+Removed Pin From Net: NetName=GND Pin=X6-2
+Change Component Footprint: Designator=X1 Old Footprint=CONN-PLS-5-2.54_1 New Footprint=BH-10
+Change Component Comment : Designator=X1 Old Comment=CONN-5-PIN New Comment=BH-10
+Added Pin To Net: NetName=SCLK Pin=X1-1
+Added Pin To Net: NetName=MISO Pin=X1-2
+Added Pin To Net: NetName=MOSI Pin=X1-3
+Added Pin To Net: NetName=3.3V Pin=X1-4
+Added Pin To Net: NetName=CLKOUT Pin=X1-6
+Added Pin To Net: NetName=CS_A Pin=X1-7
+Added Pin To Net: NetName=CS_C Pin=X1-8
+Added Pin To Net: NetName=CS_B Pin=X1-9
+Added Pin To Net: NetName=5V Pin=X1-10

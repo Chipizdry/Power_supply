@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=VD31 NewDesignator=VD2
+Change Component Designator: OldDesignator=VD32 NewDesignator=VD1
+Change Component Designator: OldDesignator=VD33 NewDesignator=VD3
+Change Net Name : Old Net Name=NetVD31_1 New Net Name=NetVD1_1

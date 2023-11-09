@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetR14_2 Pin=VT1-1
+Change Component Comment : Designator=R14 Old Comment=10K New Comment=2K
+Added Component: Designator=R15(RES-0603)
+Added Component: Designator=R16(RES-0603)
+Added Component: Designator=R17(RES-0603)
+Added Component: Designator=VT2(SOT23-3)
+Added Component: Designator=VT3(SOT23-3)
+Added Pin To Net: NetName=GND Pin=R15-1
+Added Pin To Net: NetName=PS_12V Pin=VT2-2
+Added Pin To Net: NetName=NetR14_2 Pin=VT3-1
+Added Pin To Net: NetName=GND Pin=VT3-2
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR15_2 Pin=R16-1
+Added Pin To Net: NetName=NetR15_2 Pin=VT1-1
+Added Net: Name=NetR15_2
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetR16_2 Pin=VT2-3
+Added Net: Name=NetR16_2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=NetR17_1 Pin=VT2-1
+Added Net: Name=NetR17_1
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetR17_2 Pin=VT3-3
+Added Net: Name=NetR17_2

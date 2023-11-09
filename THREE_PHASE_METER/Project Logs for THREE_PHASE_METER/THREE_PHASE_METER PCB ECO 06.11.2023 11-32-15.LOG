@@ -1,0 +1,4 @@
+Added Component: Designator=TP25(Test_Point)
+Added Component: Designator=TP26(Test_Point)
+Added Pin To Net: NetName=5V Pin=TP25-1
+Added Pin To Net: NetName=DC_HV Pin=TP26-1

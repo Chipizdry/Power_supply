@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=12V Pin=C2-1
+Removed Pin From Net: NetName=12V Pin=DD2-8
+Added Pin To Net: NetName=PS_12V Pin=C2-1
+Added Pin To Net: NetName=PS_12V Pin=DD2-8

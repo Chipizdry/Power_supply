@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [THREE_PHASE_METER.PrjPCB]
+   Generated File[THREE_PHASE_METER.TXT]
+   Generated File[THREE_PHASE_METER.LDP]
+   Generated File[THREE_PHASE_METER.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:32:42 On 09.11.2023

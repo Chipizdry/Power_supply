@@ -75,23 +75,6 @@ GenerateClassCluster=0
 DocumentUniqueId=DHEDDXTT
 
 [Document3]
-DocumentPath=POWER_SUPPLY_20V_4A.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SXVIRCXB
-
-[Document4]
 DocumentPath=POWER_SUPPLY_20V_4A.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YQEDCYZF
 
-[Document5]
+[Document4]
 DocumentPath=POWER_SUPPLY_20V_4A.PrjPCBStructure
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,8 +108,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
-DocumentPath=Project Outputs for pvs_bnvd\CAMtastic1.Cam
+[Document5]
+DocumentPath=Project Outputs for pvs_bnvd\CAMtastic3.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -142,8 +125,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=POWER_SUPPLY_20V_4A.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SXVIRCXB
+
 [Document7]
-DocumentPath=Project Outputs for pvs_bnvd\CAMtastic2.Cam
+DocumentPath=Project Outputs for pvs_bnvd\CAMtastic4.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

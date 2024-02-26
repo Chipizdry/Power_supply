@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetK1_5 Pin=P2-2
+Removed Pin From Net: NetName=NetK1_6 Pin=P2-3
+Change Component DesignItemId : Designator=J4 Old DesignItemId= New DesignItemId=691101710002
+Change Component Footprint: Designator=C14 Old Footprint=FP-SF-MFG New Footprint=FP-C0805C-DN-IPC_A
+Change Component Footprint: Designator=R11 Old Footprint=RES-1206 New Footprint=RES-2512
+Change Component Footprint: Designator=R12 Old Footprint=RES-1206 New Footprint=RES-2512
+Change Component Footprint: Designator=R13 Old Footprint=RES-1206 New Footprint=RES-2512
+Change Component Comment : Designator=C5 Old Comment=CAP-POLAR New Comment=1000uF_50V
+Change Component Comment : Designator=C11 Old Comment=CAP-POLAR New Comment=1000uF_50V
+Change Component Comment : Designator=C17 Old Comment=CAP-POLAR New Comment=2200uF_25V
+Change Component Description : Designator=C5 Old Description= New Description=1000uF_50V  12x25(13x26mm)
+Added Pin To Net: NetName=NetK1_6 Pin=P2-2
+Added Pin To Net: NetName=NetK1_5 Pin=P2-3

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=CZ_B Pin=R48-1
+Removed Pin From Net: NetName=3.3V Pin=R48-2
+Removed Pin From Net: NetName=CZ_C Pin=R49-1
+Removed Pin From Net: NetName=3.3V Pin=R49-2
+Removed Pin From Net: NetName=CZ_A Pin=R50-1
+Removed Pin From Net: NetName=3.3V Pin=R50-2
+Change Component Footprint: Designator=R48 Old Footprint=RES-1206 New Footprint=RES-0603
+Change Component Footprint: Designator=R49 Old Footprint=RES-1206 New Footprint=RES-0603
+Change Component Footprint: Designator=R50 Old Footprint=RES-1206 New Footprint=RES-0603
+Added Pin To Net: NetName=3.3V Pin=R48-1
+Added Pin To Net: NetName=CZ_B Pin=R48-2
+Added Pin To Net: NetName=3.3V Pin=R49-1
+Added Pin To Net: NetName=CZ_C Pin=R49-2
+Added Pin To Net: NetName=3.3V Pin=R50-1
+Added Pin To Net: NetName=CZ_A Pin=R50-2

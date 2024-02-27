@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=X2-2
+Change Component Footprint: Designator=X2 Old Footprint=CONN-PLS-2 New Footprint=CONN-PLS-5-2.54_2
+Change Component Comment : Designator=X2 Old Comment=CONN-2-PIN New Comment=CONN-5-PIN
+Added Component: Designator=DA2(4-SMD)
+Added Component: Designator=DA3(4-SMD)
+Added Component: Designator=DA4(4-SMD)
+Added Pin To Net: NetName=NEUTRAL Pin=DA2-2
+Added Pin To Net: NetName=GND Pin=DA2-3
+Added Pin To Net: NetName=NEUTRAL Pin=DA3-2
+Added Pin To Net: NetName=GND Pin=DA3-3
+Added Pin To Net: NetName=NEUTRAL Pin=DA4-2
+Added Pin To Net: NetName=GND Pin=DA4-3
+Added Pin To Net: NetName=CZ_A Pin=DA4-4
+Added Pin To Net: NetName=CZ_A Pin=X2-2
+Added Net: Name=CZ_A
+Added Pin To Net: NetName=CZ_B Pin=DA2-4
+Added Pin To Net: NetName=CZ_B Pin=X2-3
+Added Net: Name=CZ_B
+Added Pin To Net: NetName=CZ_C Pin=DA3-4
+Added Pin To Net: NetName=CZ_C Pin=X2-4
+Added Net: Name=CZ_C
+Added Pin To Net: NetName=NetDA2_1 Pin=DA2-1
+Added Net: Name=NetDA2_1
+Added Pin To Net: NetName=NetDA3_1 Pin=DA3-1
+Added Net: Name=NetDA3_1
+Added Pin To Net: NetName=NetDA4_1 Pin=DA4-1
+Added Net: Name=NetDA4_1
+Added Net: Name=NetR32_2
+Added Net: Name=NetR33_2
+Added Net: Name=NetR41_2
+Added Net: Name=NetR42_2
+Added Net: Name=NetR43_2
+Added Net: Name=NetR44_2

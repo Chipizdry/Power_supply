@@ -1,0 +1,36 @@
+Added Component: Designator=R32(RES-1206)
+Added Component: Designator=R33(RES-1206)
+Added Component: Designator=R41(RES-1206)
+Added Component: Designator=R42(RES-1206)
+Added Component: Designator=R43(RES-1206)
+Added Component: Designator=R44(RES-1206)
+Added Component: Designator=R45(RES-1206)
+Added Component: Designator=R46(RES-1206)
+Added Component: Designator=R47(RES-1206)
+Added Component: Designator=R48(RES-1206)
+Added Component: Designator=R49(RES-1206)
+Added Component: Designator=R50(RES-1206)
+Added Pin To Net: NetName=B_IN Pin=R32-1
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=C_IN Pin=R33-1
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=A_IN Pin=R41-1
+Added Pin To Net: NetName=NetR41_2 Pin=R41-2
+Added Pin To Net: NetName=NetR32_2 Pin=R42-1
+Added Pin To Net: NetName=NetR42_2 Pin=R42-2
+Added Pin To Net: NetName=NetR33_2 Pin=R43-1
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetR41_2 Pin=R44-1
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR42_2 Pin=R45-1
+Added Pin To Net: NetName=NetDA2_1 Pin=R45-2
+Added Pin To Net: NetName=NetR43_2 Pin=R46-1
+Added Pin To Net: NetName=NetDA3_1 Pin=R46-2
+Added Pin To Net: NetName=NetR44_2 Pin=R47-1
+Added Pin To Net: NetName=NetDA4_1 Pin=R47-2
+Added Pin To Net: NetName=CZ_B Pin=R48-1
+Added Pin To Net: NetName=3.3V Pin=R48-2
+Added Pin To Net: NetName=CZ_C Pin=R49-1
+Added Pin To Net: NetName=3.3V Pin=R49-2
+Added Pin To Net: NetName=CZ_A Pin=R50-1
+Added Pin To Net: NetName=3.3V Pin=R50-2

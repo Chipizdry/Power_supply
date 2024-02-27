@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=C1-1
-Removed Pin From Net: NetName=GND_1 Pin=C1-2
-Removed Pin From Net: NetName=NetC9_1 Pin=C9-1
-Removed Pin From Net: NetName=+350V Pin=C9-2
-Change Net Name : Old Net Name=NetC9_1 New Net Name=NetR23_2

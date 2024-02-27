@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetDA1_1 Pin=R28-1
+Change Component Footprint: Designator=R28 Old Footprint=RES-0603 New Footprint=RES-1206
+Change Component Comment : Designator=R28 Old Comment=100K New Comment=47K
+Added Component: Designator=DD6(BOTTOM_BOARD)
+Added Component: Designator=R30(RES-1206)
+Added Component: Designator=R31(RES-1206)
+Added Pin To Net: NetName=NetDA1_1 Pin=R31-2
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=R30-1
+Added Net: Name=NetR28_1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=R31-1
+Added Net: Name=NetR30_2

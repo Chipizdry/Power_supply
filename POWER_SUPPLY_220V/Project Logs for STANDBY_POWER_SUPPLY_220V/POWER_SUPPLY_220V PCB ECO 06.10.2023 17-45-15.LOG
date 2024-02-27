@@ -1,6 +1,0 @@
-Added Component: Designator=C1(CAP-V)
-Added Component: Designator=C9(CAP-V)
-Added Pin To Net: NetName=GND_1 Pin=C1-1
-Added Pin To Net: NetName=GND Pin=C1-2
-Added Pin To Net: NetName=NetC9_1 Pin=C9-1
-Added Pin To Net: NetName=+350V Pin=C9-2

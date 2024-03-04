@@ -466,6 +466,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FHUNPQTE
 
 [Document26]
+DocumentPath=RES-2W_2.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KYMDUHNO
+
+[Document27]
 DocumentPath=CAP-0201.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -482,7 +499,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQCHFQLT
 
-[Document27]
+[Document28]
 DocumentPath=CAP-0603.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -499,7 +516,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RYJJFRSX
 
-[Document28]
+[Document29]
 DocumentPath=CAP-NON-POLAR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -516,7 +533,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LJLWHIOA
 
-[Document29]
+[Document30]
 DocumentPath=CAP-0805.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -533,7 +550,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KYMDUHNO
 
-[Document30]
+[Document31]
 DocumentPath=100uF_500V.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -659,7 +676,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=TSC TE200
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

@@ -1,0 +1,13 @@
+Added Component: Designator=T1(ETD29_Transformer)
+Added Pin To Net: NetName=NetT1_1 Pin=T1-1
+Added Pin To Net: NetName=NetT1_1 Pin=T1-1
+Added Pin To Net: NetName=+350V Pin=T1-3
+Added Pin To Net: NetName=+350V Pin=T1-3
+Added Pin To Net: NetName=NetT1_4 Pin=T1-4
+Added Pin To Net: NetName=NetT1_4 Pin=T1-4
+Added Pin To Net: NetName=GND Pin=T1-6
+Added Pin To Net: NetName=GND Pin=T1-6
+Added Pin To Net: NetName=GND_1 Pin=T1-10
+Added Pin To Net: NetName=GND_1 Pin=T1-10
+Added Pin To Net: NetName=NetD6_2 Pin=T1-12
+Added Pin To Net: NetName=NetD6_2 Pin=T1-12

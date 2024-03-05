@@ -1,0 +1,279 @@
+Board Information Report
+Filename     : C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20V_4A\POWER_SUPPLY_20V_4A.PcbDoc
+Date         : 05.03.2024
+Time         : 12:32:14
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 150mmx60mm
+    Components on board, 113
+count : 2
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 200
+    Connections routed, 200
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 12, 0, 235, 0, 9, 8, 0
+    Bottom Layer, 0, 113, 0, 347, 0, 12, 8, 0
+    Top 3D Body, 3, 0, 0, 66, 0, 0, 0, 35
+    Bottom 3D Body, 0, 0, 0, 56, 0, 0, 0, 44
+    Top Assembly, 0, 0, 0, 96, 24, 5, 0, 0
+    Bottom Assembly, 1, 0, 0, 187, 44, 9, 0, 0
+    Top Courtyard, 0, 0, 0, 44, 0, 0, 0, 0
+    Bottom Courtyard, 0, 0, 0, 56, 0, 0, 0, 0
+    Top Component Center, 0, 0, 0, 16, 0, 0, 0, 0
+    Bottom Component Center, 0, 0, 0, 28, 0, 0, 0, 0
+    Mechanical 9, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 20, 5, 0, 0, 0
+    Top Component Outline, 3, 0, 0, 54, 0, 0, 0, 0
+    Bottom 3D Body, 0, 0, 0, 20, 0, 0, 0, 0
+    Mechanical 13, 0, 0, 0, 4, 0, 0, 0, 6
+    Bottom Component Outline, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 15, 0, 0, 0, 36, 0, 0, 0, 0
+    Top Designator, 0, 0, 0, 0, 6, 0, 0, 0
+    Bottom Designator, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 136, 29, 0, 0, 0, 6, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 10, 0, 0, 8, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Overlay, 14, 0, 0, 237, 132, 4, 0, 0
+    Bottom Overlay, 2, 0, 0, 231, 106, 2, 0, 0
+count : 29
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 29
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 6,497, 4191,639, 47%
+    Bottom Layer, 6,394, 4125,003, 46%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+count : 0
+
+Plated Hole Size, Pads, Vias
+    0mm, 125, 0
+    0.3mm, 0, 23
+    0.4mm, 0, 2
+    0.5mm, 0, 1
+    0.7mm, 9, 0
+    0.75mm, 2, 0
+    0.762mm, 32, 0
+    1mm, 24, 2
+    1.016mm, 9, 0
+    1.2mm, 4, 1
+    1.3mm, 14, 0
+    1.397mm, 1, 0
+    1.45mm, 2, 0
+    1.5mm, 19, 0
+    1.524mm, 10, 0
+    1.8mm, 2, 0
+    2mm, 4, 0
+    2.2mm, 4, 0
+count : 18
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0.4mm, 2
+    0.5mm, 17
+    0.5mm, 23
+    0.6mm, 1
+    0.65mm, 8
+    0.7mm, 7
+    0.75mm, 2
+    0.762mm, 13
+    0.8mm, 2
+    1mm, 18
+    1.3mm, 4
+    1.397mm, 1
+    1.5mm, 6
+    1.524mm, 36
+    1.7mm, 2
+    1.778mm, 2
+    2mm, 4
+    2.1mm, 13
+    2.3mm, 4
+count : 19
+
+Mid Layer Annular Ring Size, Count
+    0.4mm, 2
+    0.5mm, 17
+    0.5mm, 23
+    0.6mm, 1
+    0.65mm, 8
+    0.7mm, 7
+    0.75mm, 2
+    0.762mm, 13
+    0.8mm, 2
+    1mm, 18
+    1.3mm, 4
+    1.397mm, 1
+    1.5mm, 6
+    1.524mm, 36
+    1.7mm, 2
+    1.778mm, 2
+    2mm, 4
+    2.1mm, 13
+    2.3mm, 4
+count : 19
+
+Bottom Layer Annular Ring Size, Count
+    0.4mm, 2
+    0.5mm, 17
+    0.5mm, 23
+    0.6mm, 1
+    0.65mm, 8
+    0.7mm, 7
+    0.75mm, 2
+    0.762mm, 13
+    0.8mm, 2
+    1mm, 18
+    1.3mm, 4
+    1.397mm, 1
+    1.5mm, 6
+    1.524mm, 36
+    1.7mm, 2
+    1.778mm, 2
+    2mm, 4
+    2.1mm, 13
+    2.3mm, 4
+count : 19
+
+Pad Solder Mask, Count
+    0mm, 62
+    0.01mm, 141
+    0.015mm, 30
+    0.1016mm, 28
+count : 4
+
+Pad Paste Mask, Count
+    -1000mm, 21
+    0mm, 212
+    0.1016mm, 28
+count : 3
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 261
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.5mm, 261
+count : 1
+
+Pad Relief Air Gap, Count
+    0.15mm, 261
+count : 1
+
+Pad Relief Entries, Count
+    4, 261
+count : 1
+
+Via Solder Mask, Count
+    -1.8mm, 3
+    -1.2mm, 1
+    -0.8mm, 25
+count : 3
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 29
+count : 1
+
+Track Width, Count
+    0.05mm, 42
+    0.1mm, 369
+    0.2mm, 658
+    0.254mm, 67
+    0.3mm, 8
+    0.5mm, 161
+    0.508mm, 4
+    0.6mm, 27
+    0.7mm, 28
+    0.762mm, 8
+    0.8mm, 72
+    0.9mm, 5
+    1mm, 85
+    1.1mm, 1
+    1.2mm, 7
+    1.5mm, 57
+    1.8mm, 4
+    2mm, 64
+    2.2mm, 1
+    2.5mm, 2
+    3mm, 56
+    4mm, 15
+count : 22
+
+Arc Line Width, Count
+    0.1mm, 7
+    0.2mm, 1
+    0.25mm, 6
+    0.254mm, 10
+    0.3mm, 4
+    0.762mm, 1
+    1mm, 4
+count : 7
+
+Arc Radius, Count
+    0.125mm, 2
+    0.125mm, 4
+    0.5mm, 2
+    0.6mm, 2
+    1mm, 2
+    1.5mm, 4
+    2.2mm, 4
+    4.7404mm, 4
+    5mm, 4
+    6.5mm, 4
+    11.684mm, 1
+count : 11
+
+Arc Degrees, Count
+    90, 4
+    144, 4
+    180, 4
+    360, 21
+count : 4
+
+Text Height, Count
+    0.7mm, 50
+    0.8mm, 225
+    1mm, 27
+    1.5mm, 6
+    1.524mm, 6
+    3.048mm, 2
+    18mm, 1
+count : 7
+
+Text Width, Count
+    0.1mm, 73
+    0.15mm, 6
+    0.254mm, 238
+count : 3
+
+Net Track Width, Count
+    0.2mm, 51
+count : 1
+
+Net Via Size, Count
+    0.1mm, 51
+count : 1

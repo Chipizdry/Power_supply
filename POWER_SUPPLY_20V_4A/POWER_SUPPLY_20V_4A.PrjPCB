@@ -125,6 +125,168 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SXVIRCXB
 
+[Document6]
+DocumentPath=Project Outputs for pvs_bnvd\CAMtastic3.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=Project Outputs for pvs_bnvd\CAMtastic4.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A.REP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_7.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_8.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_10.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_11.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_12.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_13.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_15.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Mechanical_16.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20V_4A_Soldermask_Top.gbr
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -413,7 +575,7 @@ OutputDefault5=0
 Configuration5_Name1=ForceUpdateSettings
 Configuration5_Item1=False
 Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908292~1,16908290~1,16973833~1,16908296~1,16908298~1,16908304~1,16908289~1,16908291~1,16973837~1,16908295~1,16908303~1,16973848~1,16908301~1,16973831~1,16908299~1,16973849~1,16908294~1,16973835~1,16973830~1,16973832~1,16842751~1,16908293~1,16908300~1,16973834~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_suply\POWER_SUPPLY_20V_4A\POWER_SUPPLY_20V_4A.PcbDoc
+Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908292~1,16908290~1,16973833~1,16908296~1,16908298~1,16908304~1,16908289~1,16908291~1,16973837~1,16908295~1,16908303~1,16973848~1,16908301~1,16973831~1,16908299~1,16973849~1,16908294~1,16973835~1,16973830~1,16973832~1,16842751~1,16908293~1,16908300~1,16973834~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20V_4A\POWER_SUPPLY_20V_4A.PcbDoc
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
@@ -433,7 +595,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_suply\POWER_SUPPLY_20V_4A\POWER_SUPPLY_20V_4A.PcbDoc
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20V_4A\POWER_SUPPLY_20V_4A.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -520,6 +682,10 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=Record=ExportCommentsView|IncludeEntireDesign=False|IncludeOriginalScreenshot=False|DocumentPath=[Project]
 
 [OutputGroup7]
 Name=Other Outputs

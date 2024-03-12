@@ -1,0 +1,53 @@
+Change Component Footprint: Designator=D20 Old Footprint=FP-95402-MFG New Footprint=FP-95402-MFG
+Change Component Footprint: Designator=C7 Old Footprint=FP-C0805C-DN-MFG New Footprint=FP-C0805C-DN-MFG
+Change Component Footprint: Designator=R1 Old Footprint=FP-CRCW0805-e3-MFG New Footprint=FP-CRCW0805-e3-MFG
+Change Component Footprint: Designator=R38 Old Footprint=FP-CRCW0805-e3-MFG New Footprint=FP-CRCW0805-e3-MFG
+Change Component Footprint: Designator=R4 Old Footprint=FP-CRCW1210-e3-IPC_A New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=R7 Old Footprint=FP-CRCW1210-e3-IPC_A New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=R9 Old Footprint=FP-CRCW1210-e3-IPC_A New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=R10 Old Footprint=FP-CRCW1210-e3-IPC_A New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=C2 Old Footprint=FP-RAD-TH-D_16_0_5-L_40_2-MFG New Footprint=FP-RAD-TH-D_16_0_5-L_40_2-MFG
+Change Component Footprint: Designator=C14 Old Footprint=FP-RAD-TH-D_16_0_5-L_40_2-MFG New Footprint=FP-RAD-TH-D_16_0_5-L_40_2-MFG
+Change Component Designator: OldDesignator=C3 NewDesignator=C?
+Change Component Designator: OldDesignator=C4 NewDesignator=C?
+Change Component Designator: OldDesignator=C5 NewDesignator=C?
+Change Component Designator: OldDesignator=C15 NewDesignator=C?
+Change Component Designator: OldDesignator=D11 NewDesignator=D?
+Change Component Designator: OldDesignator=D12 NewDesignator=D?
+Change Component Designator: OldDesignator=D17 NewDesignator=D?
+Change Component Designator: OldDesignator=J1 NewDesignator=J?
+Change Component Designator: OldDesignator=J12 NewDesignator=J?
+Change Component Designator: OldDesignator=J13 NewDesignator=J?
+Change Component Designator: OldDesignator=J14 NewDesignator=J?
+Change Component Designator: OldDesignator=J15 NewDesignator=J?
+Change Component Designator: OldDesignator=J16 NewDesignator=J?
+Change Component Designator: OldDesignator=J17 NewDesignator=J?
+Change Component Designator: OldDesignator=J18 NewDesignator=J?
+Change Component Designator: OldDesignator=J19 NewDesignator=J?
+Change Component Designator: OldDesignator=J20 NewDesignator=J?
+Change Component Designator: OldDesignator=L1 NewDesignator=L?
+Change Component Designator: OldDesignator=L2 NewDesignator=L?
+Change Component Designator: OldDesignator=R12 NewDesignator=R?
+Change Component Designator: OldDesignator=R13 NewDesignator=R?
+Change Component Designator: OldDesignator=R16 NewDesignator=R?
+Change Component Designator: OldDesignator=R17 NewDesignator=R?
+Change Component Designator: OldDesignator=R24 NewDesignator=R?
+Change Component Designator: OldDesignator=R27 NewDesignator=R?
+Change Component Designator: OldDesignator=R28 NewDesignator=R?
+Change Component Designator: OldDesignator=R29 NewDesignator=R?
+Change Component Designator: OldDesignator=T2 NewDesignator=T?
+Change Component Designator: OldDesignator=TP8 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP10 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP19 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP24 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP25 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP26 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP27 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP28 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP29 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP40 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP41 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP42 NewDesignator=TP?
+Change Component Designator: OldDesignator=U2 NewDesignator=U?
+Change Component Designator: OldDesignator=U5 NewDesignator=U?

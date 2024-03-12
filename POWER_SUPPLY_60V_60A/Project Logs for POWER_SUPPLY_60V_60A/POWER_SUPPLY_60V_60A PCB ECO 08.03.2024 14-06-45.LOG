@@ -1,0 +1,4 @@
+Added Component: Designator=R30(RES-0805)
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component R30 1K

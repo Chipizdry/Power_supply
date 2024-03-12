@@ -1,0 +1,58 @@
+Change Component Footprint: Designator=C7 Old Footprint=CAP-0805 New Footprint=FP-C0805C-DN-MFG
+Change Component Footprint: Designator=C2 Old Footprint=CAP_POL_16x40 New Footprint=FP-RAD-TH-D_16_0_5-L_40_2-MFG
+Change Component Footprint: Designator=C14 Old Footprint=CAP_POL_16x40 New Footprint=FP-RAD-TH-D_16_0_5-L_40_2-MFG
+Change Component Footprint: Designator=D5 Old Footprint=DIOD-SOD123-2_V New Footprint=DIOD-SOD123-2_V
+Change Component Footprint: Designator=D6 Old Footprint=DIOD-SOD123-2_V New Footprint=DIOD-SOD123-2_V
+Change Component Footprint: Designator=D7 Old Footprint=DIOD-SOD123-2_V New Footprint=DIOD-SOD123-2_V
+Change Component Footprint: Designator=D8 Old Footprint=DIOD-SOD123-2_V New Footprint=DIOD-SOD123-2_V
+Change Component Footprint: Designator=D20 Old Footprint=DO214-AB New Footprint=FP-95402-MFG
+Change Component Footprint: Designator=D21 Old Footprint=LED_RED New Footprint=LED_GREEN
+Change Component Footprint: Designator=R1 Old Footprint=RES-0805 New Footprint=FP-CRCW0805-e3-MFG
+Change Component Footprint: Designator=R38 Old Footprint=RES-0805 New Footprint=FP-CRCW0805-e3-MFG
+Change Component Footprint: Designator=R2 Old Footprint=RES_5W_Ceramic_Yageo New Footprint=FP-SQP500-MFG
+Change Component Footprint: Designator=R3 Old Footprint=RES_5W_Ceramic_Yageo New Footprint=FP-SQP500-MFG
+Change Component Footprint: Designator=R26 Old Footprint=RES_5W_Ceramic_Yageo New Footprint=FP-SQP500-MFG
+Change Component Footprint: Designator=R8 Old Footprint=RES_Adj_3296W_Bourns New Footprint=Bourns_3296W_MFG
+Change Component Footprint: Designator=R10 Old Footprint=RES_SMD_1210_IPC_A New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=R4 Old Footprint=RES_SMD_1210_MFG New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=R7 Old Footprint=RES_SMD_1210_MFG New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Footprint: Designator=R9 Old Footprint=RES_SMD_1210_MFG New Footprint=FP-CRCW1210-e3-IPC_A
+Change Component Comment: Designator=D5 Old Comment= New Comment=1N4148W-7-F
+Change Component Comment: Designator=D6 Old Comment= New Comment=1N4148W-7-F
+Change Component Comment: Designator=D7 Old Comment= New Comment=1N4148W-7-F
+Change Component Comment: Designator=D8 Old Comment= New Comment=1N4148W-7-F
+Change Component Comment: Designator=R7 Old Comment= New Comment=3,3K
+Change Component Comment: Designator=J4 Old Comment= New Comment=Klema_15_A
+Change Component Comment: Designator=J5 Old Comment= New Comment=Klema_15_A
+Change Component Comment: Designator=J6 Old Comment= New Comment=Klema_15_A
+Change Component Comment: Designator=J7 Old Comment= New Comment=Klema_15_A
+Change Component Comment: Designator=J8 Old Comment= New Comment=Klema_15_A
+Change Component Comment: Designator=J9 Old Comment= New Comment=Klema_15_A
+Change Component Comment: Designator=R2 Old Comment=0.5 Ohm New Comment=SQP500JB-1R2
+Change Component Comment: Designator=R3 Old Comment=0.5 Ohm New Comment=SQP500JB-1R2
+Change Component Comment: Designator=R26 Old Comment=0.5 Ohm New Comment=SQP500JB-1R2
+Change Component Comment: Designator=C7 Old Comment=1uF New Comment=C0805C104K5RACTU
+Change Component Comment: Designator=R4 Old Comment=3.3K New Comment=3,3K
+Change Component Comment: Designator=R9 Old Comment=3.3K New Comment=3,3K
+Change Component Comment: Designator=R10 Old Comment=3.3K New Comment=3,3K
+Change Component Comment: Designator=C10 Old Comment=4.7uF_630V New Comment=3.3uF_630V
+Change Component Comment: Designator=C13 Old Comment=4.7uF_630V New Comment=3.3uF_630V
+Change Component Comment: Designator=R8 Old Comment=10K New Comment=3296W-1-202LF
+Change Component Comment: Designator=R1 Old Comment=470 New Comment=470 Ohm
+Change Component Comment: Designator=C2 Old Comment=1000uF_63V New Comment=EEUFC2A471
+Change Component Comment: Designator=C14 Old Comment=1000uF_63V New Comment=EEUFC2A471
+Change Component Comment: Designator=D20 Old Comment=ES3D-DO214AB New Comment=ES3D-E3/57T
+Change Component Comment: Designator=D21 Old Comment=LED New Comment=151031YS06000
+Change Component Comment: Designator=R40 Old Comment=RES_10K_10W New Comment=RES_10W
+Change Pin Designator/Name:  Old Designator=C14-2 Old Name=- New Designator =+ New Name=1
+Change Pin Designator/Name:  Old Designator=C14-1 Old Name=+ New Designator =- New Name=2
+Change Pin Designator/Name:  Old Designator=C2-2 Old Name=- New Designator =+ New Name=1
+Change Pin Designator/Name:  Old Designator=C2-1 Old Name=+ New Designator =- New Name=2
+Change Pin Designator/Name:  Old Designator=D5-2 Old Name=A New Designator =K New Name=1
+Change Pin Designator/Name:  Old Designator=D5-1 Old Name=K New Designator =A New Name=2
+Change Pin Designator/Name:  Old Designator=D6-1 Old Name=K New Designator =A New Name=2
+Change Pin Designator/Name:  Old Designator=D6-2 Old Name=A New Designator =K New Name=1
+Change Pin Designator/Name:  Old Designator=D7-2 Old Name=A New Designator =K New Name=1
+Change Pin Designator/Name:  Old Designator=D7-1 Old Name=K New Designator =A New Name=2
+Change Pin Designator/Name:  Old Designator=D8-1 Old Name=K New Designator =A New Name=2
+Change Pin Designator/Name:  Old Designator=D8-2 Old Name=A New Designator =K New Name=1

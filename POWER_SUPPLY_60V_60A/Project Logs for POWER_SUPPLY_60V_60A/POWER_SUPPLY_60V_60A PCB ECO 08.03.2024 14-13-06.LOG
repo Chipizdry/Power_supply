@@ -1,8 +1,0 @@
-Added Component: Designator=J15(Jumper_2.54)
-Added Component: Designator=J20(Jumper_2.54)
-Added Pin To Net: NetName=Net*PWM1_1 Pin=J15-1
-Added Pin To Net: NetName=NetD20_1 Pin=J15-2
-Added Pin To Net: NetName=NetJ20_1 Pin=J20-1
-Added Pin To Net: NetName=Net*PWM1_1 Pin=J20-2
-Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component J15
-Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component J20

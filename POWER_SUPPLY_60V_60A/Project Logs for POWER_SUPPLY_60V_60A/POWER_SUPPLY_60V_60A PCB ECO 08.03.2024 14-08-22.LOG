@@ -1,5 +1,0 @@
-Added Component: Designator=U3(TL431_SOT-23-3(A))
-Added Pin To Net: NetName=NetR12_1 Pin=U3-1
-Added Pin To Net: NetName=NetR12_1 Pin=U3-2
-Added Pin To Net: NetName=GND_1 Pin=U3-3
-Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component U3

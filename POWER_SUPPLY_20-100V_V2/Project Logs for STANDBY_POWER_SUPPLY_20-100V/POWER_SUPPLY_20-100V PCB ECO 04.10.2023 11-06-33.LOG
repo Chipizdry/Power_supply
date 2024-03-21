@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetT1_8 Pin=VD7-2
-Removed Pin From Net: NetName=NetT1_5 Pin=VD8-2
-Change Component Footprint: Designator=VD1 Old Footprint=FR207 New Footprint=DO-214AC, SMA
-Change Component Footprint: Designator=VD3 Old Footprint=FR207 New Footprint=DO-214AC, SMA
-Change Component Footprint: Designator=VD6 Old Footprint=FR207 New Footprint=DO-214AC, SMA
-Change Component Footprint: Designator=VD7 Old Footprint=FR207 New Footprint=DO-214AC, SMA
-Change Component Footprint: Designator=VD8 Old Footprint=FR207 New Footprint=DO-214AC, SMA
-Added Pin To Net: NetName=NetT1_5 Pin=VD7-2
-Added Pin To Net: NetName=NetT1_8 Pin=VD8-2

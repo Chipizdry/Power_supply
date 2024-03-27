@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=+20V Pin=J3-1
+Removed Pin From Net: NetName=GND_1 Pin=J3-2
+Removed Pin From Net: NetName=NetC4_1 Pin=R13-1
+Removed Pin From Net: NetName=NetC4_1 Pin=R14-1
+Removed Pin From Net: NetName=NetC4_2 Pin=R16-1
+Removed Pin From Net: NetName=GND Pin=R16-2
+Removed Pin From Net: NetName=NetC8_1 Pin=VT2-2
+Change Component Footprint: Designator=C4 Old Footprint=CAPPOL-10x20 New Footprint=CAP-TAN-D
+Added Component: Designator=K1(V23079-A1001-B301)
+Added Component: Designator=RG1(SOT-223-3)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Upverter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://upverter.com/upn/revision/b27a7358b7dd93a3/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current-Output"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "REG IC REG LINEAR 5V 1A TO220AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "LM7805CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "helpURL"; Value = "https://upverter.com/upn/revision/b27a7358b7dd93a3/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "TO-220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Fairchild"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "512-LM7805CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LM7805CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.384521982769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "LM7805CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "512-LM7805CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-40°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Max)"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Dropout (Max)"; Value = "2V @ 1A (Typ)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_1 Pin=J3-1
+Added Pin To Net: NetName=NetC4_2 Pin=J3-2
+Added Pin To Net: NetName=NetC4_2 Pin=K1-1
+Added Pin To Net: NetName=NetC8_1 Pin=K1-3
+Added Pin To Net: NetName=NetC8_1 Pin=K1-6
+Added Pin To Net: NetName=NetC4_1 Pin=K1-8
+Added Pin To Net: NetName=+20V Pin=RG1-1
+Added Pin To Net: NetName=NetC4_2 Pin=RG1-2
+Added Pin To Net: NetName=NetC4_2 Pin=RG1-2
+Added Pin To Net: NetName=NetC4_1 Pin=RG1-3
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_2 Pin=K1-7
+Added Pin To Net: NetName=NetK1_2 Pin=R12-1
+Added Pin To Net: NetName=NetK1_2 Pin=R12-1
+Added Net: Name=NetK1_2

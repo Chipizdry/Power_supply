@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=PE Pin=Radiator_1-1
-Removed Pin From Net: NetName=PE Pin=Radiator_1-1
-Removed Pin From Net: NetName=PE Pin=Radiator_1-1
-Removed Pin From Net: NetName=PE Pin=Radiator_3-1
-Removed Pin From Net: NetName=PE Pin=Radiator_3-1
-Removed Pin From Net: NetName=PE Pin=Radiator_3-1
-Added Pin To Net: NetName=GND Pin=P1-5
-Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component CR1 1N5822
-Added Room: Name=POWER_SUPPLY_60V_60A

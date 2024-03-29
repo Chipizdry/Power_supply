@@ -1,5 +1,0 @@
-Added Component: Designator=Radiator_1(Radiator_122X80_M4)
-Added Component: Designator=Radiator_2(Radiator_122X80_M4)
-Added Member To Class: ClassName=Power_Inverter_350VDC Member=Component Radiator_1 Radiator_122X80_M4
-Added Member To Class: ClassName=Power_Inverter_350VDC Member=Component Radiator_2 Radiator_122X80_M4
-Added Room: Name=Power_Inverter_350VDC

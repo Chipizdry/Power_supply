@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=NetTP25_1 Pin=TR1-9
-Removed Pin From Net: NetName=NetL2_5 Pin=TR1-11
-Added Pin To Net: NetName=NetL2_5 Pin=TR1-9
-Added Pin To Net: NetName=NetTP25_1 Pin=TR1-11
-Added Room: Name=Power_Inverter_350VDC

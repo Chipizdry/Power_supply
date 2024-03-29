@@ -312,6 +312,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ADGSFGQW
 
+[Document17]
+DocumentPath=CURRENT_SENS_Case.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HRQPQQFM
+
 [SearchPath1]
 Path=C:\Users\chipi\AppData\Local\Temp\05630231-1cb4-4263-8ce3-f73e187424e1_RM6.zip.4e1\RM6\Transformers\*.*
 IncludeSubFolders=1

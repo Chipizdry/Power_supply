@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [STANDBY_POWER_SUPPLY_20-100V(Relay).PrjPCB]
+   Generated File[POWER_SUPPLY_20-100V(Relay).TXT]
+   Generated File[POWER_SUPPLY_20-100V(Relay).LDP]
+   Generated File[POWER_SUPPLY_20-100V(Relay).DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:19:39 On 29.03.2024

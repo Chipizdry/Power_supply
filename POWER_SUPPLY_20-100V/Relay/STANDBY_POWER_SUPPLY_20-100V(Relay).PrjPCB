@@ -142,131 +142,293 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YQEDCYZF
 
+[Document7]
+DocumentPath=Project Outputs for pvs_bnvd\CAMtastic3.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=Project Outputs for pvs_bnvd\CAMtastic4.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.DRR
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay).DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.EXTREP
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay).EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.LDP
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay).LDP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.REP
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay).REP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.RUL
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay).RUL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.TXT
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay).TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Keep-out.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Legend_Bot.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Legend_Top.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_1.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_2.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_3.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_4.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_5.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_5.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_6.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_6.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_7.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_7.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_8.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_8.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_10.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_10.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_11.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_11.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_12.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_12.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_13.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_13.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_15.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_15.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_16.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Mechanical_16.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Pads_Bot.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Pads_Top.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Paste_Bot.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Paste_Top.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Profile.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V(Relay)_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.REP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_7.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_8.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_10.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_11.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_12.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_13.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_15.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Mechanical_16.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument64]
 DocumentPath=Project Outputs for pvs_bnvd\POWER_SUPPLY_20-100V_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -558,7 +720,7 @@ OutputDefault5=0
 Configuration5_Name1=ForceUpdateSettings
 Configuration5_Item1=False
 Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908292~1,16908290~1,16973833~1,16908296~1,16908298~1,16908304~1,16908289~1,16908291~1,16973837~1,16908295~1,16908303~1,16973848~1,16908301~1,16973831~1,16908299~1,16973849~1,16908294~1,16973835~1,16973830~1,16973832~1,16842751~1,16908293~1,16908300~1,16973834~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20-100V\POWER_SUPPLY_20-100V.PcbDoc
+Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16908292~1,16908290~1,16973833~1,16908296~1,16908298~1,16908304~1,16908289~1,16908291~1,16973837~1,16908295~1,16908303~1,16973848~1,16908301~1,16973831~1,16908299~1,16973849~1,16908294~1,16973835~1,16973830~1,16973832~1,16842751~1,16908293~1,16908300~1,16973834~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20-100V\Relay\POWER_SUPPLY_20-100V(Relay).PcbDoc
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
@@ -578,7 +740,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20-100V\POWER_SUPPLY_20-100V.PcbDoc
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\chipi\Documents\GitHub\Power_supply\POWER_SUPPLY_20-100V\Relay\POWER_SUPPLY_20-100V(Relay).PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=

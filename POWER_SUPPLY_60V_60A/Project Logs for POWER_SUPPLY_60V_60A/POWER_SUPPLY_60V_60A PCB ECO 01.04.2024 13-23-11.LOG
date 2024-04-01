@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=PE Pin=Radiator_1-1
+Removed Pin From Net: NetName=PE Pin=Radiator_1-1
+Removed Pin From Net: NetName=PE Pin=Radiator_1-1
+Removed Pin From Net: NetName=PE Pin=Radiator_2-1
+Removed Pin From Net: NetName=PE Pin=Radiator_2-1
+Removed Pin From Net: NetName=PE Pin=Radiator_2-1
+Removed Pin From Net: NetName=PE Pin=Radiator_3-1
+Removed Pin From Net: NetName=PE Pin=Radiator_3-1
+Removed Pin From Net: NetName=PE Pin=Radiator_3-1
+Removed Pin From Net: NetName=Net*PWM1_13 Pin=T1-1
+Removed Pin From Net: NetName=NetR40_1 Pin=T1-2
+Added Component: Designator=T3(Current_Sens_Case)
+Added Pin To Net: NetName=Net*PWM1_13 Pin=T3-1
+Added Pin To Net: NetName=NetR40_1 Pin=T3-2
+Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component T1 Current_SENS
+Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component T3 Current_SENS

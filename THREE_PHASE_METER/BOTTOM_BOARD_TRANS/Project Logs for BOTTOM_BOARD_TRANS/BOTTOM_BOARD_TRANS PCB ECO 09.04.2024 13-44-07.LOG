@@ -1,0 +1,64 @@
+Added Component: Designator=J1(691213510002)
+Add component (AddParameter): Name = "Application"; Value = "Rising Cage Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691213510002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "120°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "14A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Added Component: Designator=J2(691213510002)
+Add component (AddParameter): Name = "Application"; Value = "Rising Cage Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691213510002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "120°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "14A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES-1206)
+Added Component: Designator=R2(RES-1206)
+Added Component: Designator=R3(RES-1206)
+Added Component: Designator=T1(TL76-5)
+Added Component: Designator=T2(TL76-5)
+Added Component: Designator=T3(TL76-5)
+Added Pin To Net: NetName=A_IN Pin=J1-1
+Added Pin To Net: NetName=B_IN Pin=J1-2
+Added Pin To Net: NetName=C_IN Pin=J2-1
+Added Pin To Net: NetName=NEUTRAL Pin=J2-2
+Added Pin To Net: NetName=A_IN Pin=R1-1
+Added Pin To Net: NetName=A_OUT Pin=R1-2
+Added Pin To Net: NetName=B_IN Pin=R2-1
+Added Pin To Net: NetName=B_OUT Pin=R2-2
+Added Pin To Net: NetName=C_IN Pin=R3-1
+Added Pin To Net: NetName=C_OUT Pin=R3-2
+Added Pin To Net: NetName=A_IN Pin=T1-1
+Added Pin To Net: NetName=A_OUT Pin=T1-2
+Added Pin To Net: NetName=B_IN Pin=T2-1
+Added Pin To Net: NetName=B_OUT Pin=T2-2
+Added Pin To Net: NetName=C_IN Pin=T3-1
+Added Pin To Net: NetName=C_OUT Pin=T3-2

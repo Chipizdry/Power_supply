@@ -1,0 +1,135 @@
+Removed Pin From Net: NetName=A_IN Pin=R1-1
+Removed Pin From Net: NetName=A_OUT Pin=R1-2
+Removed Pin From Net: NetName=B_IN Pin=R2-1
+Removed Pin From Net: NetName=B_OUT Pin=R2-2
+Removed Pin From Net: NetName=C_IN Pin=R3-1
+Removed Pin From Net: NetName=C_OUT Pin=R3-2
+Change Component Footprint: Designator=R1 Old Footprint=RES-1206 New Footprint=RES-2512
+Change Component Footprint: Designator=R2 Old Footprint=RES-1206 New Footprint=RES-2512
+Change Component Footprint: Designator=R3 Old Footprint=RES-1206 New Footprint=RES-2512
+Change Component Comment : Designator=R1 Old Comment=0.22 New Comment=100
+Change Component Comment : Designator=R2 Old Comment=0.22 New Comment=100
+Change Component Comment : Designator=R3 Old Comment=0.22 New Comment=100
+Added Component: Designator=J3(691213510002)
+Add component (AddParameter): Name = "Application"; Value = "Rising Cage Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691213510002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "120°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "14A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Added Component: Designator=J4(691213510002)
+Add component (AddParameter): Name = "Application"; Value = "Rising Cage Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691213510002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "120°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "14A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Added Component: Designator=J5(691213510002)
+Add component (AddParameter): Name = "Application"; Value = "Rising Cage Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691213510002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691213510002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "120°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "14A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES-0805)
+Added Component: Designator=R5(RES-0805)
+Added Component: Designator=R6(RES-0805)
+Added Component: Designator=R7(RES-0805)
+Added Component: Designator=R8(RES-0805)
+Added Component: Designator=R9(RES-0805)
+Added Component: Designator=R10(RES-0805)
+Added Component: Designator=R11(RES-0805)
+Added Component: Designator=R12(RES-0805)
+Added Component: Designator=T1(AC1005)
+Added Component: Designator=T2(AC1005)
+Added Component: Designator=T3(AC1005)
+Added Pin To Net: NetName=B_IN Pin=R4-2
+Added Pin To Net: NetName=A_IN Pin=R5-2
+Added Pin To Net: NetName=B_OUT Pin=R7-2
+Added Pin To Net: NetName=A_OUT Pin=R8-2
+Added Pin To Net: NetName=B_OUT Pin=R10-1
+Added Pin To Net: NetName=B_IN Pin=R10-2
+Added Pin To Net: NetName=A_OUT Pin=R11-1
+Added Pin To Net: NetName=A_IN Pin=R11-2
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=R1-1
+Added Pin To Net: NetName=NetJ3_1 Pin=R1-1
+Added Pin To Net: NetName=NetJ3_1 Pin=R5-1
+Added Pin To Net: NetName=NetJ3_1 Pin=T1-1
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=R8-1
+Added Pin To Net: NetName=NetJ3_2 Pin=T1-2
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R2-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R2-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=T2-1
+Added Net: Name=NetJ4_1
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_2 Pin=R2-2
+Added Pin To Net: NetName=NetJ4_2 Pin=R2-2
+Added Pin To Net: NetName=NetJ4_2 Pin=R7-1
+Added Pin To Net: NetName=NetJ4_2 Pin=T2-2
+Added Net: Name=NetJ4_2
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_1 Pin=R3-1
+Added Pin To Net: NetName=NetJ5_1 Pin=R3-1
+Added Pin To Net: NetName=NetJ5_1 Pin=R6-1
+Added Pin To Net: NetName=NetJ5_1 Pin=T3-1
+Added Net: Name=NetJ5_1
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_2 Pin=R3-2
+Added Pin To Net: NetName=NetJ5_2 Pin=R3-2
+Added Pin To Net: NetName=NetJ5_2 Pin=R9-1
+Added Pin To Net: NetName=NetJ5_2 Pin=T3-2
+Added Net: Name=NetJ5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=R12-2
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=R12-1
+Added Net: Name=NetR9_2

@@ -2,15 +2,15 @@
 G04 Layer_Color=32896*
 %FSLAX43Y43*%
 %MOMM*%
-%TF.SameCoordinates,9BCA014A-4D13-4940-A32C-4131998200A9*%
+%TF.SameCoordinates,D4C572C6-D0EE-4933-9396-1D80D03FA8BE*%
 %TF.FilePolarity,Positive*%
 %TF.FileFunction,Other,Mechanical_12*%
 %TF.Part,Single*%
 G01*
 G75*
 %TA.AperFunction,NonConductor*%
-%ADD90C,0.200*%
-D90*
+%ADD98C,0.200*%
+D98*
 X94658Y18774D02*
 X96008D01*
 X94658Y16674D02*
@@ -83,5 +83,5 @@ Y18748D01*
 Y16648D02*
 X98421D01*
 Y18748D01*
-%TF.MD5,ad13e5caa7bb03df888751f80d773f83*%
+%TF.MD5,75b183195babea1ccddd0b800bf8a07f*%
 M02*

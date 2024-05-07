@@ -1,0 +1,6 @@
+Added Component: Designator=T1(Current_Sens_Case)
+Added Pin To Net: NetName=GND_II Pin=C1-2
+Added Pin To Net: NetName=NetD8_2 Pin=T1-3
+Added Pin To Net: NetName=NetD10_2 Pin=T1-4
+Added Member To Class: ClassName=Power_Inverter_350VDC Member=Component T1 Current_SENS
+Added Room: Name=Power_Inverter_350VDC

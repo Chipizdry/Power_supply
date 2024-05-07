@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetD8_2 Pin=T2-3
+Removed Pin From Net: NetName=NetD10_2 Pin=T2-4
+Change Component Footprint: Designator=R2 Old Footprint=RES-0805 New Footprint=RES-1206
+Change Component Footprint: Designator=R3 Old Footprint=RES-0805 New Footprint=RES-1206
+Change Component Footprint: Designator=R4 Old Footprint=RES-0805 New Footprint=RES-1206
+Change Component Comment : Designator=R3 Old Comment=1K New Comment=3,3K
+Change Component Comment : Designator=R4 Old Comment=1K New Comment=3,3K
+Change Component Comment : Designator=R10 Old Comment=1K New Comment=750
+Change Component Comment : Designator=R43 Old Comment=1K New Comment=750
+Change Component Comment : Designator=L1 Old Comment=22µH, 2.04A New Comment=220µH
+Change Component Comment : Designator=L3 Old Comment=22µH, 2.04A New Comment=220µH
+Change Component Description : Designator=R3 Old Description=1K New Description=3,3K
+Change Component Description : Designator=R4 Old Description=1K New Description=3,3K
+Change Component Description : Designator=R10 Old Description=1K New Description=750
+Change Component Description : Designator=R43 Old Description=1K New Description=750
+Added Component: Designator=T1(Current_Sens_Case)
+Added Pin To Net: NetName=NetD8_2 Pin=T1-3
+Added Pin To Net: NetName=NetD10_2 Pin=T1-4
+Added Member To Class: ClassName=Power_Inverter_350VDC Member=Component T1 Current_SENS
+Added Room: Name=Power_Inverter_350VDC

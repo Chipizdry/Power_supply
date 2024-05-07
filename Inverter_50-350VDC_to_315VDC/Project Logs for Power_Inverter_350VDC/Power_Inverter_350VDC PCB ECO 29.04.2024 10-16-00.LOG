@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=GND_II Pin=C1-1
+Removed Pin From Net: NetName=NetC1_2 Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=NetC20_2 Pin=C20-2
+Change Component Footprint: Designator=C1 Old Footprint=FP-UKA1H101MPD1TD-MFG New Footprint=CAPPOL-16x25
+Change Component Footprint: Designator=C20 Old Footprint=FP-UKA1H101MPD1TD-MFG New Footprint=CAPPOL-16x25
+Change Component Comment : Designator=C1 Old Comment=UKA1H101MPD1TD New Comment=CAP-POLAR
+Change Component Comment : Designator=C20 Old Comment=UKA1H101MPD1TD New Comment=CAP-POLAR
+Change Managed Component Library Link : Designator=C1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=F5F3E7D0-9463-4A2E-9116-8985519E844A New ItemGUID= Old RevisionGUID=4AD954DE-9150-46A9-A7A5-C1BD051CC951 New RevisionGUID=
+Change Managed Component Library Link : Designator=C20 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=F5F3E7D0-9463-4A2E-9116-8985519E844A New ItemGUID= Old RevisionGUID=4AD954DE-9150-46A9-A7A5-C1BD051CC951 New RevisionGUID=
+Change component parameters: Designator = "C1" ("C1"); Footprint = "FP-UKA1H101MPD1TD-MFG"; UniqueID = "\ELVRRASF" ("\ELVRRASF")
+Change component parameters: Designator = "C20" ("C20"); Footprint = "FP-UKA1H101MPD1TD-MFG"; UniqueID = "\ZCJOTVXA" ("\ZCJOTVXA")
+Added Component: Designator=T1(Current_Sens_Case)
+Added Pin To Net: NetName=NetC1_2 Pin=C1-1
+Added Pin To Net: NetName=NetC20_2 Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=NetD8_2 Pin=T1-3
+Added Pin To Net: NetName=NetD10_2 Pin=T1-4
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC1_1
+Change Net Name : Old Net Name=NetC20_2 New Net Name=NetC20_1
+Added Member To Class: ClassName=Power_Inverter_350VDC Member=Component T1 Current_SENS
+Added Room: Name=Power_Inverter_350VDC

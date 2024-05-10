@@ -1,0 +1,513 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10.05.2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16:26:43</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc" class="file"><acronym title="C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc">C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">59</td></tr>
+</table>
+</td>
+</table><a name="IDYHEX2S0VLZJIGQJOLHK1M5PSWLRLNGDW23F33FNWKQOAPXQBORBC"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDX5B4HX5TSKBNQKRXV4J122A1FAXEWKRBS15SGNUOGFBQUSEVLAO">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKQCL1EPADFCBETPFS0MBQCMG3LOJP0DV23XITQOQCDULZRZ0WTJD">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNJ4G1YI1VAQSUZF5YNUJ5BVBI44VTFCNFS32KUTNHO2ZIQFQNH">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTDIYEU5TBJQGKPQ4TAP30FF5AHRRF0LAOKTFIPCMERJJ4RW2YDTL">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUUXFDZAR5B2RLZSWTBPGSM55CJZMHOB3MEVQJRNBMXSX3YN5TE5K">Width Constraint (Min=0.254mm) (Max=3mm) (Preferred=1mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNRAGL5M5C2KDWCVOE2EK4HN0OJWLGVYITKHMHDLE0RO0EQYKYTP">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDV4GFH0JSZAUNVZD5DMVLHRXPEJFHW5N1PWJRJR1S5D4MPUJ5EC">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCNYOI0JVTMV0GQ5PPWRYFXXKPBPA3QNVWP1WMEO0JPVVYE5N0OPD">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDO5YTKTKFO5PMBGVQSVLJON4H4EHWZJBDCEYLNWIEAEKOY2HLZLEM">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN4Y4VUBFXQJUCYZDCMYF3SI3ABVMIV3IYNE0VTGWWMGKSNZ3MQFI">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">41</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWPHKL3RWO3XFLXANUY1U5MA4TBLWWOMN1LA5FOL0BJEA2ODHHSLE">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">10</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSXT0ORNMMK2PGIENAL1ZLUJIQH0ZDDMZ5QOJQ0BRCMCUULIC0MWM">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5AWJRSKPUABKOUZW0CHMYPFVBNJWYSC2QXYYAKFXTK2AEBVZJLJP">Height Constraint (Min=0mm) (Max=101.6mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">59</td>
+</tr>
+</table><br><a name="IDO5YTKTKFO5PMBGVQSVLJON4H4EHWZJBDCEYLNWIEAEKOY2HLZLEM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9005.69mil|Location2.X=9016.94mil|Location1.Y=3281.891mil|Location2.Y=3293.141mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9005.69mil|Location2.X=9016.94mil|Location1.Y=3281.891mil|Location2.Y=3293.141mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.149mm &lt; 0.254mm) Between Pad C3-2(31.586mm,34.112mm) on Bottom Layer And Pad R28-2(31.562mm,35.662mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.149mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9774.477mil|Location2.X=9785.727mil|Location1.Y=2588.918mil|Location2.Y=2600.168mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9774.477mil|Location2.X=9785.727mil|Location1.Y=2588.918mil|Location2.Y=2600.168mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.174mm &lt; 0.254mm) Between Pad D2-2(52.578mm,17.26mm) on Multi-Layer And Pad R6-1(50.978mm,17.12mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.174mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8794.799mil|Location2.X=8806.049mil|Location1.Y=3650.375mil|Location2.Y=3661.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8794.799mil|Location2.X=8806.049mil|Location1.Y=3650.375mil|Location2.Y=3661.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.177mm &lt; 0.254mm) Between Pad R21-1(27.244mm,44.221mm) on Bottom Layer And Pad TP2-1(25.348mm,44.221mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.177mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9159.418mil|Location2.X=9170.668mil|Location1.Y=3836.375mil|Location2.Y=3847.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9159.418mil|Location2.X=9170.668mil|Location1.Y=3836.375mil|Location2.Y=3847.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.201mm &lt; 0.254mm) Between Pad R25-1(35.367mm,49.022mm) on Bottom Layer And Pad TP22-1(37.287mm,48.946mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.201mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9053.918mil|Location2.X=9065.168mil|Location1.Y=3652.375mil|Location2.Y=3663.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9053.918mil|Location2.X=9065.168mil|Location1.Y=3652.375mil|Location2.Y=3663.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.023mm &lt; 0.254mm) Between Pad R26-1(32.776mm,44.221mm) on Bottom Layer And Pad TP20-1(34.519mm,44.272mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.023mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8192.694mil|Location2.X=8203.944mil|Location1.Y=3392.997mil|Location2.Y=3406.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8192.694mil|Location2.X=8203.944mil|Location1.Y=3392.997mil|Location2.Y=3406.102mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.156mm &lt; 0.254mm) Between Pad R4-2(10.592mm,38.192mm) on Bottom Layer And Via (11.913mm,37.44mm) from Top Layer to Bottom Layer [Bottom Solder] Mask Sliver [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8191.996mil|Location2.X=8203.246mil|Location1.Y=3372.673mil|Location2.Y=3385.959mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8191.996mil|Location2.X=8203.246mil|Location1.Y=3372.673mil|Location2.Y=3385.959mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.169mm &lt; 0.254mm) Between Pad R9-2(10.566mm,36.713mm) on Bottom Layer And Via (11.913mm,37.44mm) from Top Layer to Bottom Layer [Bottom Solder] Mask Sliver [0.169mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.375mil|Location2.X=8513.625mil|Location1.Y=2223.375mil|Location2.Y=2234.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.375mil|Location2.X=8513.625mil|Location1.Y=2223.375mil|Location2.Y=2234.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.013mm &lt; 0.254mm) Between Via (18.745mm,7.976mm) from Top Layer to Bottom Layer And Via (19.761mm,7.976mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.013mm] / [Bottom Solder] Mask Sliver [0.013mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDN4Y4VUBFXQJUCYZDCMYF3SI3ABVMIV3IYNE0VTGWWMGKSNZ3MQFI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8188.044mil|Location2.X=8195.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8188.044mil|Location2.X=8195.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (10.674mm,2.384mm) on Top Overlay And Pad P2-17(10.668mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8288.044mil|Location2.X=8295.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8288.044mil|Location2.X=8295.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (13.214mm,2.384mm) on Top Overlay And Pad P2-16(13.208mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8388.044mil|Location2.X=8395.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8388.044mil|Location2.X=8395.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (15.754mm,2.384mm) on Top Overlay And Pad P2-15(15.748mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8488.044mil|Location2.X=8495.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8488.044mil|Location2.X=8495.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (18.294mm,2.384mm) on Top Overlay And Pad P2-14(18.288mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8588.044mil|Location2.X=8595.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8588.044mil|Location2.X=8595.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (20.834mm,2.384mm) on Top Overlay And Pad P2-13(20.828mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8688.044mil|Location2.X=8695.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8688.044mil|Location2.X=8695.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (23.374mm,2.384mm) on Top Overlay And Pad P2-12(23.368mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8788.044mil|Location2.X=8795.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8788.044mil|Location2.X=8795.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (25.914mm,2.384mm) on Top Overlay And Pad P2-11(25.908mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8888.044mil|Location2.X=8895.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8888.044mil|Location2.X=8895.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (28.454mm,2.384mm) on Top Overlay And Pad P2-10(28.448mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8988.044mil|Location2.X=8995.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8988.044mil|Location2.X=8995.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (30.994mm,2.384mm) on Top Overlay And Pad P2-9(30.988mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9088.044mil|Location2.X=9095.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9088.044mil|Location2.X=9095.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (33.534mm,2.384mm) on Top Overlay And Pad P2-8(33.528mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9188.044mil|Location2.X=9195.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9188.044mil|Location2.X=9195.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (36.074mm,2.384mm) on Top Overlay And Pad P2-7(36.068mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9288.044mil|Location2.X=9295.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9288.044mil|Location2.X=9295.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (38.614mm,2.384mm) on Top Overlay And Pad P2-6(38.608mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9388.044mil|Location2.X=9395.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9388.044mil|Location2.X=9395.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (41.154mm,2.384mm) on Top Overlay And Pad P2-5(41.148mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9488.044mil|Location2.X=9495.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9488.044mil|Location2.X=9495.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (43.694mm,2.384mm) on Top Overlay And Pad P2-4(43.688mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9588.044mil|Location2.X=9595.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9588.044mil|Location2.X=9595.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (46.234mm,2.384mm) on Top Overlay And Pad P2-3(46.228mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9688.044mil|Location2.X=9695.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9688.044mil|Location2.X=9695.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (48.774mm,2.384mm) on Top Overlay And Pad P2-2(48.768mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9788.044mil|Location2.X=9795.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9788.044mil|Location2.X=9795.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (51.314mm,2.384mm) on Top Overlay And Pad P2-1(51.308mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8088.044mil|Location2.X=8095.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8088.044mil|Location2.X=8095.711mil|Location1.Y=2005.037mil|Location2.Y=2012.703mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Arc (8.134mm,2.384mm) on Top Overlay And Pad P2-18(8.128mm,2.413mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8287.424mil|Location2.X=8295.09mil|Location1.Y=3781.276mil|Location2.Y=3788.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8287.424mil|Location2.X=8295.09mil|Location1.Y=3781.276mil|Location2.Y=3788.943mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Pad C11-2(14.199mm,48.043mm) on Bottom Layer And Text "C11" (13.748mm,45.768mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8664.365mil|Location2.X=8675.615mil|Location1.Y=2661.314mil|Location2.Y=2672.564mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8664.365mil|Location2.X=8675.615mil|Location1.Y=2661.314mil|Location2.Y=2672.564mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.223mm &lt; 0.254mm) Between Pad C2-1(22.784mm,18.313mm) on Bottom Layer And Text "C2" (23.501mm,19.311mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.223mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9153.233mil|Location2.X=9164.483mil|Location1.Y=3040.69mil|Location2.Y=3051.94mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9153.233mil|Location2.X=9164.483mil|Location1.Y=3040.69mil|Location2.Y=3051.94mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.183mm &lt; 0.254mm) Between Pad R1-1(36.601mm,28.26mm) on Bottom Layer And Track (35.594mm,28.44mm)(35.594mm,30.64mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.183mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8778.485mil|Location2.X=8789.735mil|Location1.Y=2326.45mil|Location2.Y=2337.7mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8778.485mil|Location2.X=8789.735mil|Location1.Y=2326.45mil|Location2.Y=2337.7mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.216mm &lt; 0.254mm) Between Pad R11-1(25.298mm,9.883mm) on Bottom Layer And Text "R11" (26.266mm,10.802mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.216mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9153.233mil|Location2.X=9164.483mil|Location1.Y=3080.06mil|Location2.Y=3091.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9153.233mil|Location2.X=9164.483mil|Location1.Y=3080.06mil|Location2.Y=3091.31mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.183mm &lt; 0.254mm) Between Pad R1-2(36.601mm,30.21mm) on Bottom Layer And Track (35.594mm,28.44mm)(35.594mm,30.64mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.183mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8689.233mil|Location2.X=8700.483mil|Location1.Y=3031.06mil|Location2.Y=3042.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8689.233mil|Location2.X=8700.483mil|Location1.Y=3031.06mil|Location2.Y=3042.31mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.234mm &lt; 0.254mm) Between Pad R12-1(24.841mm,28.966mm) on Bottom Layer And Track (23.783mm,27.018mm)(23.783mm,29.218mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.234mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8689.233mil|Location2.X=8700.483mil|Location1.Y=2991.69mil|Location2.Y=3002.94mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8689.233mil|Location2.X=8700.483mil|Location1.Y=2991.69mil|Location2.Y=3002.94mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.234mm &lt; 0.254mm) Between Pad R12-2(24.841mm,27.016mm) on Bottom Layer And Track (23.783mm,27.018mm)(23.783mm,29.218mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.234mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8418.732mil|Location2.X=8429.982mil|Location1.Y=2323.95mil|Location2.Y=2335.2mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8418.732mil|Location2.X=8429.982mil|Location1.Y=2323.95mil|Location2.Y=2335.2mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.241mm &lt; 0.254mm) Between Pad R13-1(16.307mm,9.807mm) on Bottom Layer And Text "R13" (17.129mm,10.751mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8431.91mil|Location2.X=8439.576mil|Location1.Y=3768.276mil|Location2.Y=3775.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8431.91mil|Location2.X=8439.576mil|Location1.Y=3768.276mil|Location2.Y=3775.943mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Pad R18-2(17.069mm,47.742mm) on Bottom Layer And Text "R18" (16.618mm,45.305mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8546.91mil|Location2.X=8554.576mil|Location1.Y=3767.9mil|Location2.Y=3775.567mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8546.91mil|Location2.X=8554.576mil|Location1.Y=3767.9mil|Location2.Y=3775.567mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Pad R20-2(19.888mm,47.691mm) on Bottom Layer And Text "R20" (19.539mm,45.162mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9052.517mil|Location2.X=9063.767mil|Location1.Y=3081.06mil|Location2.Y=3092.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9052.517mil|Location2.X=9063.767mil|Location1.Y=3081.06mil|Location2.Y=3092.31mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.234mm &lt; 0.254mm) Between Pad R2-1(32.385mm,30.236mm) on Bottom Layer And Track (33.444mm,28.44mm)(33.444mm,30.64mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.234mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9052.517mil|Location2.X=9063.767mil|Location1.Y=3041.69mil|Location2.Y=3052.94mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9052.517mil|Location2.X=9063.767mil|Location1.Y=3041.69mil|Location2.Y=3052.94mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.234mm &lt; 0.254mm) Between Pad R2-2(32.385mm,28.286mm) on Bottom Layer And Track (33.444mm,28.44mm)(33.444mm,30.64mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.234mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9313.69mil|Location2.X=9324.94mil|Location1.Y=3899.233mil|Location2.Y=3910.483mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9313.69mil|Location2.X=9324.94mil|Location1.Y=3899.233mil|Location2.Y=3910.483mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.132mm &lt; 0.254mm) Between Pad R23-1(39.386mm,51.333mm) on Bottom Layer And Track (39.311mm,50.376mm)(41.511mm,50.376mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.132mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9353.06mil|Location2.X=9364.31mil|Location1.Y=3899.233mil|Location2.Y=3910.483mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9353.06mil|Location2.X=9364.31mil|Location1.Y=3899.233mil|Location2.Y=3910.483mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.132mm &lt; 0.254mm) Between Pad R23-2(41.336mm,51.333mm) on Bottom Layer And Track (39.311mm,50.376mm)(41.511mm,50.376mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.132mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8970.08mil|Location2.X=8977.747mil|Location1.Y=3296.49mil|Location2.Y=3304.156mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8970.08mil|Location2.X=8977.747mil|Location1.Y=3296.49mil|Location2.Y=3304.156mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Pad R28-2(31.562mm,35.662mm) on Bottom Layer And Track (29.736mm,35.187mm)(31.936mm,35.187mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8005.419mil|Location2.X=8016.669mil|Location1.Y=3257.632mil|Location2.Y=3268.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8005.419mil|Location2.X=8016.669mil|Location1.Y=3257.632mil|Location2.Y=3268.882mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.254mm) Between Pad R5-1(7.153mm,34.722mm) on Bottom Layer And Text "R5" (6.483mm,34.246mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8125.433mil|Location2.X=8136.683mil|Location1.Y=3305.851mil|Location2.Y=3318.454mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8125.433mil|Location2.X=8136.683mil|Location1.Y=3305.851mil|Location2.Y=3318.454mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.233mm &lt; 0.254mm) Between Pad R5-2(9.103mm,34.722mm) on Bottom Layer And Track (9.866mm,35.613mm)(9.866mm,35.863mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.233mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8146.88mil|Location2.X=8158.13mil|Location1.Y=3256.419mil|Location2.Y=3267.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8146.88mil|Location2.X=8158.13mil|Location1.Y=3256.419mil|Location2.Y=3267.669mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.146mm &lt; 0.254mm) Between Pad R9-1(10.566mm,34.763mm) on Bottom Layer And Text "R9" (10.09mm,32.709mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.146mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9413.035mil|Location2.X=9424.285mil|Location1.Y=2765.678mil|Location2.Y=2779.35mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9413.035mil|Location2.X=9424.285mil|Location1.Y=2765.678mil|Location2.Y=2779.35mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.182mm &lt; 0.254mm) Between Pad TP10-1(41.199mm,21.468mm) on Multi-Layer And Text "TP10" (42.568mm,21.063mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.182mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8587.755mil|Location2.X=8599.005mil|Location1.Y=3045.375mil|Location2.Y=3056.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8587.755mil|Location2.X=8599.005mil|Location1.Y=3045.375mil|Location2.Y=3056.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.221mm &lt; 0.254mm) Between Pad TP14-1(20.168mm,28.854mm) on Multi-Layer And Track (21.633mm,27.018mm)(21.633mm,29.218mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.221mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8283.045mil|Location2.X=8294.295mil|Location1.Y=3176.628mil|Location2.Y=3187.878mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8283.045mil|Location2.X=8294.295mil|Location1.Y=3176.628mil|Location2.Y=3187.878mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.236mm &lt; 0.254mm) Between Pad TP4-1(12.421mm,32.188mm) on Multi-Layer And Text "C14" (13.9mm,31.182mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.236mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8217.553mil|Location2.X=8231.04mil|Location1.Y=3220.035mil|Location2.Y=3231.285mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8217.553mil|Location2.X=8231.04mil|Location1.Y=3220.035mil|Location2.Y=3231.285mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.061mm &lt; 0.254mm) Between Pad TP4-1(12.421mm,32.188mm) on Multi-Layer And Text "TP4" (11.176mm,33.414mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.061mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8441.704mil|Location2.X=8452.954mil|Location1.Y=3326.726mil|Location2.Y=3340.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8441.704mil|Location2.X=8452.954mil|Location1.Y=3326.726mil|Location2.Y=3340.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.204mm &lt; 0.254mm) Between Pad TP7-1(16.561mm,36.474mm) on Multi-Layer And Track (17.899mm,33.723mm)(17.899mm,35.923mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.204mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWPHKL3RWO3XFLXANUY1U5MA4TBLWWOMN1LA5FOL0BJEA2ODHHSLE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9615.829mil|Location2.X=9627.079mil|Location1.Y=2849.281mil|Location2.Y=2860.531mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9615.829mil|Location2.X=9627.079mil|Location1.Y=2849.281mil|Location2.Y=2860.531mil|Absolute=True">Silk To Silk Clearance Constraint: (0.23mm &lt; 0.254mm) Between Text "C10" (47.32mm,23.74mm) on Top Overlay And Track (47.75mm,20.75mm)(47.75mm,28.25mm) on Top Overlay Silk Text to Silk Clearance [0.23mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8540.358mil|Location2.X=8551.608mil|Location1.Y=3265.87mil|Location2.Y=3277.12mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8540.358mil|Location2.X=8551.608mil|Location1.Y=3265.87mil|Location2.Y=3277.12mil|Absolute=True">Silk To Silk Clearance Constraint: (0.138mm &lt; 0.254mm) Between Text "C13" (22.386mm,33.789mm) on Bottom Overlay And Track (20.049mm,33.723mm)(20.049mm,35.923mm) on Bottom Overlay Silk Text to Silk Clearance [0.138mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8968.87mil|Location2.X=8980.12mil|Location1.Y=3202.085mil|Location2.Y=3213.335mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8968.87mil|Location2.X=8980.12mil|Location1.Y=3202.085mil|Location2.Y=3213.335mil|Absolute=True">Silk To Silk Clearance Constraint: (0.205mm &lt; 0.254mm) Between Text "C3" (31.502mm,31.833mm) on Bottom Overlay And Track (29.736mm,33.037mm)(31.936mm,33.037mm) on Bottom Overlay Silk Text to Silk Clearance [0.205mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8763.246mil|Location2.X=8774.496mil|Location1.Y=3874.283mil|Location2.Y=3885.533mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8763.246mil|Location2.X=8774.496mil|Location1.Y=3874.283mil|Location2.Y=3885.533mil|Absolute=True">Silk To Silk Clearance Constraint: (0.224mm &lt; 0.254mm) Between Text "R17" (26.679mm,50.121mm) on Bottom Overlay And Track (25.656mm,49.697mm)(25.906mm,49.697mm) on Bottom Overlay Silk Text to Silk Clearance [0.224mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8091.329mil|Location2.X=8102.579mil|Location1.Y=3796.018mil|Location2.Y=3807.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8091.329mil|Location2.X=8102.579mil|Location1.Y=3796.018mil|Location2.Y=3807.268mil|Absolute=True">Silk To Silk Clearance Constraint: (0.166mm &lt; 0.254mm) Between Text "R19" (8.629mm,47.921mm) on Top Overlay And Track (8.996mm,44.183mm)(8.996mm,53.963mm) on Top Overlay Silk Text to Silk Clearance [0.166mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8853.375mil|Location2.X=8864.625mil|Location1.Y=3614.967mil|Location2.Y=3626.217mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8853.375mil|Location2.X=8864.625mil|Location1.Y=3614.967mil|Location2.Y=3626.217mil|Absolute=True">Silk To Silk Clearance Constraint: (0.199mm &lt; 0.254mm) Between Text "R21" (29.102mm,42.323mm) on Bottom Overlay And Track (28.094mm,43.521mm)(28.344mm,43.521mm) on Bottom Overlay Silk Text to Silk Clearance [0.199mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.454mil|Location2.X=9002.704mil|Location1.Y=3614.967mil|Location2.Y=3626.217mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.454mil|Location2.X=9002.704mil|Location1.Y=3614.967mil|Location2.Y=3626.217mil|Absolute=True">Silk To Silk Clearance Constraint: (0.199mm &lt; 0.254mm) Between Text "R26" (32.867mm,42.323mm) on Bottom Overlay And Track (31.676mm,43.521mm)(31.926mm,43.521mm) on Bottom Overlay Silk Text to Silk Clearance [0.199mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9020.454mil|Location2.X=9031.704mil|Location1.Y=3348.783mil|Location2.Y=3360.033mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9020.454mil|Location2.X=9031.704mil|Location1.Y=3348.783mil|Location2.Y=3360.033mil|Absolute=True">Silk To Silk Clearance Constraint: (0.199mm &lt; 0.254mm) Between Text "R28" (33.528mm,36.76mm) on Bottom Overlay And Track (32.412mm,36.362mm)(32.662mm,36.362mm) on Bottom Overlay Silk Text to Silk Clearance [0.199mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8764.467mil|Location2.X=8775.717mil|Location1.Y=3246.623mil|Location2.Y=3257.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8764.467mil|Location2.X=8775.717mil|Location1.Y=3246.623mil|Location2.Y=3257.873mil|Absolute=True">Silk To Silk Clearance Constraint: (0.224mm &lt; 0.254mm) Between Text "R30" (24.899mm,32.766mm) on Bottom Overlay And Track (26.122mm,33.733mm)(26.122mm,33.983mm) on Bottom Overlay Silk Text to Silk Clearance [0.224mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8053.967mil|Location2.X=8065.217mil|Location1.Y=3451.375mil|Location2.Y=3462.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\Power_suply\Inverter_50-350VDC_to_315VDC\PWM_controller\PWM_controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8053.967mil|Location2.X=8065.217mil|Location1.Y=3451.375mil|Location2.Y=3462.625mil|Absolute=True">Silk To Silk Clearance Constraint: (0.25mm &lt; 0.254mm) Between Text "R31" (7.639mm,40.1mm) on Bottom Overlay And Track (8.088mm,39.042mm)(8.088mm,39.292mm) on Bottom Overlay Silk Text to Silk Clearance [0.25mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

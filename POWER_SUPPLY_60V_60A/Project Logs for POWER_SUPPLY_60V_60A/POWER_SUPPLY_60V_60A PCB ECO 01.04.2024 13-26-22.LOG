@@ -1,5 +1,0 @@
-Added Component: Designator=T1(Current_Sens_Case)
-Added Pin To Net: NetName=NetD5_2 Pin=T1-3
-Added Pin To Net: NetName=NetD7_2 Pin=T1-4
-Added Member To Class: ClassName=POWER_SUPPLY_60V_60A Member=Component T1 Current_SENS
-Added Room: Name=POWER_SUPPLY_60V_60A

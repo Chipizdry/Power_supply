@@ -1,0 +1,1106 @@
+SDF: 1.0
+TotalPoints: 1054
+#ChartSetupsBegin
+Chart: Transient Analysis
+ChartId: DVILZNBU
+ChartView: 4
+ChartTitle: Transient Analysis
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 10
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 1.00000000000000E-002
+ChartXMin: 0.00000000000000E+000
+ChartXMax: 1.00000000000000E-001
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 0
+ChartXScaleMode: 0
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: FALSE
+ChartTable: FALSE
+ChartType: XY Scatter
+ChartXUnitStr: s
+ChartXLabel: Time
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+Cell: 0
+CellHeight: 520
+CellIsScaled: TRUE
+CellIsDigital: FALSE
+CellIsPartial: FALSE
+CellTitle 
+CellXGrid: TRUE
+CellYGrid: TRUE
+CellMinorGrid: TRUE
+CellGridStyle: 0
+CellAxisDivisions: 8
+CellAxisLabel: 
+CellAxisUnits: 
+CellAxisAutoMin: FALSE
+CellAxisAutoMax: FALSE
+CellAxisAutoDiv: FALSE
+CellAxisAutoUnits: TRUE
+CellAxisDivSize: 1.00000000000000E+002
+CellAxisOffset: 0.00000000000000E+000
+CellAxisScaleMode: 0
+CellAxisLogScaleBase: 10
+WaveName: V(NetD2_1)
+WaveEq: V(NetD2_1)
+WaveColor: 5793220
+WaveYUnitStr: V
+WaveName: V(NetC1_1,NetC2_2)
+WaveEq: V(NetC1_1,NetC2_2)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: V(NetC1_2,NetC2_2)
+WaveEq: V(NetC1_2,NetC2_2)
+WaveColor: 6403425
+WaveYUnitStr: 
+CellSelectedAxis: 0
+CellXAxisDivisions: 10
+CellXAxisLabel: Time
+CellXAxisUnits: s
+CellXAxisAutoMin: TRUE
+CellXAxisAutoMax: TRUE
+CellXAxisAutoDiv: TRUE
+CellXAxisAutoLabel TRUE
+CellXAxisAutoUnits: TRUE
+CellXAxisDivSize: 1.00000000000000E-002
+CellXAxisOffset: 0.00000000000000E+000
+CellXAxisMin: 0.00000000000000E+000
+CellXAxisMax: 1.00000000000000E-001
+CellXAxisScaleMode: 0
+CellXAxisLogScaleBase: 10
+CellXAxisZoomOffset: 0.00000000000000E+000
+CellXAxisZoomRange: 1.00000000000000E-001
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+Chart: Fourier Analysis
+ChartId: UWLXHYKZ
+ChartView: 4
+ChartTitle: Transient Analysis
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 10
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 5.00000000000000E+001
+ChartXMin: 0.00000000000000E+000
+ChartXMax: 5.00000000000000E+002
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 2
+ChartXScaleMode: 0
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: TRUE
+ChartTable: FALSE
+ChartType: XY Scatter
+ChartXUnitStr: Hz
+ChartXLabel: Frequency
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+Cell: 0
+CellHeight: 520
+CellIsScaled: TRUE
+CellIsDigital: FALSE
+CellIsPartial: FALSE
+CellTitle 
+CellXGrid: TRUE
+CellYGrid: TRUE
+CellMinorGrid: TRUE
+CellGridStyle: 0
+CellAxisDivisions: 4
+CellAxisLabel: 
+CellAxisUnits: 
+CellAxisAutoMin: TRUE
+CellAxisAutoMax: TRUE
+CellAxisAutoDiv: TRUE
+CellAxisAutoUnits: TRUE
+CellAxisDivSize: 1.00000000000000E+014
+CellAxisOffset: -1.00100300000000E+020
+CellAxisScaleMode: 0
+CellAxisLogScaleBase: 10
+WaveName: {netc2_2
+WaveEq: {netc2_2
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(netd2_1)
+WaveEq: v(netd2_1)
+WaveColor: 14580346
+WaveYUnitStr: 
+CellSelectedAxis: 0
+CellXAxisDivisions: 10
+CellXAxisLabel: Frequency
+CellXAxisUnits: Hz
+CellXAxisAutoMin: TRUE
+CellXAxisAutoMax: TRUE
+CellXAxisAutoDiv: TRUE
+CellXAxisAutoLabel TRUE
+CellXAxisAutoUnits: TRUE
+CellXAxisDivSize: 5.00000000000000E+001
+CellXAxisOffset: 0.00000000000000E+000
+CellXAxisMin: 0.00000000000000E+000
+CellXAxisMax: 5.00000000000000E+002
+CellXAxisScaleMode: 0
+CellXAxisLogScaleBase: 10
+CellXAxisZoomOffset: 0.00000000000000E+000
+CellXAxisZoomRange: 5.00000000000000E+002
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+Chart: AC Analysis
+ChartId: TJDYCHTG
+ChartView: 4
+ChartTitle: AC Analysis
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 7
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 1.00000000000000E+000
+ChartXMin: 3.00000000000000E+000
+ChartXMax: 9.00000000000000E+000
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 2
+ChartXScaleMode: 1
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: FALSE
+ChartTable: FALSE
+ChartType: XY Scatter
+ChartXUnitStr: Hz
+ChartXLabel: Frequency
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+Cell: 0
+CellHeight: 520
+CellIsScaled: TRUE
+CellIsDigital: FALSE
+CellIsPartial: FALSE
+CellTitle 
+CellXGrid: TRUE
+CellYGrid: TRUE
+CellMinorGrid: TRUE
+CellGridStyle: 0
+CellAxisDivisions: 8
+CellAxisLabel: 
+CellAxisUnits: 
+CellAxisAutoMin: TRUE
+CellAxisAutoMax: TRUE
+CellAxisAutoDiv: TRUE
+CellAxisAutoUnits: TRUE
+CellAxisDivSize: 5.00000000000000E+001
+CellAxisOffset: -2.00000000000000E+002
+CellAxisScaleMode: 0
+CellAxisLogScaleBase: 10
+WaveName: V(NetD2_1)
+WaveEq: V(NetD2_1)
+WaveColor: 5793220
+WaveYUnitStr: V
+WaveName: V(NetC1_1,NetC2_2)
+WaveEq: V(NetC1_1,NetC2_2)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: V(NetC1_2,NetC2_2)
+WaveEq: V(NetC1_2,NetC2_2)
+WaveColor: 6403425
+WaveYUnitStr: 
+CellSelectedAxis: 0
+CellXAxisDivisions: 7
+CellXAxisLabel: Frequency
+CellXAxisUnits: Hz
+CellXAxisAutoMin: TRUE
+CellXAxisAutoMax: TRUE
+CellXAxisAutoDiv: TRUE
+CellXAxisAutoLabel TRUE
+CellXAxisAutoUnits: TRUE
+CellXAxisDivSize: 1.00000000000000E+000
+CellXAxisOffset: 0.00000000000000E+000
+CellXAxisMin: 3.00000000000000E+000
+CellXAxisMax: 9.00000000000000E+000
+CellXAxisScaleMode: 1
+CellXAxisLogScaleBase: 10
+CellXAxisZoomOffset: 0.00000000000000E+000
+CellXAxisZoomRange: 6.00000000000000E+000
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+Chart: DC Sweep
+ChartId: GUVSWFOO
+ChartView: 4
+ChartTitle: DC Sweep
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 7
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 5.00000000000000E+001
+ChartXMin: 0.00000000000000E+000
+ChartXMax: 3.15000000000000E+002
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 0
+ChartXScaleMode: 0
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: FALSE
+ChartTable: FALSE
+ChartType: XY Scatter
+ChartXUnitStr: V
+ChartXLabel: 
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+Cell: 0
+CellHeight: 520
+CellIsScaled: TRUE
+CellIsDigital: FALSE
+CellIsPartial: FALSE
+CellTitle 
+CellXGrid: TRUE
+CellYGrid: TRUE
+CellMinorGrid: TRUE
+CellGridStyle: 0
+CellAxisDivisions: 8
+CellAxisLabel: 
+CellAxisUnits: 
+CellAxisAutoMin: TRUE
+CellAxisAutoMax: TRUE
+CellAxisAutoDiv: TRUE
+CellAxisAutoUnits: TRUE
+CellAxisDivSize: 5.00000000000000E+001
+CellAxisOffset: -1.50000000000000E+002
+CellAxisScaleMode: 0
+CellAxisLogScaleBase: 10
+WaveName: V(NetD2_1)
+WaveEq: V(NetD2_1)
+WaveColor: 5793220
+WaveYUnitStr: V
+WaveName: V(NetC1_1,NetC2_2)
+WaveEq: V(NetC1_1,NetC2_2)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: V(NetC1_2,NetC2_2)
+WaveEq: V(NetC1_2,NetC2_2)
+WaveColor: 6403425
+WaveYUnitStr: 
+CellSelectedAxis: 0
+CellXAxisDivisions: 7
+CellXAxisLabel: 
+CellXAxisUnits: V
+CellXAxisAutoMin: TRUE
+CellXAxisAutoMax: TRUE
+CellXAxisAutoDiv: TRUE
+CellXAxisAutoLabel TRUE
+CellXAxisAutoUnits: TRUE
+CellXAxisDivSize: 5.00000000000000E+001
+CellXAxisOffset: 0.00000000000000E+000
+CellXAxisMin: 0.00000000000000E+000
+CellXAxisMax: 3.15000000000000E+002
+CellXAxisScaleMode: 0
+CellXAxisLogScaleBase: 10
+CellXAxisZoomOffset: 0.00000000000000E+000
+CellXAxisZoomRange: 3.15000000000000E+002
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+Chart: Operating Point
+ChartId: ERJSPLEA
+ChartView: 4
+ChartTitle: Operating Point
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 4
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 1.00000000000000E+000
+ChartXMin: 0.00000000000000E+000
+ChartXMax: 0.00000000000000E+000
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 0
+ChartXScaleMode: 0
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: FALSE
+ChartTable: TRUE
+ChartType: Table
+ChartXUnitStr: 
+ChartXLabel: 
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+WaveName: V(NetD2_1)
+WaveEq: V(NetD2_1)
+WaveYUnitStr: V
+WaveName: V(NetC1_1,NetC2_2)
+WaveEq: V(NetC1_1,NetC2_2)
+WaveYUnitStr: 
+WaveName: V(NetC1_2,NetC2_2)
+WaveEq: V(NetC1_2,NetC2_2)
+WaveYUnitStr: 
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+ActiveChartName: Transient Analysis
+FilteredWavesBlend: 80
+#ChartSetupsEnd
+Chart: Transient Analysis
+ChartId: DVILZNBU
+ChartShow: TRUE
+ChartXMinReal: 0.00000000000000E+000
+ChartXMaxReal: 1.00000000000000E-001
+Wave: v(netc1_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 128
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+                ñhãˆµøä>vrjÈÍªß?ÿ~qså>ä%´”åFà?«H®»æ>‹còâ)á?A!AHxè>sÿþ†yâ?Ù¢„¬š'ê>LËÑ5¿ã?X }‡ì>+P/O1å?”ÀÓòÇî>dkrh¸æ?Ã¦^h@ð>ß.çÖVè?‘u±&?ñ>âçUHê?Htî'mò>=ÁI‚–Þë?ŒÖvâœ¨ó>¯5ˆî?…Ý;ñöô>JÍ´ô…ð?[lk¦½rö>¦4AOªò?~½÷$uø>†R•/Ï³õ?5ô¦H”Hû>*L5Ž“ôù?Ò°âu¹w ?älg÷•<@@˜?È¹~ÖaÁ	@Žüž¯*¶?ÕÈJ¿f@RêÌÄ?…‡#gº!@?Oƒ:N$?ï)i®)º,@P]8¯ Þ/?¶Æq27@‘²Gø‰	:?Z“g C@2]ÏœNG?7• HQ@ü©ñÒMbP?¦óû$NX@“Ï/õdQ?IP=’ŠY@Â„‹éCjS?>>W³g\@S]átW?t0Ò´²ÿ`@ÚïòCŠ_?šmÊÝƒDf@¨éIÚg?JJ@ÿo@Óô0ù·p?zþïL}r@R_ímKt?®BóP³Ÿs@ÑÉ©âÞ6x?Ú)°y6s@P4fWrO|?<~¾¿þÀq@hOæ4€?µ¯WW o@¨„o L@‚?: :ÆsRi@è¹ÍZ–L„?n¨Åââÿb@(ï+àX†?¶z;?üBY@h$ŠÏ)eˆ?ïíØ<K@¨Yè‰sqŠ?£‡”ò¡0@èŽFD½}Œ?†IL¤Îí¿(Ä¤þŠŽ?Æà]h*0í¿´|\(K?®©¥_E@T—°9MQ‘?@uË©!ˆ9@ô±ßrW’?àØÑ6šL@”Ìô–]“?\ˆÓ´–X@4ç=Ñ»c”?tãR>b@Ôm®ài•?ÎD‰»Ííg@tœ‹p–?¢m49û=m@7Ëh*v—?]ª²÷ºp@´QúEO|˜?v€'q}r@Tl)#t‚™?ej¥%[Ÿs@ô†X ™ˆš?Ã»´S`s@”¡‡Ý½Ž›?´³Ndêq@4¼¶ºâ”œ?hMÎ~Oo@ÔÖå—›?íØ<›¡i@tñu,¡ž?°y6CóOc@DRQ§Ÿ?À8‡±ÕÛY@Z“¹»V ?Å‹9RçjL@ª Q†ÍÙ ?ÕJŠÀÉö2@ú­èôß\¡?þº	:|†í¿J;€còß¡?DwËdí¿šÈÒc¢?ÃG{Ì®!@êU¯@æ¢?GA;Ëo;@:ãF¯)i£?!1ð@¯‘M@ŠpÞ<ì£?];"	Y@ÚýuŒNo¤?õ<¸„3Qb@*‹û`ò¤?¿áÝÚ)h@z¥isu¥?åÔÄLwm@Ê¥<Ø…ø¥?©x ×p@3ÔF˜{¦?Ò>?h•}r@jÀkµªþ¦?øøO :Ÿs@ºM$½§?àžA]äxs@
+Ûš’Ï¨?B(r@Zh2â‡¨?ÁZfôq‚o@ªõÉoô
+©?b¦»êÐi@ú‚aÞŽ©?ËÆÂBc@JùLª?öÒ#¯t:Z@š»+”ª?¸ÛÜþÝ M@ê*(*>«?6Ïfhþi4@:¸¿˜Pš«?ü k}+Oí¿ŠEWc¬?%½˜=†»í¿ÚÒîuu ¬?Èš-mÀ¬#@*`†ä‡#­?Êj_T·<@zíSš¦­?há†Z,.N@ÊzµÁ¬)®?bHÒu\Y@M0¿¬®?èox÷€vb@j•äžÑ/¯?²žv'Oh@º"|ä²¯?ØÑ6šœm@Ø	>û°?jb¦»êp@­žUu„\°?iŠÕ°}r@Ue¡¬ž°?0–Ã+Ÿs@ý+íã–ß°?ôàÎD‰s@¥ò8 !±?Vjë~lr@M¹„R©b±?X"6ìI¢o@õÐ‰2¤±?m£ÉÙïi@FÁ»å±?µX\ü_œc@EhøD'²?èox÷€vZ@íÓ³/Îh²?úÞ= M@•šÿfWª²?zì K5@=aKžàë²?Á…|P¬í¿å'—Õi-³?n8}5Ñí¿îâón³?•÷YD%@5µ.D|°³?,hÄ£ ƒ=@Ý{z{ò³?“DOõY›N@…BÆ²Ž3´?œà»$—Y@-	êu´?”…Šúb@ÕÏ]!¡¶´?@;6Ïfh@}–©X*ø´?f.8öA´m@%]õ³9µ?Ú€Y'2õp@Í#AÇ<{µ?wXþÂÆ}r@uêŒþÅ¼µ?E»L#Ÿs@±Ø5Oþµ?û ÚF“s@Åw$mØ?¶?6&úr@m>p¤a¶?ŠÝ¬0|´o@¼ÛêÂ¶?a¡¿áÝj@½Ët·?•IKþL±c@e’SJýE·?j_T·œZ@YŸ†‡·? ô«HcåM@µë¸É·?—SC3Ý5@]æ6ð˜
+¸?÷#²Ñmîì¿­‚'"L¸?DòK¶kÞí¿­sÎ^«¸?·7HïX&@U:–4Ï¸?Ò¯"•÷=@ý fÍ½¹?¤ZI8ÙN@¥Ç±GR¹?†r_´ªY@MŽý;Ð“¹?¨QVûZ b@š™™™™™¹?ªÜh<]-c@
+WaveDataStart
+        ¬Å'7nVý>Dx,7-7?rÝ57O	?@ÂC7|Ì?Õ<Q7¯ù?<Œ`7Úˆ)?@¾p7@Ã5?ò€7·¶B?4ù‰7CbP?8i“7´ô^?çD7D$p?ð´§7¦/„?í•³7zR•?(©Ã7yž­?¢DÚ7œ¤Ï?Ì½8°ä	@Áô08N@U±…8ü5«@!6Ð8›ÐAÔq"9MÑeAð~9‘™¸APLÐ99Buú8:ª˜ˆBoƒ:qÂÀB©'‹:‘TÌBR›:n<ãB§»:–ýCâPü:$2CHÒ>;ú§xCÀ-€;gê“C[ò ;›ýœC÷¶Á;Î³™C“{â;öŽC <»xCe<ž“JC³d"<ÿCÇ2<âÊBN)C<ÁæYBœ‹S<•…Aêíc<!un¿8Pt<Si¿CY‚<ý*Ò@jŠŠ<AÌA‘»’<·ÑdB¸ìš<ö°ÄBß£<ó¡CO«<nn?C,€³<ÚïiCS±»<¾×…CzâÃ<‰ë“C¡Ì<ÙúœCÈDÔ<ž›CïuÜ<"SC§ä<ö{zC=Øì<ÚMCd	õ<šC‹:ý<®ÞÎBÙµ=;WcBlÎ=N¶—A ç
+=â3l¿“ÿ=&kl¿'=víAº0=Z~ÛAMI=zlBáa=I€ÈBtz#=œ‰C“'=ÐNAC›«+=fºkC/Ä/=½†CÂÜ3=«ì“CVõ7=ÐùœCé<=#Ç›C}&@=`C?D=|C£WH=V‡NC7pL=úCÊˆP=¥ÓÑB^¡T=ðiBñ¹X=óO£A…Ò\=\yj¿ë`=2Üm¿¬e=fA?i= ºåAÓ4m=cqqBfMq=¯ãÊBúeu=´C~y=<yBC —}=ÒälCÚ×€=ÝU‡C$ä‚=í“Cmð„=^ùœC·ü†=&JœC	‰=d“CK‹=O}C”!=Î~OCÞ-= ãC(:‘=´ÓBqF“=ïmB»R•=]ªA_—=cµh¿Ok™=¬‰n¿˜w›=Í"*Aâƒ=ìA,Ÿ=ÐÚtBvœ¡=¹lÌB¿¨£=ÔC	µ¥=z6CCSÁ§=¢mCœÍ©=‘©‡CæÙ«=6î“C0æ­=ùœCzò¯=7šœCÃþ±=ÑßC´=â£}CW¶=ïPC¡#¸=hŠCê/º=»åÔB4<¼=+oB~H¾=™é®AÈTÀ=osg¿aÂ=^ón¿[mÄ=zÇ2A¥yÆ=¬¼ïAî…È=ÁÉvB8’Ê=£UÍB‚žÌ=ØCÍÌÌ=êjC
+Wave: v(netc1_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 128
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+                ñhãˆµøä>RH«ÄÍªß?ÿ~qså>•jÆ’åFà?«H®»æ>Qðâ)á?A!AHxè>º] „yâ?Ù¢„¬š'ê>NhvÎ5¿ã?X }‡ì>tOQF1å?”ÀÓòÇî>Œ;Ùàg¸æ?Ã¦^h@ð>|ø¥ÕVè?‘u±&?ñ>ªš™>ê?Htî'mò>|…=Þë?ŒÖvâœ¨ó>eläÌî?…Ý;ñöô>vÄ•>Û~ð?[lk¦½rö>Z	N‘ò?~½÷$uø>0õéëhõ?5ô¦H”Hû>wì|<3ù?Ò°âu¹w ?m~ë_¨ @@˜?eýéãý@Žüž¯*¶?¶5Ò’-‚@RêÌÄ?À—¢ñ/@?Oƒ:N$?˜Ÿö}Þ˜@P]8¯ Þ/?ôèb@‘²Gø‰	:?wÙÅÝX@2]ÏœNG?p"Ih@ü©ñÒMbP?Ð`l¶#¡@“Ï/õdQ?pÕXX‹@Â„‹éCjS? ð7D@S]átW?H³Ú¸@ÚïòCŠ_?¼5ÈŸU@¨éIÚg?À­f@Óô0ù·p?xÊ‡ûÉ€@R_ímKt? «=-ÑÐñ?ÑÉ©âÞ6x?„j`)9íÀP4fWrO|?vùzxHi8ÀhOæ4€?M»…°LÀ¨„o L@‚?‡’<¬ZQXÀè¹ÍZ–L„?°€èHôaÀ(ï+àX†?ÇaTÍgÀh$ŠÏ)eˆ?×ž—emÀ¨Yè‰sqŠ?jÿ¹âªpÀèŽFD½}Œ?ˆ
+Ö“·jrÀ(Ä¤þŠŽ?;àR¤ø•sÀ´|\(K?C°ïƒàSsÀT—°9MQ‘?>ÐÓñÛqÀô±ßrW’?°…§z8oÀ”Ìô–]“?|u[‰‡iÀ4ç=Ñ»c”?
+R¡•ß7cÀÔm®ài•?-ÈGSo¬YÀtœ‹p–?©ö(6ÓLÀ7Ëh*v—?P‘°E82À´QúEO|˜?pÓ*l™ý?Tl)#t‚™? 'UBhû?ô†X ™ˆš?€4·§Î À”¡‡Ý½Ž›?ü€n™Ù:À4¼¶ºâ”œ?|{âçURMÀÔÖå—›?«Š/õëXÀtñu,¡ž?@Ü“`?bÀDRQ§Ÿ?…ô¾WhÀZ“¹»V ?±
+ãgmÀª Q†ÍÙ ?W;C”ÏpÀú­èôß\¡?ŠÈãðXqrÀJ;€còß¡?¾î.‚xsÀšÈÒc¢?&#:ssÀêU¯@æ¢?Ã>ÂÿAýqÀ:ãF¯)i£?Q¶õÿÅuoÀŠpÞ<ì£?öÊõSÆiÀÚýuŒNo¤?ŒÎ“ÙßrcÀ*‹û`ò¤?X"c«}$ZÀz¥isu¥?fYÚ·ùLÀÊ¥<Ø…ø¥?åJ=%4À3ÔF˜{¦?EúÈ²öø?jÀkµªþ¦?°æ‡–ð5ÿ?ºM$½§?Nwé3R'#À
+Ûš’Ï¨?Ûm$‹<ÀZh2â‡¨?˜ólìƒ
+NÀªõÉoô
+©?RA¡ØRYÀú‚aÞŽ©?òlæŽ¡nbÀJùLª?m2¸qIhÀš»+”ª?£“yäC–mÀê*(*>«?Yäè4ŸæpÀ:¸¿˜Pš«?~è³’ÙtrÀŠEWc¬?Ä|šsÀÚÒîuu ¬?ë5JÎB†sÀ*`†ä‡#­?¾ÂHrÀzíSš¦­?+.?óÅ›oÀÊzµÁ¬)®?šŠ€ŽîiÀM0¿¬®?Šz¹rÉ˜cÀj•äžÑ/¯?D•æ¯ðqZÀº"|ä²¯?³eb»‰MÀØ	>û°?yûÏH.5À­žUu„\°?ÀÆh4ö?Ue¡¬ž°?ØMh×¸ @ý+íã–ß°?ú²Cõ
+%À¥ò8 !±?÷aìDŠ=ÀM¹„R©b±?—AÿNÀõÐ‰2¤±?øÌÌR]‘YÀFÁ»å±?s>)æ|bÀEhøD'²?ª¥œçÂghÀíÓ³/Îh²?F¢C4à°mÀ•šÿfWª²?8ú‚•ïõpÀ=aKžàë²?1±æwrÀå'—Õi-³?ÒÝÄØ‹sÀîâón³?±|×ˆ’sÀ5µ.D|°³?9ÿ–ˆArÀÝ{z{ò³?Šà¹]±oÀ…BÆ²Ž3´?ÕfèÊjÀ-	êu´?›J’ÿ®cÀÕÏ]!¡¶´?Œ~·%£ZÀ}–©X*ø´?döì	åMÀ%]õ³9µ?.¦=ý5ÀÍ#AÇ<{µ?`v`°€rô?uêŒþÅ¼µ?`
+>vrj@±Ø5Oþµ?ØOäñG&ÀÅw$mØ?¶?D}.¸¯8>Àm>p¤a¶?¯hÔÓNÀ¼ÛêÂ¶?K}³¸YÀ½Ët·?ó›ã}žbÀe’SJýE·?ôáˆt{hÀYŸ†‡·?õ¸±»ÄmÀµë¸É·?d	¢?sÿpÀ]æ6ð˜
+¸?jÈývxrÀ­‚'"L¸?ÌÉÂ¾ŠsÀ­sÎ^«¸?OH;0»™sÀU:–4Ï¸?I°Û8'rÀý fÍ½¹?Ók’/ÇÀoÀ¥Ç±GR¹?ÿr±jÀMŽý;Ð“¹?œêi¾¼cÀš™™™™™¹?h‹$)ý%cÀ
+WaveDataStart
+        ¬Å'7nVý>Dx,7-7?rÝ57O	?@ÂC7|Ì?Õ<Q7®ù?<Œ`7Úˆ)?@¾p7?Ã5?ò€7­¶B?4ù‰7ñaP?8i“7ìñ^?çD7gp?ð´§7Úöƒ?í•³7²ˆ”?(©Ã7_G«?¢DÚ7ä™É?Ì½8Cµ @Áô08ï/@U±…8mt@!6Ð8™@Ôq"9ôÆ¬@ð~9A³@PLÐ9îÆ²@uú8:Ëˆ°@oƒ:	­@©'‹:ÃZ¬@R›:	 ª@§»:ÖÆ¥@âPü:þ¬š@HÒ>;1ƒx@À-€;P$@[ò ;‰†Ž?÷¶Á;Éi¯À“{â;DJÃÁ <F€`Âe<ÕŠÂÂ³d"<G¢ÃÇ2<£j>ÃN)C<-ãhÃœ‹S<W…Ãêíc<½U“Ã8Pt<Å¯œÃCY‚<ŸšÃjŠŠ<ˆßŽÃ‘»’<ÕÃyÃ¸ìš<K<LÃß£<ý¾ÃO«<{cÍÂ,€³<š^`ÂS±»<.Â‘ÁzâÃ<cÈì?¡Ì<BÛ?ÈDÔ<u ÁïuÜ<ËÌÖÁ§ä<¯’jÂ=Øì<©_ÇÂd	õ<ûÃ‹:ý<£È@ÃÙµ=ï<kÃlÎ=¢|†Ã ç
+=ÈŠ“Ã“ÿ=ÄƒœÃ'=Ð™›Ãº0=êÃMI=0®{Ãáa= 2NÃtz#=ÿ–Ã“'=í#ÑÂ›«+=¿ÍgÂ/Ä/=*‘ ÁÂÜ3=–µÇ?Võ7=…¯ù?é<=’:Á}&@=!YäÁ?D=TpÂ£WH=7ÊÂ7pL=uÃÊˆP=ìHBÃ^¡T=²lÃñ¹X=ú4‡Ã…Ò\=Í¦“Ãë`=ÔlœÃ¬e=2œÃ?i=@ŠÃÓ4m=0Þ|ÃfMq=ttOÃúeu=LÆÃ~y=…ÓÂ —}=ÛMlÂÚ×€=Fr©Á$ä‚=Ã ±?mð„=×À@·ü†=ªW(Á	‰= RìÁK‹= tÂ”!=ëŠÌÂÞ-=çkÃ(:‘=>CÃqF“=‡mÃ»R•=}¯‡Ã_—=¸“ÃOk™=Æ^œÃ˜w›=|”œÃâƒ=òÃ,Ÿ=îŠ}Ãvœ¡=Q>PÃ¿¨£=ýwÃ	µ¥=.ÕÂSÁ§=O(oÂœÍ©=íé¯ÁæÙ«=”£?0æ­=”S@zò¯=?2ÁÃþ±=~ÅñÁ´=¤žvÂW¶=~ÄÍÂ¡#¸=ïóÃê/º=\ØCÃ4<¼=~$nÃ~H¾=šû‡ÃÈTÀ=¸Ã“ÃaÂ=ðUœÃ[mÄ=ÚÍœÃ¥yÆ=Ç9‘Ãî…È=9~Ã8’Ê=ŒÅPÃ‚žÌ=ñåÃÍÌÌ=é/Ã
+Wave: v(netc2_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 128
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+                ñhãˆµøä>u5³Íªß?ÿ~qså>BX‰åFà?«H®»æ>ä®Ëäâ)á?A!AHxè>ŽK¼kyâ?Ù¢„¬š'ê>¹öãv5¿ã?X }‡ì>›c1å?”ÀÓòÇî>izÈÊ[¸æ?Ã¦^h@ð>TŒ'e~Vè?‘u±&?ñ>˜ÂÓ˜…	ê?Htî'mò>¸¡ªAÇë?ŒÖvâœ¨ó>Ì,4lþYí?…Ý;ñöô>JÆ:LCî?[lk¦½rö>b±Œvî?~½÷$uø>e¾ûÐuî?5ô¦H”Hû>qs’Å6|î?Ò°âu¹w ?h!dm„î?@˜?xBaÑ“î?Žüž¯*¶?×«X<§î?RêÌÄ?bêYœ¸î??Oƒ:N$?Ðt×QÂî?P]8¯ Þ/?,B¹£Åî?‘²Gø‰	:?Þ”IÄî?2]ÏœNG?
+fŒÂî?ü©ñÒMbP?7 ö½î?“Ï/õdQ?>;œ²¬¼î?Â„‹éCjS?ÿL:¹î?S]átW?ªnñ³î?ÚïòCŠ_?ßÐÝ³“¢î?¨éIÚg?R¥bkmî?Óô0ù·p?âÚƒª÷í?R_ímKt?
+*Ž¥¸ì?ÑÉ©âÞ6x? :°EãÀP4fWrO|?pý¯ì58ÀhOæ4€?ìÊH(†õKÀ¨„o L@‚?&ö„ÌÏDXÀè¹ÍZ–L„?+šµÞíaÀ(ï+àX†?&™ö¬5ÇgÀh$ŠÏ)eˆ?>kˆÀ.mÀ¨Yè‰sqŠ?Òû˜áæ§pÀèŽFD½}Œ?Gšra}rÀ(Ä¤þŠŽ?µ7iywŸsÀ´|\(K?‰•kOsÀT—°9MQ‘?æ±­}•ÙqÀô±ßrW’?"Á<0oÀ”Ìô–]“?”W
+|”‚iÀ4ç=Ñ»c”?î!V00cÀÔm®ài•?â¹Î7¢YÀtœ‹p–?(ê_®øîKÀ7Ëh*v—?ÀŠ§=½2À´QúEO|˜?Hþ.9¯í?Tl)#t‚™?ú*Qûhí?ô†X ™ˆš? ž~òÀ”¡‡Ý½Ž›?Àsú“×¬:À4¼¶ºâ”œ?\<F34MÀÔÖå—›?b¶àW¨àXÀtñu,¡ž?ñÂ<88bÀDRQ§Ÿ?Læ+lhÀZ“¹»V ?§îÞÍ`mÀª Q†ÍÙ ?¯„ÄÌpÀú­èôß\¡?–»ù……}rÀJ;€còß¡?lÓïHŸsÀšÈÒc¢?Æ¯ÉsìosÀêU¯@æ¢?ír`"ÍùqÀ:ãF¯)i£?ÍÜ:‰OooÀŠpÞ<ì£?x6ñ¥¿iÀÚýuŒNo¤?ÛK¡`lcÀ*‹û`ò¤?¹¥<ŽZÀz¥isu¥?ØzQáLÀÊ¥<Ø…ø¥?@BZà3À3ÔF˜{¦?L—¯·fí?jÀkµªþ¦?.å8ÒG«í?ºM$½§? AÇtÄÒ"À
+Ûš’Ï¨? D…øJ<ÀZh2â‡¨?äóäÀôMÀªõÉoô
+©?¶J~§¿BYÀú‚aÞŽ©?pëDibÀJùLª?À'âåAhÀš»+”ª?)dž¶mÀê*(*>«?²u2ãpÀ:¸¿˜Pš«?£
+X.¡}rÀŠEWc¬?¨i}Ö1ŸsÀÚÒîuu ¬?0ØN$,„sÀ*`†ä‡#­?G•´rÀzíSš¦­?èÉ)0—oÀÊzµÁ¬)®?è¤tAæiÀM0¿¬®?Ä0»ì“cÀj•äžÑ/¯? ó§Ô@bZÀº"|ä²¯?¤KòxuMÀØ	>û°?ð¦4ª†ó4À­žUu„\°?mk‚Z1í?Ue¡¬ž°?ÞÔ"¹Çí?ý+íã–ß°? ÌC}Ö$À¥ò8 !±?Ð(“1f:=ÀM¹„R©b±?¤Œ@*†qNÀõÐ‰2¤±?øðÍ[1YÀFÁ»å±?	2šª)‰bÀEhøD'²?ªLßi_hÀíÓ³/Îh²?´¦ŠN?¬mÀ•šÿfWª²?Q
+‘}òpÀ=aKžàë²??‚îm½}rÀå'—Õi-³?dlå'ŸsÀîâón³?»ú¬ÂG‘sÀ5µ.D|°³?´•íîrÀÝ{z{ò³?Ï›@¥®oÀ…BÆ²Ž3´?_8x/þiÀ-	êu´?`úrc«cÀÕÏ]!¡¶´?<TX¢‘ZÀ}–©X*ø´?è0yÚÓMÀ%]õ³9µ?`dgØ¿¼5ÀÍ#AÇ<{µ?½ëÒ0í?uêŒþÅ¼µ?hfÈª¯Øí?±Ø5Oþµ?€<8`$(&ÀÅw$mØ?¶?`>=ÇLß=Àm>p¤a¶?¨ù9lFÈNÀ¼ÛêÂ¶?–Þ.‡¤YÀ½Ët·?pyðšbÀe’SJýE·?ð)€êöqhÀYŸ†‡·?ÞÝ¯z‡ÀmÀµë¸É·?TLößJûpÀ]æ6ð˜
+¸?yæ-Ñ}rÀ­‚'"L¸?—"Dl ŸsÀ­sÎ^«¸?ôrñ÷˜sÀU:–4Ï¸?8U m!rÀý fÍ½¹?³ÔeÙ=¾oÀ¥Ç±GR¹?X1ñ+YjÀMŽý;Ð“¹?K~rev¹cÀš™™™™™¹?L¸}åcÀ
+WaveDataStart
+        ¬Å'7nVý>Dx,7,7?rÝ57O	?@ÂC7{Ì?Õ<Q7¬ù?<Œ`7Ëˆ)?@¾p7ÞÂ5?ò€7ó³B?4ù‰7-LP?8i“7:^?çD7óÏj?ð´§7ar?í•³7d´s?(©Ã7/¨s?¢DÚ7¶ás?Ì½8k#t?Áô08‹žt?U±…8ã9u?!6Ð8áÄu?Ôq"9cv?ð~9Í(v?PLÐ9ª v?uú8:,v?oƒ:Ðèu?©'‹:fåu?R›:ÚÈu?§»:‹Ÿu?âPü:žu?HÒ>;[ks?À-€;Q½o?[ò ;,Åe?÷¶Á;¨À“{â;e¯ÁÁ <1¬_Âe<~&ÂÂ³d"<önÃÇ2<­9>ÃN)C<v±hÃœ‹S<7?…Ãêíc<ë“Ã8Pt<¼ûœÃCY‚<Y{šÃjŠŠ<¬ÌŽÃ‘»’<áyÃ¸ìš<¤LÃß£<ƒÃO«<¾ÍÂ,€³<Åw_ÂS±»<êuÁzâÃ<Éym?¡Ì<ÙGk?ÈDÔ<”'øÀïuÜ<½fÕÁ§ä<â iÂ=Øì<CÇÂd	õ<ÁÁÃ‹:ý<a›@ÃÙµ=okÃlÎ= f†Ã ç
+=,ì“Ã“ÿ=GúœÃ'=d›Ãº0=iÎÃMI=|z{Ãáa=)ýMÃtz#={dÃ“'=r¼ÐÂ›«+=ˆgÂ/Ä/=; ŸÁÂÜ3=½5k?Võ7=?Zm?é<=$–Á}&@=ˆPâÁ?D=¦oÂ£WH=ýÊÂ7pL=ÚHÃÊˆP=/BÃ^¡T=±…lÃñ¹X=‡Ã…Ò\=	í“Ãë`=ùœÃ¬e=a!œÃ?i=¡eÃÓ4m=…¹|ÃfMq=ò0OÃúeu=fŸÃ~y=ÓÂ —}=|¬kÂÚ×€=5œ§Á$ä‚=ÔŠi?mð„=É=n?·ü†=ê³&Á	‰=2ÓéÁK‹=1ŒsÂ”!=‹ùËÂÞ-=MIÃ(:‘=IûBÃqF“=úamÃ»R•=„‡Ã_—=ëí“ÃOk™=8ùœÃ˜w›=>ŠœÃâƒ=wÇÃ,Ÿ=Ep}Ãvœ¡=|ñOÃ¿¨£=ÓXÃ	µ¥=ÔÂSÁ§=ÐžnÂœÍ©=ÿå­ÁæÙ«= h?0æ­=}Ån?zò¯=#A1ÁÃþ±=fúîÁ´=3BvÂW¶=8$ÍÂ¡#¸=„×Ãê/º=·CÃ4<¼=<nÃ~H¾=WÚ‡ÃÈTÀ=Œî“ÃaÂ=ùœÃ[mÄ=¸ÇœÃ¥yÆ=h‘Ãî…È=ïñ}Ã8’Ê=ÉrPÃ‚žÌ=³ËÃÍÌÌ=(÷Ã
+Wave: v(netd2_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 128
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+                ñhãˆµøä>„®½Íªï?ÿ~qså>v ìåFð?«H®»æ>R°ëâ)ñ?A!AHxè>WÒZyyò?Ù¢„¬š'ê>Å—T¤5¿ó?X }‡ì>>eY1õ?”ÀÓòÇî>Âtìa¸ö?Ã¦^h@ð>lÒ*¦ªVø?‘u±&?ñ>ÑÑ]÷æ
+ú?Htî'mò>ñžuìÒû?ŒÖvâœ¨ó>¾™´vC¯ý?…Ý;ñöô>v0®Ãš§ÿ?[lk¦½rö>lV†ÄÊò @~½÷$uø>Ü˜	)w@5ô¦H”Hû>ñBxW™@Ò°âu¹w ?@µŽP±Ý@@˜?“žg+³@Žüž¯*¶?Q~K§;@RêÌÄ?,&I(¥#@?Oƒ:N$?=¡†sJ¦.@P]8¯ Þ/?ÊêZ	8@‘²Gø‰	:?Êã*nw›C@2]ÏœNG?<aS™PQ@ü©ñÒMbP?ôçXÈUX@“Ï/õdQ?Àˆ¢vÈY@Â„‹éCjS?=ØËéÿ¤\@S]átW?|¯@¦fa@ÚïòCŠ_?lK~q&cf@¨éIÚg?BO¬«l3o@Óô0ù·p?hÀÄHŒr@R_ímKt?³Wº£®s@ÑÉ©âÞ6x?íîfk­âr@P4fWrO|? VÕµ
+>p@hOæ4€?Bè]»Æh@¨„o L@‚?Íæî*gZ@è¹ÍZ–L„?Gùè/y!@(ï+àX†?0ÊÝ°š?VÀh$ŠÏ)eˆ?Îö-nj@fÀ¨Yè‰sqŠ?MO¬«l3oÀèŽFD½}Œ?kÀÄHŒrÀ(Ä¤þŠŽ?³Wº£®sÀ´|\(K?éîfk­ârÀT—°9MQ‘?øUÕµ
+>pÀô±ßrW’?,è]»ÆhÀ”Ìô–]“?QÍæî*gZÀ4ç=Ñ»c”?Eùè/y!ÀÔm®ài•?yÊÝ°š?V@tœ‹p–?éö-nj@f@7Ëh*v—?dO¬«l3o@´QúEO|˜?qÀÄHŒr@Tl)#t‚™?´Wº£®s@ô†X ™ˆš?ãîfk­âr@”¡‡Ý½Ž›?íUÕµ
+>p@4¼¶ºâ”œ?è]»Æh@ÔÖå—›?Íæî*gZ@tñu,¡ž?CCùè/y!@DRQ§Ÿ?ÁÊÝ°š?VÀZ“¹»V ?	÷-nj@fÀª Q†ÍÙ ?vO¬«l3oÀú­èôß\¡?vÀÄHŒrÀJ;€còß¡?µWº£®sÀšÈÒc¢?áîfk­ârÀêU¯@æ¢?èUÕµ
+>pÀ:ãF¯)i£?ïç]»ÆhÀŠpÞ<ì£?ÔÌæî*gZÀÚýuŒNo¤?ã@ùè/y!À*‹û`ò¤?åÊÝ°š?V@z¥isu¥?÷-nj@f@Ê¥<Ø…ø¥?O¬«l3o@3ÔF˜{¦?yÀÄHŒr@jÀkµªþ¦?µWº£®s@ºM$½§?Þîfk­âr@
+Ûš’Ï¨?ÝUÕµ
+>p@Zh2â‡¨?ïç]»Æh@ªõÉoô
+©?±Ìæî*gZ@ú‚aÞŽ©?¾?ùè/y!@JùLª?.ËÝ°š?VÀš»+”ª?7÷-nj@fÀê*(*>«?¤O¬«l3oÀ:¸¿˜Pš«?€ÀÄHŒrÀŠEWc¬?µWº£®sÀÚÒîuu ¬?Ùîfk­ârÀ*`†ä‡#­?ÒUÕµ
+>pÀzíSš¦­?Òç]»ÆhÀÊzµÁ¬)®?jÌæî*gZÀM0¿¬®?˜>ùè/y!Àj•äžÑ/¯?QËÝ°š?V@º"|ä²¯?5÷-nj@f@Ø	>û°?£O¬«l3o@­žUu„\°?€ÀÄHŒr@Ue¡¬ž°?µWº£®s@ý+íã–ß°?Óîfk­âr@¥ò8 !±?ÈUÕµ
+>p@M¹„R©b±?´ç]»Æh@õÐ‰2¤±?"Ìæî*gZ@FÁ»å±?9<ùè/y!@EhøD'²?šËÝ°š?VÀíÓ³/Îh²?U÷-nj@fÀ•šÿfWª²?»O¬«l3oÀ=aKžàë²?†ÀÄHŒrÀå'—Õi-³?¶Wº£®sÀîâón³?Óîfk­ârÀ5µ.D|°³?ÈUÕµ
+>pÀÝ{z{ò³?•ç]»ÆhÀ…BÆ²Ž3´?ÛËæî*gZÀ-	êu´?Ù9ùè/y!ÀÕÏ]!¡¶´?—ËÝ°š?V@}–©X*ø´?•÷-nj@f@%]õ³9µ?ÒO¬«l3o@Í#AÇ<{µ?ŒÀÄHŒr@uêŒþÅ¼µ?¶Wº£®s@±Ø5Oþµ?Éîfk­âr@Åw$mØ?¶?½UÕµ
+>p@m>p¤a¶?—ç]»Æh@¼ÛêÂ¶?ÝËæî*gZ@½Ët·?x7ùè/y!@e’SJýE·?àËÝ°š?VÀYŸ†‡·?”÷-nj@fÀµë¸É·?ÑO¬«l3oÀ]æ6ð˜
+¸?™ÀÄHŒrÀ­‚'"L¸?·Wº£®sÀ­sÎ^«¸?Éîfk­ârÀU:–4Ï¸?¾UÕµ
+>pÀý fÍ½¹?Yç]»ÆhÀ¥Ç±GR¹?–Ëæî*gZÀMŽý;Ð“¹?Ž7ùè/y!Àš™™™™™¹?ŒAM%[½
+WaveDataStart
+        ¬Å'7nV}?Dx,7,7‚?rÝ57O‰?@ÂC7|Ì“?Õ<Q7­ù?<Œ`7Óˆ©?@¾p7Ãµ?ò€7UµÂ?4ù‰78WÐ?8i“7a—Þ?çD7zí?ð´§7Ö<ý?í•³7V–@(©Ã7H¹@¢DÚ7¼Ê$@Ì½8‹íF@Áô08Y™…@U±…89ÝÉ@!6Ð8é,AÔq"9T2uAð~9×JÀAPLÐ9»ÛBuú8:Ë„ŠBoƒ:C®ÂB©'‹:\@ÎBR›:ÿ'åB§»:5óCâPü:43CHÒ>;e›yCÀ-€;Fb”C[ò ;}pC÷¶Á;k—C“{â;VðC <6&@Ce<W9ÓB³d"<ÉAÇ2<Öü±ÂN)C<S2Ãœ‹S<e›yÃêíc<Fb”Ã8Pt<}pÃCY‚<k—ÃjŠŠ<VðÃ‘»’<6&@Ã¸ìš<W9ÓÂß£<ÉÁO«<Öü±B,€³<S2CS±»<e›yCzâÃ<Fb”C¡Ì<}pCÈDÔ<k—CïuÜ<VðC§ä<6&@C=Øì<W9ÓBd	õ<ÉA‹:ý<Öü±ÂÙµ=S2ÃlÎ=e›yÃ ç
+=Fb”Ã“ÿ=}pÃ'=k—Ãº0=VðÃMI=6&@Ãáa=W9ÓÂtz#=ÉÁ“'=Öü±B›«+=S2C/Ä/=e›yCÂÜ3=Fb”CVõ7=}pCé<=k—C}&@=VðC?D=6&@C£WH=W9ÓB7pL=ÉAÊˆP=Öü±Â^¡T=S2Ãñ¹X=e›yÃ…Ò\=Fb”Ãë`=}pÃ¬e=k—Ã?i=VðÃÓ4m=6&@ÃfMq=W9ÓÂúeu=ÉÁ~y=Öü±B —}=S2CÚ×€=e›yC$ä‚=Fb”Cmð„=}pC·ü†=k—C	‰=VðCK‹=6&@C”!=W9ÓBÞ-=ÉA(:‘=Öü±ÂqF“=S2Ã»R•=e›yÃ_—=Fb”ÃOk™=}pÃ˜w›=k—Ãâƒ=VðÃ,Ÿ=6&@Ãvœ¡=W9ÓÂ¿¨£=ÉÁ	µ¥=Öü±BSÁ§=S2CœÍ©=e›yCæÙ«=Fb”C0æ­=}pCzò¯=k—CÃþ±=VðC´=6&@CW¶=W9ÓB¡#¸=ÉAê/º=Öü±Â4<¼=S2Ã~H¾=e›yÃÈTÀ=Fb”ÃaÂ=}pÃ[mÄ=k—Ã¥yÆ=VðÃî…È=6&@Ã8’Ê=W9ÓÂ‚žÌ=ÉÁÍÌÌ=j*Ùª
+Wave: time
+WaveYUnitStr: s
+WaveHint: 
+WavePoints: 128
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveIndependent: TRUE
+WaveExtendedDataStart
+                ñhãˆµøä>ñhãˆµøä>ÿ~qså>ÿ~qså>«H®»æ>«H®»æ>A!AHxè>A!AHxè>Ù¢„¬š'ê>Ù¢„¬š'ê>X }‡ì>X }‡ì>”ÀÓòÇî>”ÀÓòÇî>Ã¦^h@ð>Ã¦^h@ð>‘u±&?ñ>‘u±&?ñ>Htî'mò>Htî'mò>ŒÖvâœ¨ó>ŒÖvâœ¨ó>…Ý;ñöô>…Ý;ñöô>[lk¦½rö>[lk¦½rö>~½÷$uø>~½÷$uø>5ô¦H”Hû>5ô¦H”Hû>Ò°âu¹w ?Ò°âu¹w ?@˜?@˜?Žüž¯*¶?Žüž¯*¶?RêÌÄ?RêÌÄ??Oƒ:N$??Oƒ:N$?P]8¯ Þ/?P]8¯ Þ/?‘²Gø‰	:?‘²Gø‰	:?2]ÏœNG?2]ÏœNG?ü©ñÒMbP?ü©ñÒMbP?“Ï/õdQ?“Ï/õdQ?Â„‹éCjS?Â„‹éCjS?S]átW?S]átW?ÚïòCŠ_?ÚïòCŠ_?¨éIÚg?¨éIÚg?Óô0ù·p?Óô0ù·p?R_ímKt?R_ímKt?ÑÉ©âÞ6x?ÑÉ©âÞ6x?P4fWrO|?P4fWrO|?hOæ4€?hOæ4€?¨„o L@‚?¨„o L@‚?è¹ÍZ–L„?è¹ÍZ–L„?(ï+àX†?(ï+àX†?h$ŠÏ)eˆ?h$ŠÏ)eˆ?¨Yè‰sqŠ?¨Yè‰sqŠ?èŽFD½}Œ?èŽFD½}Œ?(Ä¤þŠŽ?(Ä¤þŠŽ?´|\(K?´|\(K?T—°9MQ‘?T—°9MQ‘?ô±ßrW’?ô±ßrW’?”Ìô–]“?”Ìô–]“?4ç=Ñ»c”?4ç=Ñ»c”?Ôm®ài•?Ôm®ài•?tœ‹p–?tœ‹p–?7Ëh*v—?7Ëh*v—?´QúEO|˜?´QúEO|˜?Tl)#t‚™?Tl)#t‚™?ô†X ™ˆš?ô†X ™ˆš?”¡‡Ý½Ž›?”¡‡Ý½Ž›?4¼¶ºâ”œ?4¼¶ºâ”œ?ÔÖå—›?ÔÖå—›?tñu,¡ž?tñu,¡ž?DRQ§Ÿ?DRQ§Ÿ?Z“¹»V ?Z“¹»V ?ª Q†ÍÙ ?ª Q†ÍÙ ?ú­èôß\¡?ú­èôß\¡?J;€còß¡?J;€còß¡?šÈÒc¢?šÈÒc¢?êU¯@æ¢?êU¯@æ¢?:ãF¯)i£?:ãF¯)i£?ŠpÞ<ì£?ŠpÞ<ì£?ÚýuŒNo¤?ÚýuŒNo¤?*‹û`ò¤?*‹û`ò¤?z¥isu¥?z¥isu¥?Ê¥<Ø…ø¥?Ê¥<Ø…ø¥?3ÔF˜{¦?3ÔF˜{¦?jÀkµªþ¦?jÀkµªþ¦?ºM$½§?ºM$½§?
+Ûš’Ï¨?
+Ûš’Ï¨?Zh2â‡¨?Zh2â‡¨?ªõÉoô
+©?ªõÉoô
+©?ú‚aÞŽ©?ú‚aÞŽ©?JùLª?JùLª?š»+”ª?š»+”ª?ê*(*>«?ê*(*>«?:¸¿˜Pš«?:¸¿˜Pš«?ŠEWc¬?ŠEWc¬?ÚÒîuu ¬?ÚÒîuu ¬?*`†ä‡#­?*`†ä‡#­?zíSš¦­?zíSš¦­?ÊzµÁ¬)®?ÊzµÁ¬)®?M0¿¬®?M0¿¬®?j•äžÑ/¯?j•äžÑ/¯?º"|ä²¯?º"|ä²¯?Ø	>û°?Ø	>û°?­žUu„\°?­žUu„\°?Ue¡¬ž°?Ue¡¬ž°?ý+íã–ß°?ý+íã–ß°?¥ò8 !±?¥ò8 !±?M¹„R©b±?M¹„R©b±?õÐ‰2¤±?õÐ‰2¤±?FÁ»å±?FÁ»å±?EhøD'²?EhøD'²?íÓ³/Îh²?íÓ³/Îh²?•šÿfWª²?•šÿfWª²?=aKžàë²?=aKžàë²?å'—Õi-³?å'—Õi-³?îâón³?îâón³?5µ.D|°³?5µ.D|°³?Ý{z{ò³?Ý{z{ò³?…BÆ²Ž3´?…BÆ²Ž3´?-	êu´?-	êu´?ÕÏ]!¡¶´?ÕÏ]!¡¶´?}–©X*ø´?}–©X*ø´?%]õ³9µ?%]õ³9µ?Í#AÇ<{µ?Í#AÇ<{µ?uêŒþÅ¼µ?uêŒþÅ¼µ?±Ø5Oþµ?±Ø5Oþµ?Åw$mØ?¶?Åw$mØ?¶?m>p¤a¶?m>p¤a¶?¼ÛêÂ¶?¼ÛêÂ¶?½Ët·?½Ët·?e’SJýE·?e’SJýE·?YŸ†‡·?YŸ†‡·?µë¸É·?µë¸É·?]æ6ð˜
+¸?]æ6ð˜
+¸?­‚'"L¸?­‚'"L¸?­sÎ^«¸?­sÎ^«¸?U:–4Ï¸?U:–4Ï¸?ý fÍ½¹?ý fÍ½¹?¥Ç±GR¹?¥Ç±GR¹?MŽý;Ð“¹?MŽý;Ð“¹?š™™™™™¹?š™™™™™¹?
+WaveDataStart
+        ¬Å'7¬Å'7Dx,7Dx,7rÝ57rÝ57@ÂC7@ÂC7Õ<Q7Õ<Q7<Œ`7<Œ`7@¾p7@¾p7ò€7ò€74ù‰74ù‰78i“78i“7çD7çD7ð´§7ð´§7í•³7í•³7(©Ã7(©Ã7¢DÚ7¢DÚ7Ì½8Ì½8Áô08Áô08U±…8U±…8!6Ð8!6Ð8Ôq"9Ôq"9ð~9ð~9PLÐ9PLÐ9uú8:uú8:oƒ:oƒ:©'‹:©'‹:R›:R›:§»:§»:âPü:âPü:HÒ>;HÒ>;À-€;À-€;[ò ;[ò ;÷¶Á;÷¶Á;“{â;“{â; < <e<e<³d"<³d"<Ç2<Ç2<N)C<N)C<œ‹S<œ‹S<êíc<êíc<8Pt<8Pt<CY‚<CY‚<jŠŠ<jŠŠ<‘»’<‘»’<¸ìš<¸ìš<ß£<ß£<O«<O«<,€³<,€³<S±»<S±»<zâÃ<zâÃ<¡Ì<¡Ì<ÈDÔ<ÈDÔ<ïuÜ<ïuÜ<§ä<§ä<=Øì<=Øì<d	õ<d	õ<‹:ý<‹:ý<Ùµ=Ùµ=lÎ=lÎ= ç
+= ç
+=“ÿ=“ÿ='='=º0=º0=MI=MI=áa=áa=tz#=tz#=“'=“'=›«+=›«+=/Ä/=/Ä/=ÂÜ3=ÂÜ3=Võ7=Võ7=é<=é<=}&@=}&@=?D=?D=£WH=£WH=7pL=7pL=ÊˆP=ÊˆP=^¡T=^¡T=ñ¹X=ñ¹X=…Ò\=…Ò\=ë`=ë`=¬e=¬e=?i=?i=Ó4m=Ó4m=fMq=fMq=úeu=úeu=~y=~y= —}= —}=Ú×€=Ú×€=$ä‚=$ä‚=mð„=mð„=·ü†=·ü†=	‰=	‰=K‹=K‹=”!=”!=Þ-=Þ-=(:‘=(:‘=qF“=qF“=»R•=»R•=_—=_—=Ok™=Ok™=˜w›=˜w›=âƒ=âƒ=,Ÿ=,Ÿ=vœ¡=vœ¡=¿¨£=¿¨£=	µ¥=	µ¥=SÁ§=SÁ§=œÍ©=œÍ©=æÙ«=æÙ«=0æ­=0æ­=zò¯=zò¯=Ãþ±=Ãþ±=´=´=W¶=W¶=¡#¸=¡#¸=ê/º=ê/º=4<¼=4<¼=~H¾=~H¾=ÈTÀ=ÈTÀ=aÂ=aÂ=[mÄ=[mÄ=¥yÆ=¥yÆ=î…È=î…È=8’Ê=8’Ê=‚žÌ=‚žÌ=ÍÌÌ=ÍÌÌ=
+Chart: Fourier Analysis
+ChartId: UWLXHYKZ
+ChartShow: TRUE
+ChartXMinReal: 0.00000000000000E+000
+ChartXMaxReal: 5.00000000000000E+002
+Wave: frequency
+WaveYUnitStr: 
+WaveHint: 
+WavePoints: 10
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveIndependent: TRUE
+WaveExtendedDataStart
+                                      I@              I@              Y@              Y@             Àb@             Àb@              i@              i@             @o@             @o@             Àr@             Àr@             àu@             àu@              y@              y@              |@              |@        
+WaveDataStart
+                  HB      HB      ÈB      ÈB      C      C      HC      HC      zC      zC      –C      –C      ¯C      ¯C      ÈC      ÈC      áC      áC    
+Wave: v(netd2_1)
+WaveYUnitStr: 
+WaveHint: 
+WavePoints: 10
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                                      I@                              Y@                             Àb@                              i@                             @o@                             Àr@                             àu@                              y@                              |@                        
+WaveDataStart
+                  HB              ÈB              C              HC              zC              –C              ¯C              ÈC              áC            
+Wave: {netc2_2
+WaveYUnitStr: 
+WaveHint: 
+WavePoints: 10
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                                      I@                              Y@                             Àb@                              i@                             @o@                             Àr@                             àu@                              y@                              |@                        
+WaveDataStart
+                  HB              ÈB              C              HC              zC              –C              ¯C              ÈC              áC            
+Chart: AC Analysis
+ChartId: TJDYCHTG
+ChartShow: FALSE
+ChartXMinReal: 3.00000000000000E+000
+ChartXMaxReal: 9.00000000000000E+000
+Wave: frequency
+WaveYUnitStr: Hz
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveIndependent: TRUE
+WaveExtendedDataStart
+     @@             @@         =&Ÿ³«“@         =&Ÿ³«“@        f¡’Ã˜@        f¡’Ã˜@        \’Kœ-Ÿ@        \’Kœ-Ÿ@        •ÏYÚÅŸ£@        •ÏYÚÅŸ£@        /=y)Ž´¨@        /=y)Ž´¨@        M–¶$¯@        M–¶$¯@        vnQß“³@        vnQß“³@        ]NGÍ’¥¸@        ]NGÍ’¥¸@        ®èGH¿@        ®èGH¿@            ˆÃ@            ˆÃ@        iÌï† –È@        iÌï† –È@        —?NIwôÎ@        —?NIwôÎ@        {;¯á'|Ó@        {;¯á'|Ó@        }CðP·‡Ø@        }CðP·‡Ø@        Œ×³±áÞ@        Œ×³±áÞ@        “òVpã@        “òVpã@        —É%×xè@        —É%×xè@        ù!™€÷Îî@        ù!™€÷Îî@        Ålñ,dó@        Ålñ,dó@            jø@            jø@        ˆ¿«¨H¼þ@        ˆ¿«¨H¼þ@        ÁçÐÊXA        ÁçÐÊXA        ]
+Ú1[A        ]
+Ú1[A        `T,%¥©A        `T,%¥©A        Ò·fMA        Ò·fMA        {“¥®lLA        {“¥®lLA        áü;ï—A        áü;ï—A        >µ_°ZA#A        >µ_°ZA#A        ùÇ-x°=(A        ùÇ-x°=(A        
+   €„.A        
+   €„.A        ·Wki­53A        ·Wki­53A        ´!E1ý.8A        ´!E1ý.8A        ÷Ì¡Pþq>A        ÷Ì¡Pþq>A        ¾´;7*CA        ¾´;7*CA        Èe€ÔR HA        Èe€ÔR HA        \øNÚ‡_NA        \øNÚ‡_NA        ~…hSA        ~…hSA        ¢w\±XA        ¢w\±XA        ú99–M^A        ú99–M^A           ÐcA           ÐcA        ¨-ÆÃhA        ¨-ÆÃhA        %j–}¼:nA        %j–}¼:nA         eò>sA         eò>sA        ð¡
+‰ôwA        ð¡
+‰ôwA        > ‰g(~A        > ‰g(~A        <[qè´û‚A        <[qè´û‚A        •Ýææ‡A        •Ýææ‡A        8‹•³ŽA        8‹•³ŽA        ?ÄãÝ1ð’A        ?ÄãÝ1ð’A           „×—A           „×—A        ¹·ôÞžA        ¹·ôÞžA        Z~Îµä¢A        Z~Îµä¢A        (hþ®É§A        (hþ®É§A        qJMF«ñ­A        qJMF«ñ­A        ŠO¶@Ù²A        ŠO¶@Ù²A        ²"¢º·A        ²"¢º·A        ÿ” ¡‚ß½A        ÿ” ¡‚ß½A        w=ÒÍÂA        w=ÒÍÂA        Rµ\U>¬ÇA        Rµ\U>¬ÇA           eÍÍA           eÍÍA        
+WaveDataStart
+  zD      zD    ]D    ]D    •ÆD    •ÆD    ehùD    ehùD    /þE    /þE    q¤EE    q¤EE    &ÑxE    &ÑxE    ûžœE    ûžœE    –,ÅE    –,ÅE    B:øE    B:øE     @F     @F    µDF    µDF    º£wF    º£wF    ?á›F    ?á›F    »=ÄF    »=ÄF    Ž÷F    Ž÷F    ¸‚G    ¸‚G    ¹ÆCG    ¹ÆCG    ¼wvG    ¼wvG    i$›G    i$›G     PÃG     PÃG    EâõG    EâõG    TÆH    TÆH    ÙBH    ÙBH    )MuH    )MuH    yhšH    yhšH    ecÂH    ecÂH    g¸ôH    g¸ôH    Ö
+I    Ö
+I    „íAI    „íAI     $tI     $tI    k­™I    k­™I    êwÁI    êwÁI    óóI    óóI    :PJ    :PJ    —AJ    —AJ    ?ürJ    ?ürJ    Aó˜J    Aó˜J    ‹ÀJ    ‹ÀJ    åhòJ    åhòJ    €–K    €–K    Æ@K    Æ@K    äÕqK    äÕqK    ø9˜K    ø9˜K    H¤¿K    H¤¿K    <CñK    <CñK    §ÝL    §ÝL    0?L    0?L    î°pL    î°pL    —L    —L     ¼¾L     ¼¾L    øðL    øðL    ®%M    ®%M    uH>M    uH>M    ZoM    ZoM    Ê–M    Ê–M    Õ½M    Õ½M    üîM    üîM    •nN    •nN    óa=N    óa=N    (knN    (knN    
+Wave: v(netc1_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+     @@        Ã2È:pœs@“°©¼&À =&Ÿ³«“@        ¾M
+‡‘s@Oà…§h,Àf¡’Ã˜@        ¸uwj¦€s@½½ZŽÿ«1À\’Kœ-Ÿ@        âUO$äfs@+€¡mêØ5À•ÏYÚÅŸ£@        uÝo\@s@bO"ªÁ:À/=y)Ž´¨@        ŒÕV4es@8M)@ÀM–¶$¯@        ˆ[Ä']ºr@%Fw?*CÀvnQß“³@        Õ¡vý8Sr@Ž™,bt4FÀ]NGÍ’¥¸@        ïePÁ;Óq@+y`;IÀ®èGH¿@        ãGÑV>q@»Cm¡c„KÀ    ˆÃ@        ŽCfxý™p@i)¥ à…MÀiÌï† –È@        £ÉvÐ]Óo@ÝDƒŸOÀ—?NIwôÎ@        CÓ0c<[n@!à¸PÀ{;¯á'|Ó@        ¼àÆÝÊl@8óÊ4VPÀ}CðP·‡Ø@        Â*k@Ò5©¦)PÀŒ×³±áÞ@        | “bŽi@ÜÅ5ŽßëNÀ“òVpã@        =6/ßh@°å?yò~LÀ—É%×xè@        ÂÏ}íÖf@ÚGâ”¢QIÀù!™€÷Îî@        í•ø¼Üe@–°i ËEÀÅlñ,dó@        õ\D½%e@F2P‘ÜLBÀ    jø@        7>îÄ¥d@|1.ä~,>Àˆ¿«¨H¼þ@        Î.!5SOd@`MJ[8ÀÁçÐÊXA        V:Ï(Md@lÖÙÄÀÑ3À]
+Ú1[A        öº‚Fñc@`wŽÎ/À`T,%¥©A        ‚ëŽ2{Ùc@´îÐÿËm)ÀÒ·fMA        Ãã·JÊc@0šW®/H$À{“¥®lLA        £ãï£Àc@Øv?Ó
+' Àáü;ï—A        y`$„ºc@ÔÖ:û³À>µ_°ZA#A         {”¤¶c@0v¯®pÀùÇ-x°=(A        ÖÑcÅ1´c@n¢L½>À
+   €„.A        =;eÐ¥²c@Œ«ŒÑ	À·Wki­53A        ß3žË«±c@BÓ†ƒÀ´!E1ý.8A        |1Jø±c@Ùj L À÷Ì¡Pþq>A        {Wí[ª°c@L>ßÃäù¿¾´;7*CA        gÇCk°c@0OjÃ‘ô¿Èe€ÔR HA        ×7GÔC°c@v#¿êVð¿\øNÚ‡_NA        Ð‘oÌ*°c@ø(›idõé¿~…hSA        Ù}+°c@Ì¿µžä¿¢w\±XA        3÷	°c@<·uaà¿ú99–M^A        ¶ü;À
+°c@Ä¹eÚ¿   ÐcA        ÕíŒÈ°c@ÄÕ¬'[«Ô¿¨-ÆÃhA        ¹J±G°c@¸k¤kÐ¿%j–}¼:nA        «+V³°c@,„Í»DÊ¿ eò>sA        ¢Y4´°c@ HÌò·Ä¿ð¡
+‰ôwA        ¼	:°c@ô8Ô)uÀ¿> ‰g(~A        ã¨­ °c@\F¦:#%º¿<[qè´û‚A        Ûç‘m °c@ˆˆ,±ŒÄ´¿•Ýææ‡A        Q"E °c@pÏ5°¿8‹•³ŽA        èž+ °c@<îB¨5ª¿?ÄãÝ1ð’A        Ý… °c@lúÇâ,Ñ¤¿   „×—A        ©] °c@0V~W‰ ¿¹·ôÞžA        õ
+ °c@u+÷Dš¿Z~Îµä¢A        Mâé °c@„~iÔÝ”¿(hþ®É§A        ¾\ °c@ \*“¿qJMF«ñ­A        X£À °c@ÀþîTŠ¿ŠO¶@Ù²A        &ž¼ °c@è xŠƒê„¿²"¢º·A        UŽ °c@Ú=€¿ÿ” ¡‚ß½A        A
+±  °c@ô]E„ðdz¿w=ÒÍÂA        Ô¹o  °c@ û%O:÷t¿Rµ\U>¬ÇA        ôƒF  °c@Œáö,W§p¿   eÍÍA        pƒ,  °c@ÔÚ¤ütj¿
+WaveDataStart
+  zD    ‚ãœCáà5Á]D    8ŒœCe@cÁ•ÆD    3œCü_ÁehùD    !7›CSÇ®Á/þE    ãšC]ÖÁq¤EE    *C˜CHÂ&ÑxE    éÒ•CüQÂûžœE    È™’C££1Â–,ÅE    Þ™ŽCÛiHÂB:øE    ·ò‰C#\Â @F    ìÏ„C/lÂµDF    ïš~Cü¤xÂº£wF    ãÙrCÁµ€Â?á›F    îVfC¦±‚Â»=ÄF    ñPYC¥HÂŽ÷F    sLCü^wÂ¸‚G    ù¦@C”÷cÂ¹ÆCG    —°6CJÂ¼wvG    èå.C].Âi$›G    ê-)CåfÂ PÃG    '.%C÷cñÁEâõG    šz"CØzÄÁTÆH    i² CŽžÁÙBH    4ŠCtt~Á)MuH    ÚËC`nKÁyhšH    VRC}A"ÁecÂH    CW8Ág¸ôH    !ÔCÚŸÍÀÖ
+I    %µCÕ€£À„íAI    Ž¡CêõÀ $tI    /•CeŒNÀk­™I    ^C7$ÀêwÁI    pˆCaÀóóI    S…C&Ï¿:PJ    \ƒCŽ¤¿—AJ    ‚CV·‚¿?ürJ    VC#«O¿Aó˜J    Ø€C®õ$¿‹ÀJ    ˆ€C”¿åhòJ    V€C)+Ð¾€–K    6€CÙZ¥¾Æ@K    "€C­Xƒ¾äÕqK    €C&ªP¾ø9˜K    €C–¿%¾H¤¿K    	€C¡¨¾<CñK    €C)Ñ½§ÝL    €Cf$¦½0?L    €C°øƒ½î°pL    €CE¨Q½—L    €Cg‰&½ ¼¾L    €CëH½øðL     €C¹'Ò¼®%M     €C£î¦¼uH>M     €CT™„¼ZoM     €Cx§R¼Ê–M     €CT'¼Õ½M     €Cïé¼üîM     €C„'Ó»•nN     €CÒ¹§»óa=N     €C¹:…»(knN     €Cá§S»
+Wave: v(netc1_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+     @@        Uov$In@¿Ç¹—¾©D@ =&Ÿ³«“@        šnqç#@ŽåN	z²I@f¡’Ã˜@        —ð»&ü.@¢m¿(°¼O@\’Kœ-Ÿ@        ÚÅÇð
+æ7@ÓîcS@•ÏYÚÅŸ£@        äÔðÆ]-B@hhÔXPW@/=y)Ž´¨@        ³döK@Úùq»4^[@M–¶$¯@        Ñ2¦R™S@xª¿
+_@vnQß“³@        P#çDF[@Ø} .‰Ê`@]NGÍ’¥¸@        |kÌÕŒb@ØAWœ9a@®èGH¿@        sZ=g£f@¸ž’ `@    ˆÃ@        os·j@‚âqŒ)g[@iÌï† –È@        ¼Îëã¾m@Ç0OÙ¤T@—?NIwôÎ@        ÒñÞÃdo@4´ ÅI@{;¯á'|Ó@        (JñÜ½ o@³xˆ=5@}CðP·‡Ø@        ÅT[÷®n@XÐÆdÀŒ×³±áÞ@        ¸}Š„úl@nó ~6À“òVpã@        Ú˜Ý)Múj@9Uúr@À—É%×xè@        g[Îi@|æ÷ÖæTBÀù!™€÷Îî@        bQýzg@ððú¿cêAÀÅlñ,dó@        htMdCf@ó 8'7@À    jø@        üžÅd¾de@¬MÎÙ5ü;Àˆ¿«¨H¼þ@        zù>Ìd@X©-Oóm7ÀÁçÐÊXA        ‘ÏÇÚ:gd@ncJÆÛ=3À]
+Ú1[A        ½9/p#%d@¯rºat8/À`T,%¥©A        `d‡úc@—&ù)ø!)ÀÒ·fMA        °B_Fßc@mš¯ý!$À{“¥®lLA        ‡AÀíÍc@vÓû—Ö Àáü;ï—A        CÛáìÂc@Y:ëd± À>µ_°ZA#A         ‰UÇô»c@¢pŠÀlfÀùÇ-x°=(A        ÿ·NÛŒ·c@`Ýídâ9À
+   €„.A        9Â3Ä´c@
+½.®Ì	À·Wki­53A        ÝmÃ'³c@îì±æÀ´!E1ý.8A        Ê$ä	æ±c@‚D ÐæJ À÷Ì¡Pþq>A        =°úµ2±c@c>'Ò‰ãù¿¾´;7*CA        ûB²‰Á°c@Â-%‘ô¿Èe€ÔR HA        Àäz°c@\²¦Ù›Vð¿\øNÚ‡_NA        ýß7M°c@8{ƒSõé¿~…hSA        Þßªž0°c@â8Žžä¿¢w\±XA        ¹ l­°c@%J—þ`à¿ú99–M^A        µ`7[°c@85?2QÚ¿   ÐcA        OŒ6°c@ŒY¬,Q«Ô¿¨-ÆÃhA        ªx¹´°c@î”¤kÐ¿%j–}¼:nA        ».µÜ°c@Ôž8¸?Ê¿ eò>sA        AÏ[°c@„€µHð·Ä¿ð¡
+‰ôwA        ž>‡ï°c@>hçuÀ¿> ‰g(~A        óO¨8°c@§Cv÷!%º¿<[qè´û‚A        ¦FÅ °c@¬I2ŒÄ´¿•Ýææ‡A         ¬x| °c@t¼°¿8‹•³ŽA        0F‰N °c@L9ãV5ª¿?ÄãÝ1ð’A        º—1 °c@Rdÿ¹,Ñ¤¿   „×—A        èD °c@×¥C‰ ¿¹·ôÞžA        §Bº °c@ëW®üöDš¿Z~Îµä¢A        &…r °c@ÅÔ9_ÔÝ”¿(hþ®É§A        Y”Ú °c@§”6Š*“¿qJMF«ñ­A        oœô °c@ØÛøîTŠ¿ŠO¶@Ù²A        ðu  °c@h½â‡ƒê„¿²"¢º·A        äù °c@JÁØ=€¿ÿ” ¡‚ß½A        $´> °c@dÙø‚ðdz¿w=ÒÍÂA        É  °c@¨SN:÷t¿Rµ\U>¬ÇA        ©é~  °c@8[£,W§p¿   eÍÍA        P  °c@»!Qütj¿
+WaveDataStart
+  zD    IrË@õM%B]D    ì<AÐ“MB•ÆD    1áwAå}BehùD    X0¿Ap›B/þE    îjBÇ‚ºBq¤EE    ³¯XB¦ñÚB&ÑxE    •ÊœBýUøBûžœE    '2ÚBITC–,ÅE    g”CÍ‘CB:øE    <5Ci C @F    „¼UCL9ÛBµDF    ÷mCÊ&¥Bº£wF    &{C(NB?á›F    ï}C@ì©A»=ÄF    »wuC$£ˆÀŽ÷F    äÐgCñ³Á¸‚G    iÒWCÕ—Â¹ÆCG    fHC7§Â¼wvG    Ð;CSÂi$›G    Û2C:¹Â PÃG    ó%+C¯áßÁEâõG    øc&Cšo»ÁTÆH    ×9#CÞî™ÁÙBH    )!C£ÃyÁ)MuH    <ÔCÁIÁyhšH    3úCí!ÁecÂH    noCµž Ág¸ôH    dC‹ÍÀÖ
+I    ¦ßCf3£À„íAI    g¼CÏÀ $tI    "¦CqeNÀk­™I    ˜C¯$ÀêwÁI    0C7WÀóóI    –‰COÏ¿:PJ    †C-‰¤¿—AJ    ÑƒCß´‚¿?ürJ    h‚C«¨O¿Aó˜J    …Cqô$¿‹ÀJ    õ€Cõ¿åhòJ    ›€CŠ*Ð¾€–K    b€C‰Z¥¾Æ@K    >€C…Xƒ¾äÕqK    '€Cþ©P¾ø9˜K    €C‚¿%¾H¤¿K    €C—¨¾<CñK    
+€C)Ñ½§ÝL    €C`$¦½0?L    €C®øƒ½î°pL    €CC¨Q½—L    €Cf‰&½ ¼¾L    €CêH½øðL    €C¸'Ò¼®%M     €C£î¦¼uH>M     €CT™„¼ZoM     €Cx§R¼Ê–M     €CT'¼Õ½M     €Cïé¼üîM     €C„'Ó»•nN     €CÒ¹§»óa=N     €C¹:…»(knN     €Cá§S»
+Wave: v(netc2_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+     @@        ÒYÍ7Åó?€Ò©¼&@ =&Ÿ³«“@        !n²íõxþ?³
+†§h,@f¡’Ã˜@        |GEÄÊ¬@ØZŽÿ«1@\’Kœ-Ÿ@        ž¢*ìöF@Æ ¡mêØ5@•ÏYÚÅŸ£@        ƒÌH9äè@Nw"ªÁ:@/=y)Ž´¨@        Îm%uYó$@W2M)@@M–¶$¯@        Á¼t[´.@®AFw?*C@vnQß“³@        -–(pÌ5@±º,bt4F@]NGÍ’¥¸@        †ÍùêCÌ=@(y`;I@®èGH¿@        Þ½wIC@Ìlm¡c„K@    ˆÃ@        gÎ<°H@{U¥ à…M@iÌï† –È@        …%¾ˆ2N@C6DƒŸO@—?NIwôÎ@        etž9‡	R@9à¸P@{;¯á'|Ó@        ^ürD*U@›Ê4VP@}CðP·‡Ø@        ëú×ßÃkX@ñM©¦)P@Œ×³±áÞ@        KîÿÙ:£[@ô5ŽßëN@“òVpã@        -ý“¡A–^@8@yò~L@—É%×xè@        êH‚í‰`@”mâ”¢QI@ù!™€÷Îî@        5„çCƒa@Š¶°i ËE@Ålñ,dó@        ´%£»B:b@¢MP‘ÜLB@    jø@        ÝäÁ;ºb@^.ä~,>@ˆ¿«¨H¼þ@        £íÞÊ¬c@ýqJ[8@ÁçÐÊXA        râ0×²Ic@ôÙÄÀÑ3@]
+Ú1[A        t&E}¹nc@î°wŽÎ/@`T,%¥©A        £1qÍ„†c@ÞÑÿËm)@Ò·fMA        v9ùHµ•c@Š¸W®/H$@{“¥®lLA        ¥9ý\Ÿc@ÌŽ?Ó
+' @áü;ï—A        ÛŸÛ{¥c@‡)Ö:û³@>µ_°ZA#A        Y¢âk[©c@•¯®p@ùÇ-x°=(A        †Kœ:Î«c@_¢L½>@
+   €„.A        !âš/Z­c@×E«ŒÑ	@·Wki­53A        ‚éa4T®c@53BÓ†ƒ@´!E1ý.8A        âëµò®c@_ðj L @÷Ì¡Pþq>A        ãÅ¤U¯c@<>ßÃäù?¾´;7*CA        ÷U¼€”¯c@µ_jÃ‘ô?Èe€ÔR HA        ‹å¸+¼¯c@¤(#¿êVð?\øNÚ‡_NA        ‹3Õ¯c@9›idõé?~…hSA        ˆŸÔþä¯c@%ö¿µžä?¢w\±XA        Hêöî¯c@¢°uaà?ú99–M^A        ¬ Ä?õ¯c@—	 eÚ?   ÐcA        Š/s7ù¯c@	ÿ«'[«Ô?¨-ÆÃhA        §ÒN¸û¯c@¨§œ¤kÐ?%j–}¼:nA        ´ñ©Lý¯c@§ÃÊ»DÊ? eò>sA        ¾ÃËKþ¯c@(Ìò·Ä?ð¡
+‰ôwA        ¥Æìþ¯c@v•Ñ)uÀ?> ‰g(~A        XRÿ¯c@5i‘:#%º?<[qè´û‚A        ˆ5n’ÿ¯c@á±ŒÄ´?•Ýææ‡A        ÝËÝºÿ¯c@aÓ?°?8‹•³ŽA        S5aÔÿ¯c@¨5ª??ÄãÝ1ð’A        `@zäÿ¯c@ïÁ6ã,Ñ¤?   „×—A        Ft¢îÿ¯c@]GWW‰ ?¹·ôÞžA        @õÿ¯c@7•Ò÷Dš?Z~Îµä¢A        ;ùÿ¯c@œQWjÔÝ”?(hþ®É§A        M_£ûÿ¯c@©*“?qJMF«ñ­A        
+z?ýÿ¯c@iìÂùîTŠ?ŠO¶@Ù²A        ?Cþÿ¯c@Lqƒê„?²"¢º·A        çþÿ¯c@Ïn=Ò=€?ÿ” ¡‚ß½A        !Oÿÿ¯c@èðdz?w=ÒÍÂA        Œcÿÿ¯c@=ÁZm:÷t?Rµ\U>¬ÇA        l™¹ÿÿ¯c@koIIW§p?   eÍÍA        ò™Óÿÿ¯c@›æäŸûtj?
+WaveDataStart
+  zD    *~œ?áà5A]D    ¯Çó?e@cA•ÆD    Vf=@ü_AehùD    ·7’@SÇ®A/þE    "Gß@]ÖAq¤EE    Ìš'AHB&ÑxE    Ø¢uAüQBûžœE    c®A££1B–,ÅE    bîAÛiHBB:øE    LjB#\B @F    ¢€EB/lBµDF    F”qBü¤xBº£wF    :LBÁµ€B?á›F    $R©B¦±‚B»=ÄF    ^ÃB¥HBŽ÷F    ×ÝBü^wB¸‚G    ²ôB”÷cB¹ÆCG    iOCJB¼wvG    C].Bi$›G    ÒCåfB PÃG    ÙÑC÷cñAEâõG    f…CØzÄATÆH    —MCŽžAÙBH    ÌuCtt~A)MuH    &4C`nKAyhšH    ª­C}A"AecÂH    èúCW8Ag¸ôH    ß+CÚŸÍ@Ö
+I    ÛJCÕ€£@„íAI    r^Cêõ@ $tI    ÑjCeŒN@k­™I    ¢rC7$@êwÁI    wCa@óóI    ­zC&Ï?:PJ    ¤|CŽ¤?—AJ    á}CV·‚??ürJ    ª~C#«O?Aó˜J    (C®õ$?‹ÀJ    xC”?åhòJ    ªC)+Ð>€–K    ÊCÙZ¥>Æ@K    ÞC­Xƒ>äÕqK    êC&ªP>ø9˜K    òC–¿%>H¤¿K    ÷C¡¨><CñK    ûC)Ñ=§ÝL    ýCf$¦=0?L    þC°øƒ=î°pL    ÿCE¨Q=—L    ÿCg‰&= ¼¾L    ÿCëH=øðL     €C¸'Ò<®%M     €C£î¦<uH>M     €CT™„<ZoM     €Cx§R<Ê–M     €CT'<Õ½M     €Cïé<üîM     €C…'Ó;•nN     €CÓ¹§;óa=N     €Cº:…;(knN     €CÝ§S;
+Wave: v(netd2_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 61
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+     @@             °s@         =&Ÿ³«“@             °s@        f¡’Ã˜@             °s@        \’Kœ-Ÿ@             °s@        •ÏYÚÅŸ£@             °s@        /=y)Ž´¨@             °s@        M–¶$¯@             °s@        vnQß“³@             °s@        ]NGÍ’¥¸@             °s@        ®èGH¿@             °s@            ˆÃ@             °s@        iÌï† –È@             °s@        —?NIwôÎ@             °s@        {;¯á'|Ó@             °s@        }CðP·‡Ø@             °s@        Œ×³±áÞ@             °s@        “òVpã@             °s@        —É%×xè@             °s@        ù!™€÷Îî@             °s@        Ålñ,dó@             °s@            jø@             °s@        ˆ¿«¨H¼þ@             °s@        ÁçÐÊXA             °s@        ]
+Ú1[A             °s@        `T,%¥©A             °s@        Ò·fMA             °s@        {“¥®lLA             °s@        áü;ï—A             °s@        >µ_°ZA#A             °s@        ùÇ-x°=(A             °s@        
+   €„.A             °s@        ·Wki­53A             °s@        ´!E1ý.8A             °s@        ÷Ì¡Pþq>A             °s@        ¾´;7*CA             °s@        Èe€ÔR HA             °s@        \øNÚ‡_NA             °s@        ~…hSA             °s@        ¢w\±XA             °s@        ú99–M^A             °s@           ÐcA             °s@        ¨-ÆÃhA             °s@        %j–}¼:nA             °s@         eò>sA             °s@        ð¡
+‰ôwA             °s@        > ‰g(~A             °s@        <[qè´û‚A             °s@        •Ýææ‡A             °s@        8‹•³ŽA             °s@        ?ÄãÝ1ð’A             °s@           „×—A             °s@        ¹·ôÞžA             °s@        Z~Îµä¢A             °s@        (hþ®É§A             °s@        qJMF«ñ­A             °s@        ŠO¶@Ù²A             °s@        ²"¢º·A             °s@        ÿ” ¡‚ß½A             °s@        w=ÒÍÂA             °s@        Rµ\U>¬ÇA             °s@           eÍÍA             °s@        
+WaveDataStart
+  zD     €C    ]D     €C    •ÆD     €C    ehùD     €C    /þE     €C    q¤EE     €C    &ÑxE     €C    ûžœE     €C    –,ÅE     €C    B:øE     €C     @F     €C    µDF     €C    º£wF     €C    ?á›F     €C    »=ÄF     €C    Ž÷F     €C    ¸‚G     €C    ¹ÆCG     €C    ¼wvG     €C    i$›G     €C     PÃG     €C    EâõG     €C    TÆH     €C    ÙBH     €C    )MuH     €C    yhšH     €C    ecÂH     €C    g¸ôH     €C    Ö
+I     €C    „íAI     €C     $tI     €C    k­™I     €C    êwÁI     €C    óóI     €C    :PJ     €C    —AJ     €C    ?ürJ     €C    Aó˜J     €C    ‹ÀJ     €C    åhòJ     €C    €–K     €C    Æ@K     €C    äÕqK     €C    ø9˜K     €C    H¤¿K     €C    <CñK     €C    §ÝL     €C    0?L     €C    î°pL     €C    —L     €C     ¼¾L     €C    øðL     €C    ®%M     €C    uH>M     €C    ZoM     €C    Ê–M     €C    Õ½M     €C    üîM     €C    •nN     €C    óa=N     €C    (knN     €C    
+Chart: DC Sweep
+ChartId: GUVSWFOO
+ChartShow: FALSE
+ChartXMinReal: 0.00000000000000E+000
+ChartXMaxReal: 3.15000000000000E+002
+Wave: v(netc1_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 11
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+        Î\‚ ˆã;     €?@Ÿúm6Ó­>@     €O@ê•§™O@      W@ãâ!FiW@     €_@ò¼I_@     °c@‡%a`”c@      g@íÖÚ9„g@     k@GNtk@     €o@(Âüco@     ¸q@$ºñ©q@     °s@€…Œæ¡s@
+WaveDataStart
+    E  üAšnõA  |BÉ¤xB  ½BêL»B  üBöHúB €C£C  =CÏ!<C €\CÈ [C  |Cä{C ÀCŽOC €C4C
+Wave: v(netc1_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 11
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+        ü“Pƒ ˆã;     €?@¶fV1™Eê?     €O@ÙV¸Ùê?      W@ç¨ï\1ë?     €_@73ôö¡pë?     °c@jâÚžŸë?      g@ËÜ)%Æë?     k@âã¸±ûæë?     €o@€Ø=ìrì?     ¸q@‰¸ÉË‹ì?     °s@þôæü2ì?
+WaveDataStart
+    E  üAÊ,R?  |BÃÍV?  ½BçŠY?  üB…[? €C÷ü\?  =C)1^? €\CÞ7_?  |C—`? ÀC^ä`? €Cç—a?
+Wave: v(netc2_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 11
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+        ü“Pƒ ˆã;     €?@¶fV1™Eê?     €O@ÙV¸Ùê?      W@ç¨ï\1ë?     €_@73ôö¡pë?     °c@jâÚžŸë?      g@ËÜ)%Æë?     k@âã¸±ûæë?     €o@€Ø=ìrì?     ¸q@‰¸ÉË‹ì?     °s@þôæü2ì?
+WaveDataStart
+    E  üAÊ,R?  |BÃÍV?  ½BçŠY?  üB…[? €C÷ü\?  =C)1^? €\CÞ7_?  |C—`? ÀC^ä`? €Cç—a?
+Wave: v(netd2_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 11
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+                     €?@     €?@     €O@     €O@      W@      W@     €_@     €_@     °c@     °c@      g@      g@     k@     k@     €o@     €o@     ¸q@     ¸q@     °s@     °s@
+WaveDataStart
+          üA  üA  |B  |B  ½B  ½B  üB  üB €C €C  =C  =C €\C €\C  |C  |C ÀC ÀC €C €C
+Wave: v(sweep)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 11
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveIndependent: TRUE
+WaveExtendedDataStart
+                     €?@     €?@     €O@     €O@      W@      W@     €_@     €_@     °c@     °c@      g@      g@     k@     k@     €o@     €o@     ¸q@     ¸q@     °s@     °s@
+WaveDataStart
+          üA  üA  |B  |B  ½B  ½B  üB  üB €C €C  =C  =C €\C €\C  |C  |C ÀC ÀC €C €C
+Chart: Operating Point
+ChartId: ERJSPLEA
+ChartShow: FALSE
+ChartXMinReal: 0.00000000000000E+000
+ChartXMaxReal: 0.00000000000000E+000
+Wave: i(c1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: i(c2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: i(c3)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: i(r1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        ÷U`êÀ
+WaveDataStart
+    ×xÈÀ
+Wave: i(r2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: i(v1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+         @kêÀ
+WaveDataStart
+    ×xÈÀ
+Wave: id(d1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+         %?6–õ½
+WaveDataStart
+    ²±¬¯
+Wave: id(d2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        ¸c!”#@
+WaveDataStart
+    yÈ@
+Wave: id(d3)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        ¡%?6–õ½
+WaveDataStart
+    ²±¬¯
+Wave: id(d4)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        S>!”#@
+WaveDataStart
+    yÈ@
+Wave: v(netc1_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+        ”¡ƒæ¡s@
+WaveDataStart
+    4C
+Wave: v(netc1_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+        ÄÖ¼äø2ì?
+WaveDataStart
+    Ç—a?
+Wave: v(netc2_2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+        ÄÖ¼äø2ì?
+WaveDataStart
+    Ç—a?
+Wave: v(netd2_1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+             °s@
+WaveDataStart
+     €C
+Wave: p(c1)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: p(c2)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: p(c3)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: p(d1)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        “ íÎ|z>
+WaveDataStart
+    wæÓ3
+Wave: p(d2)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        '¨±)@
+WaveDataStart
+    N©°@
+Wave: p(d3)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        • íÎ|z>
+WaveDataStart
+    wæÓ3
+Wave: p(d4)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        ¨±)@
+WaveDataStart
+    N©°@
+Wave: p(r1)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        ‘äEÚk©ž@
+WaveDataStart
+    _KõD
+Wave: p(r2)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+                
+WaveDataStart
+        
+Wave: p(v1)
+WaveYUnitStr: W
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+        À÷q–Õž@
+WaveDataStart
+    ±¬öD

@@ -1,7 +1,0 @@
-Added Pin To Net: NetName=GND_IN Pin=X5-1
-Added Pin To Net: NetName=GND_IN Pin=X5-1
-Added Pin To Net: NetName=GND Pin=X5-2
-Added Pin To Net: NetName=RESET_+3.3v Pin=X5-3
-Added Pin To Net: NetName=SDA Pin=X5-4
-Added Pin To Net: NetName=SCL Pin=X5-5
-Added Pin To Net: NetName=12V Pin=X5-6

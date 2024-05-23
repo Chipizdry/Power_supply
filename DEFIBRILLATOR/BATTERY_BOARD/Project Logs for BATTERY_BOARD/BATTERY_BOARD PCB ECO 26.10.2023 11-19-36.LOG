@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=I_SENS Pin=DD1-8
-Added Pin To Net: NetName=GND_BAT Pin=DD1-8
-Change Net Name : Old Net Name=GND_BAT New Net Name=I_SENS
-Change Net Name : Old Net Name=I_SENS New Net Name=GND

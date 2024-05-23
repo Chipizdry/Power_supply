@@ -1,4 +1,0 @@
-Added Component: Designator=P1(Point)
-Added Component: Designator=P2(Point)
-Added Pin To Net: NetName=GND_BAT Pin=P1-1
-Added Pin To Net: NetName=12V Pin=P2-1

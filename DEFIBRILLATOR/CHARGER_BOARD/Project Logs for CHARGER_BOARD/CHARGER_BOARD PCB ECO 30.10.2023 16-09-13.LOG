@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=12V Pin=VT1-2
-Removed Pin From Net: NetName=PS_12V Pin=VT1-3
-Change Component Comment : Designator=VT1 Old Comment=MOSFET-N-GSD New Comment=MOSFET-N-GDS
-Added Pin To Net: NetName=PS_12V Pin=VT1-2
-Added Pin To Net: NetName=12V Pin=VT1-3

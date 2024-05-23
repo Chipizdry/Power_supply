@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=X2-1
-Removed Pin From Net: NetName=RESET_+3.3v Pin=X2-2
-Added Pin To Net: NetName=GND_IN Pin=X2-1
-Added Pin To Net: NetName=GND Pin=X2-2
-Added Pin To Net: NetName=RESET_+3.3v Pin=X2-3

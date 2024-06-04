@@ -1,7 +1,0 @@
-Added Component: Designator=K1(V23079-A1001-B301)
-Added Pin To Net: NetName=GND_1 Pin=K1-1
-Added Pin To Net: NetName=NetK1_2 Pin=K1-2
-Added Pin To Net: NetName=NetC8_1 Pin=K1-3
-Added Pin To Net: NetName=NetC8_1 Pin=K1-6
-Added Pin To Net: NetName=NetK1_2 Pin=K1-7
-Added Pin To Net: NetName=NetC4_1 Pin=K1-8
